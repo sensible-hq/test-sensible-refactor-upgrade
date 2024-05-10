@@ -1,0 +1,109 @@
+{
+    "name": "Sensible",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#4B0532",
+      "light": "#611646",
+      "dark": "#4B0532"
+    },
+    "topbarCtaButton": {
+      "name": "Try Sensible",
+      "url": "https://app.sensible.so/register/"
+    },
+    "topbarLinks": [
+      {
+        "name": "Sign In",
+        "url": "https://app.sensible.so/signin/"
+      }
+    ],
+    "anchors": [
+      {
+        "name": "Tutorials",
+        "icon": "book-open",
+        "url": "https://www.sensible.so/learn"
+      },
+      {
+        "name": "API Status",
+        "icon": "signal-bars",
+        "url": "https://sensible.statuspage.io/"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://www.sensible.so/blog"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Welcome",
+            "pages": [
+                "getting-started"
+            ]
+        },
+        {
+            "group": "Layout-based Extractions",
+            "pages": [
+                "layout-based-extractions/getting-started-with-layout-based-extractions",
+                "layout-based-extractions/getting-started",
+                "layout-based-extractions/out-of-the-box-extractions",
+
+            
+
+
+
+                                
+            ]
+        },
+        {
+          "group": "Document type",
+          "pages": [
+            "api-reference/document-type/list-document-types-for-this-account",
+            "api-reference/document-type/create-document-type",
+            "api-reference/document-type/get-document-type-metadata",
+            "api-reference/document-type/update-document-type",
+            "api-reference/document-type/delete-document-type"
+          ]
+        },
+        {
+          "group": "Configuration",
+          "pages": [
+            "api-reference/configuration/list-configurations-in-a-document-type",
+            "api-reference/configuration/create-configuration-in-a-document-type",
+            "api-reference/configuration/get-configuration",
+            "api-reference/configuration/update-configuration",
+            "api-reference/configuration/delete-configuration",
+            "api-reference/configuration/list-versions-for-a-configuration",
+            "api-reference/configuration/get-configuration-by-version",
+            "api-reference/configuration/publish-configuration-to-an-environment",
+            "api-reference/configuration/delete-draft-or-unpublish-configuration"
+          ]
+        },
+        {
+          "group": "Reference document",
+          "pages": [
+            "api-reference/reference-document/list-all-reference-documents-in-a-document-type",
+            "api-reference/reference-document/create-reference-document",
+            "api-reference/reference-document/get-reference-document-metadata",
+            "api-reference/reference-document/update-metadata-for-a-reference-document",
+            "api-reference/reference-document/delete-reference-document",
+            "api-reference/reference-document/unassociate-reference-document-from-configuration",
+            "api-reference/reference-document/extract-all-text-from-reference-document"
+          ]
+        }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/sensiblehq",
+          "linkedin": "https://www.linkedin.com/company/usesensible/"
+      }
+  }
