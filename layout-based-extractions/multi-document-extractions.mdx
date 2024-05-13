@@ -3,6 +3,7 @@ title: "Multi-document extractions"
 description: "Sometimes a single file contains multiple documents (a portfolio). For example, a portfolio file might contain an invoice, a tax document, and a contract. "
 ---
 
+TEST
 In this case, it's best practice to extract each document using its appropriate document type, rather than trying to fit them all into one document type (which would break any [validations](/docs/validate-extractions) you write for the doc type). For example, use an "income tax" doc type and an "invoice" doc type, rather than creating a "combined\_tax\_and\_invoice" doc type.
 
 In order for Sensible to handle the portfolio in one API extraction request, specify the following:
