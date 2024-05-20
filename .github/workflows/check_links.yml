@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-      - name: Install dependencies 🔧
-        run: cd ./scripts/check_links_cli.mjs/ && bundle install
-      - name: Build HTML frm markdown and check links 🏗
+      #- name: Install dependencies 🔧
+        #run: cd ./scripts/check_links_cli.mjs/ && bundle install
+      - name: check links 🏗
         run: node ./scripts/check_links_cli.msj
 
