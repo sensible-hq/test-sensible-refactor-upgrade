@@ -1,6 +1,3 @@
-name: "CI/Healthcare Routines"
-
-on:
 name: Link checking lychee  
 on:
   push:
