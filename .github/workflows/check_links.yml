@@ -12,5 +12,5 @@ jobs:
       #- name: Install dependencies 🔧
         #run: cd ./scripts/check_links_cli.mjs/ && bundle install
       - name: check links 🏗
-        run: node ./scripts/check_links_cli.msj
+        run: node ./scripts/check_links_cli.mjs
 
