@@ -1,4 +1,4 @@
-name: Link checking
+name: Link checking CLI
 on:
   push:
     branches:
