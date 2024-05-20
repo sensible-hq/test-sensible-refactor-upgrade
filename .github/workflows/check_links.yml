@@ -12,7 +12,9 @@ jobs:
       - name: update linux packages
         run: sudo apt update
       - name: ensure latest node
-        run: nvm install node
+        run: npm install -gn
+      - name: install latest node
+        run: n latest
       - name: check links 🏗
         run: bash ./scripts/check_links_cli.sh
 
