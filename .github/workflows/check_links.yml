@@ -11,10 +11,10 @@ jobs:
         uses: actions/checkout@v2
       - name: update linux packages
         run: sudo apt update
-      - name: ensure latest node
-        run: npm install -gn
-      - name: install latest node
-        run: n latest
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+         node-version: 'node' # or use 'lts/*' for the latest LTS version
       - name: check links 🏗
         run: bash ./scripts/check_links_cli.sh
 
