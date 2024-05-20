@@ -1,7 +1,9 @@
 name: "CI/Healthcare Routines"
 
 on:
-  pull_request:
+name: Link checking lychee  
+on:
+  push:
     branches:
       - main
 
