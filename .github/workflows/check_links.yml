@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-      #- name: Install dependencies 🔧
-        #run: cd ./scripts/check_links_cli.mjs/ && bundle install
+      - name: update packages
+        run: sudo apt update
       - name: check links 🏗
-        run: sudo sh ./scripts/check_links_cli.sh
+        run: bash ./scripts/check_links_cli.sh
 
