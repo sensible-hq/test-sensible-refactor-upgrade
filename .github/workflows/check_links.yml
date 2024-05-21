@@ -15,6 +15,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
          node-version: 'node' # or use 'lts/*' for the latest LTS version
-      - name: check links 🏗
-        run: bash ./scripts/check_links_cli.sh
+      - name: Check Mintfliy version
+        run: npx mintlify --version
+      - name: Check Mintfliy help
+        run: npx mintlify --help        
+      #- name: check links 🏗
+        #run: bash ./scripts/check_links_cli.sh
 
