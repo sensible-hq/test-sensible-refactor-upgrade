@@ -1,3 +1,5 @@
 #!/bin/bash
 
-npx mintlify broken-links
+npx mintlify --version
+mintlify --help
+mintlify broken-links
