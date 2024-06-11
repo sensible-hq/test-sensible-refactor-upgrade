@@ -65,7 +65,7 @@ paths:
       - $ref: '#/components/parameters/documentTypeId'
     get:
       operationId: get-document-type
-      summary: Get document type metadata
+      summary: Get document type
       description: Find the document type id using the `/document_types` endpoint.
       tags:
       - Document type
@@ -91,6 +91,13 @@ paths:
       summary: Update document type
       description: |
         Update an existing document type with new information. For example, use this endpoint to add validations:
+
+        ```curl
+        curl --location --request PUT 'https://api.sensible.so/v0/document_types/<TYPE_ID>' \
+        --header 'Authorization: Bearer YOUR_API_KEY' \
+        --header 'Content-Type: application/json' \
+        --data-raw '{"schema":{"validations":[{"description":"example validation to test broker email format","condition":{"match":[{"var":"broker\\.email.value"},"^\\S+\\@\\S+$"]},"severity":"warning","fields":["test"]}]}} '
+        ```
 
 
       tags:
@@ -774,7 +781,7 @@ components:
     Date:
       type: string
       format: date-time
-      description: ISO-formatted date-time.
+      description: ISO 8601 date-time.
     DocumentType:
       type: object
       properties:
@@ -801,8 +808,10 @@ components:
             $ref: '#/components/schemas/DocumentTypeName'
           id:
             $ref: '#/components/schemas/UniqueId'
-          #created:
-            #$ref: '#/components/schemas/Date'
+          created:
+            $ref: '#/components/schemas/Date'
+          schema:
+            $ref: '#/components/schemas/DocumentTypeOutput'
         required:
           - name
           - id
@@ -1107,7 +1116,7 @@ components:
               description: the verbose extraction output, including information about line coordinates.
             errors:
               type: array
-              description: errors
+              description: extraction errors. See an extraction endpoint's response schema for more information.
             text:
               $ref: '#/components/schemas/ResponseStandardText'
               description: >-
