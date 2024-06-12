@@ -429,5 +429,11 @@
       {
           "twitter": "https://twitter.com/sensiblehq",
           "linkedin": "https://www.linkedin.com/company/usesensible/"
+      },
+    "redirects": [
+      {
+          "source": "/getting-started",
+          "destination": "/welcome/getting-started"
       }
+]
   }
