@@ -1,0 +1,433 @@
+{
+    "name": "Sensible",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#4B0532",
+      "light": "#611646",
+      "dark": "#4B0532"
+    },
+    "topbarCtaButton": {
+      "name": "Try Sensible",
+      "url": "https://app.sensible.so/register/"
+    },
+    "topbarLinks": [
+      {
+        "name": "Sign In",
+        "url": "https://app.sensible.so/signin/"
+      }
+    ],
+    "anchors": [
+      {
+        "name": "Tutorials",
+        "icon": "book-open",
+        "url": "https://www.sensible.so/learn"
+      },
+      {
+        "name": "API Status",
+        "icon": "signal-bars",
+        "url": "https://sensible.statuspage.io/"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://www.sensible.so/blog"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        },
+        {
+          "name": "Changelog",
+          "url": "changelog"
+      }
+    ],
+    "navigation": [
+        {
+            "group": "Welcome",
+            "pages": [
+                "welcome/getting-started",
+                "welcome/getting-started-2",
+                "welcome/integrating",
+                "welcome/choosing-an-extraction-approach"
+            ]
+        },
+        {
+          "group": "Integrations",
+          "pages": [
+              "integrations/sdk-guides",
+              {
+                "group": "Zapier Overview",
+                "pages": [
+                    "integrations/zapier-overview/overview",
+                    "integrations/zapier-overview/zapier-tutorial",
+                    "integrations/zapier-overview/advanced-zapier-tutorial"
+                ]
+            },
+              "integrations/api-quickstart",
+              {
+                "group": "Quick Extraction",
+                "pages": [
+                    "integrations/quick-extraction/overview",
+                    "integrations/quick-extraction/senseml-to-spreadsheet-reference"
+                ]
+            }
+          ]
+      },
+      {
+        "group": "LLM-based Extractions",
+        "pages": [
+          {
+            "group": "Prompt Tips",
+            "pages": [
+                "llm-based-extractions/prompt-tips/overview",
+                "llm-based-extractions/prompt-tips/query-group-extraction-tips",
+                "llm-based-extractions/prompt-tips/list-tips",
+                "llm-based-extractions/prompt-tips/nlp-table-extraction-tips"              
+            ]
+        },
+            "llm-based-extractions/advanced-prompt-configuration"
+        ]
+    },
+        {
+            "group": "Layout-based Extractions",
+            "pages": [
+                "layout-based-extractions/getting-started-with-layout-based-extractions",
+                "layout-based-extractions/out-of-the-box-extractions",
+                "layout-based-extractions/multi-document-extractions",
+                "layout-based-extractions/repeating-layouts",
+                {
+                  "group": "App Guide",
+                  "pages": [
+                      "layout-based-extractions/app-guide/overview",
+                      "layout-based-extractions/app-guide/color-coding",
+                      "layout-based-extractions/app-guide/sensible-walkthrough"
+                  ]
+              }                
+            ]
+        },
+        {
+          "group": "Document Type Classification",
+          "pages": [
+              "document-type-classification/classifying-documents-by-type"
+          ]
+      },
+      {
+        "group": "Best Practices",
+        "pages": [
+            "best-practices/troubleshooting-llm-extractions",
+            "best-practices/monitoring-extractions",
+            "best-practices/qualifying-llm-accuracy",
+            "best-practices/validating-extractions",
+            {
+              "group": "Tutorials",
+              "pages": [
+                  "best-practices/tutorials/overview",
+                  "best-practices/tutorials/using-fallbacks",
+                  "best-practices/tutorials/optimizing-extraction-performance",
+                  "best-practices/tutorials/testing-before-integrating-configs",
+                  "best-practices/tutorials/troubleshooting",
+                  "best-practices/tutorials/extracting-handwriting-and-ocr-text",
+                  "best-practices/tutorials/go-live-checklist"
+              ]
+          }
+        ]
+    },
+    
+    {
+      "group": "SenseML Reference",
+      "pages": [
+          "senseml-reference/senseml-reference-introduction",
+
+          {
+              "group": "Field Query Object",
+              "pages": [
+                  "senseml-reference/field-query-object/overview",
+                  "senseml-reference/field-query-object/anchor-object",
+                  "senseml-reference/field-query-object/match-object",
+                  "senseml-reference/field-query-object/method-object",
+                  "senseml-reference/field-query-object/types"
+              ]
+          },
+
+          {
+              "group": "Methods",
+              "pages": [
+                  "senseml-reference/methods/overview",
+                  "senseml-reference/methods/box",
+                  "senseml-reference/methods/checkbox",
+                  "senseml-reference/methods/column",
+                  "senseml-reference/methods/document-range",
+                  "senseml-reference/methods/fixed-table",
+                  "senseml-reference/methods/label",
+                  "senseml-reference/methods/intersection",
+                  "senseml-reference/methods/nearest-checkbox",
+                  "senseml-reference/methods/paragraph",
+                  "senseml-reference/methods/passthrough",
+                  "senseml-reference/methods/regex",
+                  "senseml-reference/methods/region",
+                  "senseml-reference/methods/row",
+                  "senseml-reference/methods/signature",
+                  "senseml-reference/methods/text-table"
+              ]
+          },
+
+          {
+              "group": "LLM based methods",
+              "pages": [
+                  "senseml-reference/llm-based-methods/overview",
+                  "senseml-reference/llm-based-methods/list",
+                  "senseml-reference/llm-based-methods/nlp-table",
+                  "senseml-reference/llm-based-methods/query-group",
+                  "senseml-reference/llm-based-methods/summarizer"
+              ]
+          },
+
+          {
+              "group": "Preprocessors",
+              "pages": [
+                  "senseml-reference/preprocessors/overview",
+                  "senseml-reference/preprocessors/deskew",
+                  "senseml-reference/preprocessors/ligature",
+                  "senseml-reference/preprocessors/merge-lines",
+                  "senseml-reference/preprocessors/nlp",
+                  "senseml-reference/preprocessors/ocr-preprocessor",
+                  "senseml-reference/preprocessors/page-range",
+                  "senseml-reference/preprocessors/remove-footer",
+                  "senseml-reference/preprocessors/remove-header",
+                  "senseml-reference/preprocessors/rotate-page",
+                  "senseml-reference/preprocessors/scale",
+                  "senseml-reference/preprocessors/split-lines"
+              ]
+          },
+
+          {
+              "group": "Computed Field Methods",
+              "pages": [
+                  "senseml-reference/computed-field-methods/overview",
+                  "senseml-reference/computed-field-methods/concatenate",
+                  "senseml-reference/computed-field-methods/constant",
+                  "senseml-reference/computed-field-methods/mapper",
+                  "senseml-reference/computed-field-methods/pick-values",
+                  "senseml-reference/computed-field-methods/split",
+                  "senseml-reference/computed-field-methods/suppress-output",
+                  "senseml-reference/computed-field-methods/zip"
+              ]
+          },
+
+          {
+              "group": "Sections",
+              "pages": [
+                  "senseml-reference/sections/overview",
+                  "senseml-reference/sections/claims-loss-run-example",
+                  "senseml-reference/sections/labeled-rows-example",
+                  "senseml-reference/sections/advanced--nested-columns-example",
+                  "senseml-reference/sections/advanced--nested-table-example",
+                  "senseml-reference/sections/advanced--table-grid-example",
+                  "senseml-reference/sections/advanced--zip-sections",
+                  "senseml-reference/sections/advanced--zip-and-flatten-nested-sections",
+                  "senseml-reference/sections/advanced--transform-sections-data",
+                  "senseml-reference/sections/advanced--external-anchors-for-sections"
+              ]
+          },
+
+          {
+              "group": "Config Settings",
+              "pages": [
+                  "senseml-reference/config-settings/overview",
+                  "senseml-reference/config-settings/fingerprint",
+                  "senseml-reference/config-settings/verbosity"
+              ]
+          },
+
+          {
+              "group": "Document type settings",
+              "pages": [
+                  "senseml-reference/document-type-settings/overview",
+                  "senseml-reference/document-type-settings/fingerprint-mode",
+                  "senseml-reference/document-type-settings/ocr-engine",
+                  "senseml-reference/document-type-settings/ocr-level"
+              ]
+          },
+
+
+          {
+              "group": "Advanced computed field methods",
+              "pages": [
+                  "senseml-reference/advanced-computed-field-methods/overview",
+                  "senseml-reference/advanced-computed-field-methods/add-computed-fields",
+                  "senseml-reference/advanced-computed-field-methods/copy-from-sections",
+                  "senseml-reference/advanced-computed-field-methods/copy-to-section",
+                  "senseml-reference/advanced-computed-field-methods/custom-computation",
+                  "senseml-reference/advanced-computed-field-methods/get-file-metadata"
+              ]
+          },
+          
+          
+          {
+              "group": "Concepts",
+              "pages": [
+                  "senseml-reference/concepts/overview",
+                  "senseml-reference/concepts/accuracy-measures",
+                  "senseml-reference/concepts/anchor-nuances",
+                  "senseml-reference/concepts/bag-of-words",
+                  "senseml-reference/concepts/extraction-coverage",
+                  "senseml-reference/concepts/supported-file-types",
+                  "senseml-reference/concepts/field-extraction-order",
+                  "senseml-reference/concepts/ligatures",
+                  "senseml-reference/concepts/lines",
+                  "senseml-reference/concepts/match-arrays",
+                  "senseml-reference/concepts/section-nuances",
+                  "senseml-reference/concepts/ocr",
+                  "senseml-reference/concepts/senseml",
+                  "senseml-reference/concepts/choosing-a-table-method"
+              ]
+          }
+          
+          
+      ]
+  },
+
+  {
+    "group": "API",
+    "pages": [
+      {
+        "group": "API Tutorial",
+        "pages": [
+            "api/api-tutorial/overview",
+            "api/api-tutorial/try-synchronous-extraction",
+            "api/api-tutorial/try-asynchronous-extraction-from-your-url",
+            "api/api-tutorial/try-asynchronous-extraction-from-a-sensible-url",
+            "api/api-tutorial/try-a-webhook"
+        ]
+      },
+        "api/code-examples",
+        "api/api-reference"
+    ]
+},
+  {
+    "group": "Introduction",
+    "pages": [
+      "api-reference/introduction",
+      "api-reference/authentication"
+    ]
+  },
+  
+  {
+    "group": "Extraction",
+    "pages": [
+        
+        {
+            "group": "Document",
+            "pages": [
+                "api-reference/extraction/document/extract-data-from-a-document-sync",
+                "api-reference/extraction/document/extract-doc-at-a-sensible-url",
+                "api-reference/extraction/document/extract-doc-at-your-url",
+                "api-reference/extraction/document/extract-data-from-a-document-using-specified-config",
+                "api-reference/extraction/document/extract-doc-at-your-url-using-config",
+                "api-reference/extraction/document/extract-doc-at-a-sensible-url-using-specified-config"
+            ]
+        },
+        {
+            "group": "Portfolio",
+            "pages": [
+                "api-reference/extraction/portfolio/extract-portfolio-at-a-sensible-url",
+                "api-reference/extraction/portfolio/extract-portfolio-at-your-url"
+            ]
+        },
+        {
+            "group": "Retrieve Extractions",
+            "pages": [
+                "api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id",
+                "api-reference/extraction/retrieve-extractions/list-extractions",
+                "api-reference/extraction/retrieve-extractions/get-extraction-statistics"
+            ]
+        },
+        {
+            "group": "Get Excel From Documents",
+            "pages": [
+                "api-reference/extraction/get-excel-from-documents/get-excel-extraction",
+                "api-reference/extraction/get-excel-from-documents/get-csv-extraction"
+            ]
+        }
+    ]
+},
+
+
+  {
+    "group": "Classification",
+    "pages": [
+        {
+            "group": "Document",
+            "pages": [
+                "api-reference/classification/document/classify-document-by-type",
+                "api-reference/classification/document/classify-document-by-type-sync"
+            ]
+        }
+    ]
+},
+  
+  {
+    "group": "Configuration",
+    "pages": [
+        {
+          "group": "Document type",
+          "pages": [
+            "api-reference/configuration/document-type/list-document-types-for-this-account",
+            "api-reference/configuration/document-type/create-document-type",
+            "api-reference/configuration/document-type/get-document-type-metadata",
+            "api-reference/configuration/document-type/update-document-type",
+            "api-reference/configuration/document-type/delete-document-type"
+          ]
+        },
+        {
+          "group": "Configuration",
+          "pages": [
+            "api-reference/configuration/configuration/list-configurations-in-a-document-type",
+            "api-reference/configuration/configuration/create-configuration-in-a-document-type",
+            "api-reference/configuration/configuration/get-configuration",
+            "api-reference/configuration/configuration/update-configuration",
+            "api-reference/configuration/configuration/delete-configuration",
+            "api-reference/configuration/configuration/list-versions-for-a-configuration",
+            "api-reference/configuration/configuration/get-configuration-by-version",
+            "api-reference/configuration/configuration/publish-configuration-to-an-environment",
+            "api-reference/configuration/configuration/delete-draft-or-unpublish-configuration"
+          ]
+        },
+        {
+          "group": "Reference document",
+          "pages": [
+            "api-reference/configuration/reference-document/list-all-reference-documents-in-a-document-type",
+            "api-reference/configuration/reference-document/create-reference-document",
+            "api-reference/configuration/reference-document/get-reference-document-metadata",
+            "api-reference/configuration/reference-document/update-metadata-for-a-reference-document",
+            "api-reference/configuration/reference-document/delete-reference-document",
+            "api-reference/configuration/reference-document/unassociate-reference-document-from-configuration",
+            "api-reference/configuration/reference-document/extract-all-text-from-reference-document"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/june-2024",
+        "changelog/may-2024",
+        "changelog/april-2024",
+        "changelog/march-2024",
+        "changelog/february-2024",
+        "changelog/january-2024"
+      ]
+    }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/sensiblehq",
+          "linkedin": "https://www.linkedin.com/company/usesensible/"
+      }
+  }
