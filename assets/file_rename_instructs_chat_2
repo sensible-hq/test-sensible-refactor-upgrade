@@ -1,0 +1,552 @@
+
+PART 2:
+
+the following is a list of files and their titles.Ignore any filenames with "index" in the name. 
+
+Tell me which files have titles that differ from their filenames. Ignore whitespaces versus dashes.  For example, this file's title diffes from its filename:
+
+```
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\api\1500 - examples.md:
+    1  ---
+    2: title: "Code examples"
+    3  hidden: false
+    4  ---
+```
+
+And this file has the same title as its filename:
+
+```
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\2000 - methods\1000 - box-method.md:
+    1  ---
+    2: title: "Box Method"
+    3  hidden: false
+    4  
+```
+
+LIST:
+```
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\1000 - list.md:
+    1  ---
+    2: title: "List"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\1000 - nlp-table.md:
+    1  ---
+    2: title: "NLP table"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\1500 - draft-group-examples.md:
+    1  ---
+    2: title: "Query group"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\1500 - query-group.md:
+    1  ---
+    2: title: "Query group"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\1600 - summarizer.md:
+    1  ---
+    2: title: "Summarizer"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\3000 - llm-based-methods\index.md:
+    1  ---
+    2: title: "LLM-based methods"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\0900 - deskew.md:
+    1  ---
+    2: title: "Deskew"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1000 - ligature.md:
+    1  ---
+    2: title: "Ligature"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1050 - merge-lines.md:
+    1  ---
+    2: title: "Merge lines"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1060 - nlp.md:
+    1  ---
+    2: title: "NLP"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1070 - ocr-preprocessor.md:
+    1  ---
+    2: title: "OCR preprocessor"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1200 - page-range.md:
+    1  ---
+    2: title: "Page range"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1300 - remove-footer.md:
+    1  ---
+    2: title: "Remove footer"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1400 - remove-header.md:
+    1  ---
+    2: title: "Remove header"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1410 - remove-page.md:
+    1  ---
+    2: title: "Remove page"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1420 - rotate-page.md:
+    1  ---
+    2: title: "Rotate page"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1450 - scale.md:
+    1  ---
+    2: title: "Scale"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\1500 - split-lines.md:
+    1  ---
+    2: title: "Split lines"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\5000 - preprocessors\index.md:
+    1  ---
+    2: title: "Preprocessors"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1000 - concatenate.md:
+    1  ---
+    2: title: "Concatenate"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1200 - constant.md:
+    1  ---
+    2: title: "Constant"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1300 - mapper.md:
+    1  ---
+    2: title: "Mapper"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1350 - pick-values.md:
+    1  ---
+    2: title: "Pick values"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1400 - split.md:
+    1  ---
+    2: title: "Split"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1450 - suppress-output.md:
+    1  ---
+    2: title: "Suppress output"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\1500 - zip.md:
+    1  ---
+    2: title: "Zip"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6000 - computed-field-methods\index.md:
+    1  ---
+    2: title: "Computed field methods"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\1000 - sections-example-loss-run.md:
+    1  ---
+    2: title: "Claims loss run example"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\3000 - sections-example-labeled-rows.md:
+    1  ---
+    2: title: "Labeled rows example"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\4000 - sections-example-nested-columns.md:
+    1  ---
+    2: title: "Advanced: nested columns example"
+    3  hidden: false
+    4  
+    .
+   60  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\5000 - sections-example-nested-table.md:
+    1  ---
+    2: title: "Advanced: nested table example"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\6000 - sections-example-table-grid.md:
+    1  ---
+    2: title: "Advanced: Table grid example"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\7000 - sections-example-zip.md:
+    1  ---
+    2: title: "Advanced: Zip sections"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\8000 - sections-example-copy-from-sections.md:
+    1  ---
+    2: title: "Advanced: Zip and flatten nested sections"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\9000 - sections-example-copy-to-section.md:
+    1  ---
+    2: title: "Advanced: Transform sections data"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\9500 - sections-example-external-range.md:
+    1  ---
+    2: title: "Advanced: External anchors for sections"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6500 - sections\index.md:
+    1  ---
+    2: title: "Sections"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6700 - config-settings\1000 - fingerprint.md:
+    1  ---
+    2: title: "Fingerprint"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6700 - config-settings\2000 - verbosity.md:
+    1  ---
+    2: title: "Verbosity"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6700 - config-settings\index.md:
+    1  ---
+    2: title: "Config settings"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6800 - document-type-settings\1000 - fingerprint-mode.md:
+    1  ---
+    2: title: "Fingerprint mode"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6800 - document-type-settings\2000 - ocr-engine.md:
+    1  ---
+    2: title: "OCR engine"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6800 - document-type-settings\4000 - ocr-level.md:
+    1  ---
+    2: title: "OCR level"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\6800 - document-type-settings\index.md:
+    1  ---
+    2: title: "Document type settings"
+    3  hidden: false
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\1000 - deprecated-bag-of-words.md:
+    1  ---
+    2: title: "(Deprecated) Bag of words"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\1000 - deprecated-key-value.md:
+    1  ---
+    2: title: "(Deprecated) Key/Value"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\1100 - deprecated-page-filter.md:
+    1  ---
+    2: title: "(Deprecated) Page filter"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\1500 - deprecated-invoice.md:
+    1  ---
+    2: title: "(Deprecated) Invoice"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\1500 - deprecated-query.md:
+    1  ---
+    2: title: "(Deprecated) Query"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\2000 - deprecated-tfidf.md:
+    1  ---
+    2: title: "(Deprecated) TFIDF"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\2000 - deprecated-topic.md:
+    1  ---
+    2: title: "Topic"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\2100 - deprecated-table.md:
+    1  ---
+    2: title: "(Deprecated) Table"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7000 - deprecated-features\index.md:
+    1  ---
+    2: title: "Deprecated methods"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\0100 - add-computed-fields.md:
+    1  ---
+    2: title: "Add computed fields"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\0400 - copy-from-sections.md:
+    1  ---
+    2: title: "Copy from sections"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\0500 - copy-to-section.md:
+    1  ---
+    2: title: "Copy to section"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\0600 - custom-computation.md:
+    1  ---
+    2: title: "Custom computation"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\0700 - get-file-metadata.md:
+    1  ---
+    2: title: "Get file metadata"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\7500 - advanced-computed-field-methods\index.md:
+    1  ---
+    2: title: "Advanced computed field methods"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\0300 - accuracy-measures.md:
+    1  ---
+    2: title: "Accuracy measures"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\0400 - anchor-nuances.md:
+    1  ---
+    2: title: "Anchor nuances"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\1500 - coverage.md:
+    1  ---
+    2: title: "Extraction coverage"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\1600 - file-types.md:
+    1  ---
+    2: title: "Supported file types"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\1700 - field-order.md:
+    1  ---
+    2: title: "Field extraction order"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\2000 - ligatures.md:
+    1  ---
+    2: title: "Ligatures"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\3000 - lines.md:
+    1  ---
+    2: title: "Lines"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\3500 - match-arrays.md:
+    1  ---
+    2: title: "Match arrays"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\3600 - section-nuances.md:
+    1  ---
+    2: title: "Section nuances"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\3700 - ocr.md:
+    1  ---
+    2: title: "OCR"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\4000 - senseml.md:
+    1  ---
+    2: title: "SenseML"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\4500 - draft-senseml-order.md:
+    1  ---
+    2: title: "Extraction engine"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\4600 - table-methods.md:
+    1  ---
+    2: title: "Choosing a Table method"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\senseml-reference\8000 - concepts\index.md:
+    1  ---
+    2: title: "Concepts"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\00 - draft-devops.md:
+    1  ---
+    2: title: "Overview"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\00 - draft-human-review.md:
+    1  ---
+    2: title: "Human review"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\00 - draft-overview.md:
+    1  ---
+    2: title: "Overview"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\00 - draft-processor.md:
+    1  ---
+    2: title: "Processors"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\2000 - draft-getting-started-ai.md:
+    1  ---
+    2: title: "Getting started"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\2000 - getting-started-ai.md:
+    1  ---
+    2: title: "Getting started"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\3000 - integrate.md:
+    1  ---
+    2: title: "Integrating"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\4000 - draft-quality-control.md:
+    1  ---
+    2: title: "Quality control extractions"
+    3  hidden: true
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\6000 - author.md:
+    1  ---
+    2: title: "Choosing an extraction approach"
+    3  hidden: false
+    4  ---
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\cheat\1000 - cheat-1.md:
+    1  ---
+    2: title: "Cheatsheet part 1"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\cheat\2000 - cheat-2.md:
+    1  ---
+    2: title: "Cheatsheet part 2"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\cheat\3000 - cheat-3.md:
+    1  ---
+    2: title: "Cheatsheet part 3"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\cheat\4000 - cheat-4.md:
+    1  ---
+    2: title: "Cheatsheet part 4"
+    3  hidden: true
+    4  
+
+C:\Users\franc\Documents\GitHub\sensible-docs\readme-sync\v0\welcome\cheat\index.md:
+    1  ---
+    2: title: "Cheatsheets"
+    3  hidden: true
+    4  
+
+    ```

@@ -1,0 +1,25 @@
+---
+title: "Qualifying LLM accuracy"
+---
+
+For data extracted by large language models (LLMs), Sensible asks the LLMs to report any uncertainties about the accuracy of the extracted data. For example, an LLM can report "multiple possible answers" or "ambiguous query". These confidence _signals_ offer more nuanced troubleshooting than confidence _scores_.
+
+Note that LLMs can inaccurately report confidence signals. For more information about confidence signals, see the research paper [Teaching models to express their uncertainties in words](https://arxiv.org/pdf/2205.14334.pdf). 
+
+Sensible support confidence signals for the Query Group method. The **confidence signals** checkbox is enabled by default in the Sensible Instruct editor for new Query Group fields. To enable confidence signals for a field in SenseML, use the Query Group method's Confidence Signals parameter.
+
+For more information about troubleshooting confidence signals, see the following table.
+
+### Query Group method confidence signals
+
+For the Query Group method, Sensible returns the following messages, or "confidence signals", to qualify the LLM's confidence in the accuracy of the extracted data.
+
+| confidence signal                        | JSON output                 | description                                                                                                                   | troubleshooting                                                                                                                                                                                                           |
+| ---------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Multiple possible answers                | multiple\_possible\_answers | The LLM answers the prompt, but identifies multiple possible answers in the context that Sensible provides to the LLM.        | <br/>\- To return multiple answers, use the [List method](/llm-based-extractions/prompt-tips/list-tips).<br/>\- To return a single answer, ensure the context contains a single answer. For more information, see [Advanced prompt configuration](/llm-based-extractions/prompt). |
+| Answer might not fully answer the prompt | answer\_may\_be\_incomplete | The LLM answers the prompt, but is uncertain whether the context that Sensible provides to the LLM contains the full answer.  | <br/>\- Simplify your prompt, for example, break it up into multiple prompts.<br/>\- See [Advanced prompt configuration](/llm-based-extractions/prompt).                                                                                             |
+| Answer not found in the context          | answer\_not\_found          | The LLM fails to answer the prompt, and can't find an answer to your prompt in the context that Sensible provides to the LLM. | See [Advanced prompt configuration](/llm-based-extractions/prompt).                                                                                                                                                                        |
+| Ambiguous query                          | ambiguous\_query            | The LLM either answers or fails to answer your prompt, and identifies ambiguities in your prompt.                             | <br/>\- Rephrase your prompt using the tips for each Instruct method. For example, see [Query Group](/llm-based-extractions/prompt-tips/query-group-tips) tips.<br/>\- See [Advanced prompt configuration](/llm-based-extractions/prompt).                                        |
+| Incorrect answer                         | incorrect\_answer           | The LLM judges the answer is incorrect given the context that Sensible provides to the LLM.                                   | See [Advanced prompt configuration](/llm-based-extractions/prompt).                                                                                                                                                                        |
+| Confident answer                         | confident\_answer           | The LLM is confident about its answer to the prompt.                                                                          |                                                                                                                                                                                                                           |
+| Unknown signal                           | unknown\_signal             | The LLM returns a confidence signal other than the confidence signals Sensible instructs it to return.                        |                                                                                                                                                                                                                           |

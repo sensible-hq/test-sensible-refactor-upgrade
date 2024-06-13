@@ -1,0 +1,399 @@
+PART 1
+
+the following is a list of files and their titles.Ignore any filenames with "index" in the name. 
+
+Tell me which files have titles that differ from their filenames. Ignore whitespaces versus dashes. Ignore numbers in paths and filnames like "8000 - "
+consider the title vs filename the same if the same words occur in the same order. `900 - box-method.md` filename is the same as the title "Box Method".  For example, this file's title diffes from its filename:
+
+
+
+LIST:
+Here's the list with only the file names remaining:
+
+```
+1500 - examples.md:
+    1  ---
+    2: title: "Code examples"
+    3  hidden: false
+    4  ---
+
+2000 - api-reference.md:
+    1  ---
+    2: title: "API reference"
+    3  hidden: false
+    4  ---
+
+batch-api.md:
+    1  ---
+    2: title: "Group extractions by batch ID"
+    3  hidden: true
+    4  ---
+
+1000 - api-tutorial-sync.md:
+    1  ---
+    2: title: "Try synchronous extraction"
+    3  hidden: false
+    4  ---
+
+2000 - api-tutorial-async-1.md:
+    1  ---
+    2: title: "Try asynchronous extraction from your URL"
+    3  hidden: false
+    4  ---
+
+2100 - api-tutorial-async-2.md:
+    1  ---
+    2: title: "Try asynchronous extraction from a Sensible URL"
+    3  hidden: false
+    4  ---
+
+3000 - api-tutorial-webhook.md:
+    1  ---
+    2: title: "Try a webhook"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "API tutorial"
+    3  hidden: false
+    4  ---
+
+0200 - troubleshoot-llms.md:
+    1  ---
+    2: title: "Troubleshooting LLM extractions"
+    3  hidden: false
+    4  ---
+
+0310 - metrics.md:
+    1  ---
+    2: title: "Monitoring extractions"
+    3  hidden: false
+    4  ---
+
+3000 - confidence.md:
+    1  ---
+    2: title: "Qualifying LLM accuracy"
+    3  hidden: false
+    4  ---
+
+4000 - validate-extractions.md:
+    1  ---
+    2: title: "Validating extractions"
+    3  hidden: false
+    4  ---
+
+0300 -  fallbacks.md:
+    1  ---
+    2: title: "Using fallbacks"
+    3  hidden: false
+    4  ---
+
+1000 - performance.md:
+    1  ---
+    2: title: "Optimizing extraction performance"
+    3  hidden: false
+    4  
+
+1000 - test-before-integrating-configs.md:
+    1  ---
+    2: title: "Testing before integrating configs"
+    3  hidden: false
+    4  ---
+
+2000 - troubleshoot.md:
+    1  ---
+    2: title: "Troubleshooting"
+    3  hidden: false
+    4  ---
+
+2500 - handwriting.md:
+    1  ---
+    2: title: "Extracting handwriting and OCR text"
+    3  hidden: false
+    4  ---
+
+3000 - go-live.md:
+    1  ---
+    2: title: "Go-live checklist"
+    3  hidden: false
+    4  
+
+index.md:
+    1  ---
+    2: title: "Tutorials"
+    3  hidden: false
+    4  ---
+
+1000 - classify.md:
+    1  ---
+    2: title: "Classifying documents by type"
+    3  hidden: false
+    4  ---
+
+3000 - quickstart.md:
+    1  ---
+    2: title: "API quickstart"
+    3  hidden: false
+    4  
+
+email.md:
+    1  ---
+    2: title: "Email rough draft"
+    3  hidden: true
+    4  ---
+
+sdk-guides.md:
+    1  ---
+    2: title: "SDK guides"
+    3  hidden: false
+    4  ---
+
+1000 - zapier-getting-started.md:
+    1  ---
+    2: title: "Zapier tutorial"
+    3  hidden: false
+    4  
+
+2000 - zapier-tutorial-2.md:
+    1  ---
+    2: title: "Advanced Zapier tutorial"
+    3  hidden: false
+    4  
+
+index.md:
+    1  ---
+    2: title: "Zapier overview"
+    3  hidden: false
+    4  
+
+7600 - excel-reference.md:
+    1  ---
+    2: title: "SenseML to spreadsheet reference"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "Quick extraction"
+    3  hidden: false
+    4  
+
+1000 - getting-started.md:
+    1  ---
+    2: title: "Getting started with layout-based extractions"
+    3  hidden: false
+    4  ---
+
+2000 - library-quickstart.md:
+    1  ---
+    2: title: "Out-of-the-box extractions"
+    3  hidden: false
+    4  ---
+
+3000 - portfolio.md:
+    1  ---
+    2: title: "Multi-document extractions"
+    3  hidden: false
+    4  ---
+
+4000 - repeat-layouts.md:
+    1  ---
+    2: title: "Repeating layouts"
+    3  hidden: false
+    4  ---
+
+1000 - color.md:
+    1  ---
+    2: title: "Color coding"
+    3  hidden: false
+    4  ---
+
+2000 - ui.md:
+    1  ---
+    2: title: "Sensible walkthrough"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "App guide"
+    3  hidden: false
+    4  ---
+
+3000 - prompt.md:
+    1  ---
+    2: title: "Advanced prompt configuration"
+    3  hidden: false
+    4  ---
+
+1000 - query-group-tips.md:
+    1  ---
+    2: title: "Query group extraction tips"
+    3  hidden: false
+    4  
+
+2000 - list-tips.md:
+    1  ---
+    2: title: "List tips"
+    3  hidden: false
+    4  ---
+
+3000 - table-tips.md:
+    1  ---
+    2: title: "NLP table extraction tips"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "Prompt tips"
+    3  hidden: false
+    4  ---
+
+1000 - draft-senseml-reference-introduction.md:
+    1  ---
+    2: title: "SenseML reference introduction"
+    3  hidden: false
+    4  ---
+
+1000 - senseml-reference-introduction.md:
+    1  ---
+    2: title: "SenseML reference introduction"
+    3  hidden: false
+    4  ---
+
+1000 - anchor.md:
+    1  ---
+    2: title: "Anchor object"
+    3  hidden: false
+    4  ---
+
+1100 - match.md:
+    1  ---
+    2: title: "Match object"
+    3  hidden: false
+    4  
+
+1200 - method.md:
+    1  ---
+    2: title: "Method object"
+    3  hidden: false
+    4  ---
+
+1300 - types.md:
+    1  ---
+    2: title: "Types"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "Field query object"
+    3  hidden: false
+    4  ---
+
+1000 - box.md:
+    1  ---
+    2: title: "Box"
+    3  hidden: false
+    4  
+
+1100 - checkbox.md:
+    1  ---
+    2: title: "Checkbox"
+    3  hidden: false
+    4  ---
+
+1200 - column.md:
+    1  ---
+    2: title: "Column"
+    3  hidden: false
+    4  ---
+
+1300 - document-range.md:
+    1  ---
+    2: title: "Document range"
+    3  hidden: false
+    4  ---
+
+1400 - fixed-table.md:
+    1  ---
+    2: title: "Fixed table"
+    3  hidden: false
+    4  ---
+
+1450 - intersection.md:
+    1  ---
+    2: title: "Intersection"
+    3  hidden: false
+    4  ---
+
+1600 - label.md:
+    1  ---
+    2: title: "Label"
+    3  hidden: false
+    4  
+
+1650 - nearest-checkbox.md:
+    1  ---
+    2: title: "Nearest checkbox"
+    3  hidden: false
+    4  ---
+
+1660 - paragraph.md:
+    1 
+
+ ---
+    2: title: "Paragraph"
+    3  hidden: false
+    4  ---
+
+1700 - passthrough.md:
+    1  ---
+    2: title: "Passthrough"
+    3  hidden: false
+    4  ---
+
+1800 - regex.md:
+    1  ---
+    2: title: "Regex"
+    3  hidden: false
+    4  
+
+1900 - region.md:
+    1  ---
+    2: title: "Region"
+    3  hidden: false
+    4  ---
+
+2000 - row.md:
+    1  ---
+    2: title: "Row"
+    3  hidden: false
+    4  ---
+
+2100 - signature.md:
+    1  ---
+    2: title: "Signature"
+    3  hidden: false
+    4  ---
+
+2200 - draft-text-table.md:
+    1  ---
+    2: title: "Text table"
+    3  hidden: true
+    4  ---
+
+2200 - text-table.md:
+    1  ---
+    2: title: "Text Table"
+    3  hidden: false
+    4  ---
+
+index.md:
+    1  ---
+    2: title: "Methods"
+    3  hidden: 
+    4  ---
+```
