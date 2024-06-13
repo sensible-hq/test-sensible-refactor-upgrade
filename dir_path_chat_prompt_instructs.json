@@ -1,0 +1,67 @@
+
+compare this list of old and new directory paths.
+When comparing, ignore numbered path elements like v0 and "7000 -". IE "config-settings" vs "6700 - config-settings" is not a name change.
+Tell me if any of the old directory paths changed their names in the new directory path list
+
+
+
+OLD folder names:
+
+
+v0\welcome"
+v0\senseml-reference\7000 - deprecated-features"
+v0\senseml-reference\5000 - preprocessors"
+v0\senseml-reference\3000 - llm-based-methods"
+v0\senseml-reference\2000 - methods"
+v0\senseml-reference"
+v0\llm-based extractions"
+
+v0\senseml-reference\8000 - concepts"
+v0\senseml-reference\7500 - advanced-computed-field-methods"
+v0\best-practices\5000 - guides"
+v0\best-practices"
+v0\layout-based-extractions"
+v0\llm-based extractions\instruct"
+v0\senseml-reference\6700 - config-settings"
+v0\senseml-reference\6800 - document-type-settings"
+v0\senseml-reference\2000 - field-query-object"
+v0\layout-based-extractions\4500 - app-guide"
+v0\integrations\4000 - quick-extraction"
+v0\senseml-reference\6000 - computed-field-methods"
+v0\senseml-reference\6500 - sections"
+v0\integrations\2000 - zapier"
+v0\integrations"
+v0\api"
+v0\welcome\cheat"
+v0\document-type-classification"
+v0\api\1000 - api-tutorial"
+
+
+NEW FOLDER NAMES:
+
+
+welcome"
+senseml-reference\sections"
+senseml-reference"
+senseml-reference\preprocessors"
+senseml-reference\methods"
+senseml-reference\llm-based-methods"
+senseml-reference\field-query-object"
+senseml-reference\document-type-settings"
+senseml-reference\config-settings"
+senseml-reference\concepts"
+senseml-reference\computed-field-methods"
+senseml-reference\advanced-computed-field-methods"
+logo"
+llm-based-extractions\prompt-tips"
+llm-based-extractions"
+layout-based-extractions\app-guide"
+layout-based-extractions"
+integrations\zapier-overview"
+integrations"
+integrations\quick-extraction"
+document-type-classification"
+changelog"
+best-practices\tutorials"
+best-practices"
+api\api-tutorial"

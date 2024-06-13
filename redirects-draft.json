@@ -74,6 +74,7 @@ then I'll need redirects like this:
       "destination": "/layout-based-extractions/app-guide/index-app-guide"
     },
     {
+      // todo: rename back to origional file name 'zapier'
       "source": "/zapier-overview",
       "destination": "/integrations/zapier-overview/index-zapier-overview"
     },
@@ -81,6 +82,7 @@ then I'll need redirects like this:
       "source": "/quick-extraction",
       "destination": "/integrations/quick-extraction/index-quick-extraction"
     },
+    /* todo: was this dir renamed from /best-practices/guides/index?  */
     {
       "source": "/tutorials",
       "destination": "/best-practices/tutorials/index-tutorials"
@@ -186,6 +188,16 @@ then I'll need redirects like this:
 }
 
 
+// * dang. prompt tips is missing. what else is missing? do over and ask the GPT to not author any redirects
+//for index topics?
+// missing:
+/*
+prompt-tips
+zapier-overview -> shit she renamed a folder, it was 'zapier' in the source...
+so: todo: restore the original file name.
+
+*/
+
 
 // new redirects migration-specific
 
@@ -211,10 +223,7 @@ then I'll need redirects like this:
       "source": "/deprecated-key-value",
       "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/preprocessors/index"
-    },
+
     {
       "source": "/draft-remove-page",
       "destination": "/senseml-reference/preprocessors/draft-remove-page"
@@ -243,10 +252,7 @@ then I'll need redirects like this:
       "source": "/deprecated-bag-of-words",
       "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/deprecated-features/index"
-    },
+
     {
       "source": "/deprecated-tfidf",
       "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
@@ -347,10 +353,7 @@ then I'll need redirects like this:
       "source": "/performance",
       "destination": "/best-practices/guides/performance"
     },
-    {
-      "source": "/index",
-      "destination": "/integrations/quick-extraction/index"
-    },
+
     {
       "source": "/validate-extractions",
       "destination": "/best-practices/validate-extractions"
@@ -363,10 +366,7 @@ then I'll need redirects like this:
       "source": "/color",
       "destination": "/layout-based-extractions/app-guide/color"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/methods/index"
-    },
+
     {
       "source": "/excel-reference",
       "destination": "/integrations/quick-extraction/excel-reference"
@@ -375,14 +375,7 @@ then I'll need redirects like this:
       "source": "/summarizer",
       "destination": "/senseml-reference/llm-based-methods/summarizer"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/computed-field-methods/index"
-    },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/llm-based-methods/index"
-    },
+
     {
       "source": "/sections-example-copy-to-section",
       "destination": "/senseml-reference/sections/sections-example-copy-to-section"
@@ -391,10 +384,7 @@ then I'll need redirects like this:
       "source": "/copy-to-section",
       "destination": "/senseml-reference/advanced-computed-field-methods/copy-to-section"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/field-query-object/index"
-    },
+
     {
       "source": "/portfolio",
       "destination": "/layout-based-extractions/portfolio"
@@ -443,10 +433,7 @@ then I'll need redirects like this:
       "source": "/senseml-reference-introduction",
       "destination": "/senseml-reference/senseml-reference-introduction"
     },
-    {
-      "source": "/index",
-      "destination": "/llm-based extractions/instruct/index"
-    },
+
     {
       "source": "/confidence",
       "destination": "/best-practices/confidence"
@@ -467,10 +454,7 @@ then I'll need redirects like this:
       "source": "/sections-example-nested-columns",
       "destination": "/senseml-reference/sections/sections-example-nested-columns"
     },
-    {
-      "source": "/index",
-      "destination": "/integrations/zapier/index"
-    },
+
     {
       "source": "/zapier-getting-started",
       "destination": "/integrations/zapier/zapier-getting-started"
@@ -487,10 +471,7 @@ then I'll need redirects like this:
       "source": "/draft-group-examples",
       "destination": "/senseml-reference/llm-based-methods/draft-group-examples"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/advanced-computed-field-methods/index"
-    },
+
     {
       "source": "/zip",
       "destination": "/senseml-reference/computed-field-methods/zip"
@@ -523,10 +504,7 @@ then I'll need redirects like this:
       "source": "/list-tips",
       "destination": "/llm-based extractions/instruct/list-tips"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/sections/index"
-    },
+
     {
       "source": "/email",
       "destination": "/integrations/email"
@@ -567,22 +545,12 @@ then I'll need redirects like this:
       "source": "/draft-senseml-order",
       "destination": "/senseml-reference/concepts/draft-senseml-order"
     },
-    {
-      "source": "/index",
-      "destination": "/api/api-tutorial/index"
-    },
+,
     {
       "source": "/mapper",
       "destination": "/senseml-reference/computed-field-methods/mapper"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/config-settings/index"
-    },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/document-type-settings/index"
-    },
+
     {
       "source": "/cheat-1",
       "destination": "/welcome/cheat/cheat-1"
@@ -715,10 +683,7 @@ then I'll need redirects like this:
       "source": "/cheat-4",
       "destination": "/welcome/cheat/cheat-4"
     },
-    {
-      "source": "/index",
-      "destination": "/senseml-reference/concepts/index"
-    },
+
     {
       "source": "/field-order",
       "destination": "/senseml-reference/concepts/field-order"
@@ -727,18 +692,12 @@ then I'll need redirects like this:
       "source": "/lines",
       "destination": "/senseml-reference/concepts/lines"
     },
-    {
-      "source": "/index",
-      "destination": "/layout-based-extractions/app-guide/index"
-    },
+
     {
       "source": "/handwriting",
       "destination": "/best-practices/guides/handwriting"
     },
-    {
-      "source": "/index",
-      "destination": "/best-practices/guides/index"
-    },
+
     {
       "source": "/api-reference",
       "destination": "/api/api-reference"
