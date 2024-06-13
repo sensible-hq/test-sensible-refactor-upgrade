@@ -1,0 +1,30 @@
+---
+title: "Methods"
+sidebarTitle: Overview
+---
+
+Use the following [methods](https://sensible-87.mintlify.app/senseml-reference/field-query-object/method-object) to extract structured data from documents. 
+
+### Layout-based methods
+
+| Method                                         | Image                                                                                                                                            | Notes                                                                                                                                       |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Box](https://sensible-87.mintlify.app/senseml-reference/methods/box)**                           | ![Click to enlarge](/images/box_1099.png)            | Extracts contents from boxes with continuous borders.                                                                                       |
+| **[Checkbox](https://sensible-87.mintlify.app/senseml-reference/methods/checkbox)**                 | ![Click to enlarge](/images/checkbox.png)           | Extracts true/false for the selection status of checkboxes.                                                                                 |
+| **[Column](https://sensible-87.mintlify.app/senseml-reference/methods/column)**                     | ![Click to enlarge](/images/column.png)              | Extracts text aligned in a column, from an anchor down to the bottom of the page.                                                           |
+| **[Document Range](https://sensible-87.mintlify.app/senseml-reference/methods/document-range)**     | ![Click to enlarge](/images/documentrange_sworn.png) | Extracts text in a range, or extract image metadata (coordinates). Simpler alternative to the advanced [Paragraph](https://sensible-87.mintlify.app/senseml-reference/methods/paragraph) method. |
+| **[Fixed Table](https://sensible-87.mintlify.app/senseml-reference/methods/fixed-table)**           | ![Click to enlarge](/images/fixed_table.png)         | Extracts tables where column headings never vary.                                                                                           |
+| **[Intersection](https://sensible-87.mintlify.app/senseml-reference/methods/intersection)**         | ![Click to enlarge](/images/intersection_1.png)      | Extracts a target line at the intersection of a horizontal line defined by an anchor, and a vertical line defined by a second anchor.       |
+| **[Label](https://sensible-87.mintlify.app/senseml-reference/methods/label)**                       | ![Click to enlarge](/images/labels.png)              | Extracts a line of text that's proximate to another line.                                                                                   |
+| [**Nearest Checkbox**](https://sensible-87.mintlify.app/senseml-reference/methods/nearest-checkbox) | ![Click to enlarge](/images/nearest_checkbox.png)    | Extracts true/false for the selection status of the checkbox nearest to the anchor.                                                         |
+| [**Paragraph**](https://sensible-87.mintlify.app/senseml-reference/methods/paragraph)               | ![Click to enlarge](/images/paragraph.png)           | Extracts paragraphs that partially span the page width, for example from columnar layouts.                                                  |
+| **[Passthrough](https://sensible-87.mintlify.app/senseml-reference/methods/passthrough)**           | ![Click to enlarge](/images/passthrough.png)         | Extracts anchor text, optionally using RegEx.                                                                                               |
+| **[Regex](https://sensible-87.mintlify.app/senseml-reference/methods/regex)**                       | Extracts text matching RegEx. Use RegEx capturing groups in this method to clean up extracted data in combination with the Passthrough method.   |                                                                                                                                             |
+| **[Region](https://sensible-87.mintlify.app/senseml-reference/methods/region)**                     | ![Click to enlarge](/images/region_ssn.png)          | Extracts data from a rectangular region defined by coordinates. Faster alternative to Box method.                                           |
+| **[Row](https://sensible-87.mintlify.app/senseml-reference/methods/row)**                           | ![Click to enlarge](/images/row.png)                 | Extracts text aligned in a row.                                                                                                             |
+| **[Signature](https://sensible-87.mintlify.app/senseml-reference/methods/signature)**               | Extracts true/false for the signed status of a region.                                                                                           |                                                                                                                                             |
+| **[Text Table](https://sensible-87.mintlify.app/senseml-reference/methods/text-table)**             | ![Click to enlarge](/images/text_table.png)          | Extracts tables using solely text-positioning data (fast but limited).                                                                      |
+
+### Large language model (LLM)-based methods
+
+See [LLM-based methods](https://sensible-87.mintlify.app/senseml-reference/llm-based-methods/overview).

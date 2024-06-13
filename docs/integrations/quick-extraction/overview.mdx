@@ -1,0 +1,50 @@
+---
+title: "Quick extraction"
+sidebarTitle: Overview
+---
+
+After you've configured extractions for your [custom documents](https://sensible-87.mintlify.app/welcome/getting-started) or for out-of-the-box [supported documents](https://sensible-87.mintlify.app/layout-based-extractions/out-of-the-box-extractions), you can upload documents to the Sensible app in bulk and download the extracted data as Excel files.
+
+ In this tutorial you'll learn to:
+
+* upload documents to the Sensible app's **Extract** tab
+* automatically extract from the documents using pre-existing document types and configs
+* download the extracted data as Excel.
+
+### Extract from a file
+
+Take the following steps:
+
+1. Navigate to the [Extract](https://app.sensible.so/quick-extraction/) tab.
+2. Select **Document** for single-document files or **Portfolio** for [documents bundled into a single file](https://sensible-87.mintlify.app/layout-based-extractions/multi-document-extractions).
+3. In the **Document type** dropdown in the right pane, select the category that describes your document, for example, `resumes` or `tax_forms`. For portfolios, select multiple types.  
+If you haven't created your own document type, select `sensible_instruct_basics / Auto select` . The `sensible_instruct_basics` document type contains interactive examples for bank statements, resumes, and contracts. If you specify `Auto select`, Sensible automatically detects the best-fitting extraction configuration, or "config", for the document you upload.
+
+![Click to enlarge](/images/quickstart_instruct_11.png)
+
+3. Click **Upload document** and select your example document or documents. For a list of supported file types, see [Supported file types](https://sensible-87.mintlify.app/senseml-reference/concepts/supported-file-types). Note that Sensible automatically OCRs documents as needed, except in [advanced cases](https://sensible-87.mintlify.app/senseml-reference/preprocessors/ocr-preprocessor).
+
+ If you don't have an example document, use the following document with the `sensible_instruct_basics` document type :
+
+| Example document | [Download link](https://github.com/sensible-hq/sensible-docs/raw/main/readme-sync/assets/v0/pdfs/bank%5F3.pdf) |
+| ---------------- | -------------------------------------------------------------------------------------------------------------- |
+
+3. Click **Run Extraction**.
+4. Sensible displays the extracted data as JSON in the right pane. Click **Download excel** to convert the extracted document data to Excel:
+
+![Click to enlarge](/images/quickstart_instruct_12.png)
+
+ The following spreadsheet shows output for the example bank statement. The first tab contains fields with single values, for example the start date field. Succeeding tabs contain fields with table output, for example, the accounts list table. 
+
+![](/images/list-table.png)
+**Note** Each downloaded Excel file contains the data from one document. To combine extracted documents into one Excel file, use the [Sensible API](https://sensible-87.mintlify.app/api-reference/extraction/get-excel-from-documents/get-excel-extraction) or [Sensible SDKs](https://sensible-87.mintlify.app/integrations/sdk-guides).
+
+### Extract from multiple files
+
+To extract from multiple files in a batch, select and upload multiple files in step 3 in the preceding section:
+
+![Click to enlarge](/images/quick_extract_bulk.png)
+
+### Next
+
+For more information about how Sensible converts JSON document extractions to Excel, see [SenseML to spreadsheet reference](https://sensible-87.mintlify.app/integrations/quick-extraction/senseml-to-spreadsheet-reference).
