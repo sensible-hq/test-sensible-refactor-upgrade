@@ -418,9 +418,6 @@ for an item in the list:
 /senseml-reference/concepts/table-methods
 /senseml-reference/concepts/accuracy-measures
 /senseml-reference/methods/signature
-==
-split happened here
-==
 /senseml-reference/field-query-object/method
 /senseml-reference/senseml-reference-introduction
 /llm-based extractions/instruct/index

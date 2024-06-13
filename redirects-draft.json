@@ -8,6 +8,91 @@ file title: overview.mdx
 https://sensible.mintlify.app/senseml-reference/computed-field-methods/overview
 how to handle it?
 
+IDEA:
+each gets index-append the parent folder name --> can chat or bulk rename help? it's only 16 pages
+
+
+// old redirects
+{
+  "redirects": [
+    {
+      "source": "/bag-of-words",
+      "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
+    },
+    {
+      "source": "/page-filter",
+      "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
+    },
+    {
+      "source": "/topic",
+      "destination": "/senseml-reference/deprecated-features/deprecated-topic"
+    },
+    {
+      "source": "/invoice",
+      "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
+    },
+    {
+      "source": "/table",
+      "destination": "/senseml-reference/llm-based-methods/nlp-table"
+    },
+    {
+      "source": "/query-tips",
+      "destination": "/llm-based extractions/instruct/query-group-tips"
+    },
+    {
+      "source": "/query",
+      "destination": "/senseml-reference/llm-based-methods/query-group"
+    },
+    {
+      "source": "/overview",
+      "destination": "/welcome/getting-started-ai"
+    },
+    {
+      "source": "/no-code",
+      "destination": "/welcome/getting-started-ai"
+    },
+    {
+      "source": "/developer",
+      "destination": "/welcome/integrate"
+    },
+    {
+      "source": "/excel-quickstart",
+      "destination": "/layout-based-extractions/library-quickstart"
+    },
+    {
+      "source": "/excel",
+      "destination": "/integrations/quick-extraction/index"
+    },
+    {
+      "source": "/sdk-node",
+      "destination": "https://github.com/sensible-hq/sensible-api-js"
+    },
+    {
+      "source": "/sdk-quickstarts",
+      "destination": "/integrations/sdk-guides"
+    },
+    {
+      "source": "/advanced-methods",
+      "destination": "/senseml-reference/methods"
+    },
+    {
+      "source": "/key-value",
+      "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+    },
+    {
+      "source": "/tfidf",
+      "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
+    },
+    {
+      "source": "/natural-language-methods",
+      "destination": "/senseml-reference/llm-based-methods"
+    }
+  ]
+}
+
+
+
+// new redirects migration-specific
 
 {
   "redirects": [

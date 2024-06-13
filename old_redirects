@@ -1,0 +1,183 @@
+The following is 2 lists:
+
+1. first is a list of redirects for documentation pages
+2. second is a list of documentation pages with their full subpaths 
+
+Reformat list 1 in json and include the full subpath from list 2, as in the following example for the first item in list 1:
+
+"redirects": [
+      {
+          "source": "/bag-of-words",
+          "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
+      }
+
+LIST 1:
+
+/docs/bag-of-words-> /docs/deprecated-bag-of-words
+/docs/page-filter-> /docs/deprecated-page-filter
+/docs/topic-> /docs/deprecated-topic
+/docs/invoice -> /docs/deprecated-invoice
+/docs/table -> /docs/nlp-table
+/docs/query-tips -> /docs/query-group-tips
+/docs/query -> /docs/query-group
+/docs/overview -> /docs/getting-started-ai
+/docs/no-code -> /docs/getting-started-ai
+/docs/developer -> /docs/integrate
+/docs/excel-quickstart -> /docs/library-quickstart
+/docs/excel -> /docs/quick-extraction
+/docs/sdk-node -> https://github.com/sensible-hq/sensible-api-js
+/docs/sdk-quickstarts -> /docs/sdk-guides
+/docs/advanced-methods -> /docs/methods
+/docs/key-value -> /docs/deprecated-key-value
+/docs/tfidf -> /docs/deprecated-tfidf
+/docs/natural-language-methods -> /docs/llm-based-methods
+
+LIST 2:
+```
+/senseml-reference/deprecated-features/deprecated-table
+/senseml-reference/deprecated-features/deprecated-topic
+/senseml-reference/deprecated-features/deprecated-invoice
+/senseml-reference/deprecated-features/deprecated-page-filter
+/senseml-reference/deprecated-features/deprecated-key-value
+/senseml-reference/preprocessors/index
+/senseml-reference/preprocessors/draft-remove-page
+/senseml-reference/llm-based-methods/query-group
+/senseml-reference/methods/intersection
+/llm-based extractions/prompt
+/welcome/draft-getting-started-ai
+/welcome/getting-started-ai
+/senseml-reference/deprecated-features/deprecated-bag-of-words
+/senseml-reference/deprecated-features/index
+/senseml-reference/deprecated-features/deprecated-tfidf
+/senseml-reference/deprecated-features/deprecated-query
+/senseml-reference/advanced-computed-field-methods/custom-computation
+/best-practices/guides/ fallbacks
+/best-practices/troubleshoot-llms
+/senseml-reference/methods/region
+/best-practices/guides/test-before-integrating-configs
+/best-practices/guides/troubleshoot
+/layout-based-extractions/library-quickstart
+/llm-based extractions/instruct/query-group-tips
+/senseml-reference/document-type-settings/ocr-engine
+/senseml-reference/concepts/ocr
+/senseml-reference/advanced-computed-field-methods/add-computed-fields
+/senseml-reference/config-settings/fingerprint
+/senseml-reference/llm-based-methods/list
+/senseml-reference/llm-based-methods/nlp-table
+/llm-based extractions/instruct/table-tips
+/senseml-reference/methods/draft-text-table
+/senseml-reference/methods/fixed-table
+/senseml-reference/methods/document-range
+/senseml-reference/document-type-settings/fingerprint-mode
+/senseml-reference/field-query-object/types
+/senseml-reference/preprocessors/ocr-preprocessor
+/senseml-reference/document-type-settings/ocr-level
+/best-practices/guides/performance
+/integrations/quick-extraction/index
+/best-practices/validate-extractions
+/welcome/author
+/layout-based-extractions/app-guide/color
+/senseml-reference/methods/index
+/integrations/quick-extraction/excel-reference
+/senseml-reference/llm-based-methods/summarizer
+/senseml-reference/computed-field-methods/index
+/senseml-reference/llm-based-methods/index
+/senseml-reference/sections/sections-example-copy-to-section
+/senseml-reference/advanced-computed-field-methods/copy-to-section
+/senseml-reference/field-query-object/index
+/layout-based-extractions/portfolio
+/api/api-tutorial/api-tutorial-webhook
+/integrations/quickstart
+/api/api-tutorial/api-tutorial-async-2
+/api/api-tutorial/api-tutorial-async-1
+/api/api-tutorial/api-tutorial-sync
+/layout-based-extractions/getting-started
+/senseml-reference/concepts/table-methods
+/senseml-reference/concepts/accuracy-measures
+/senseml-reference/methods/signature
+/senseml-reference/field-query-object/method
+/senseml-reference/senseml-reference-introduction
+/llm-based extractions/instruct/index
+/best-practices/confidence
+/senseml-reference/advanced-computed-field-methods/get-file-metadata
+/senseml-reference/concepts/file-types
+/senseml-reference/sections/sections-example-table-grid
+/senseml-reference/sections/sections-example-nested-columns
+/integrations/zapier/index
+/integrations/zapier/zapier-getting-started
+/best-practices/guides/go-live
+/integrations/zapier/zapier-tutorial-2
+/senseml-reference/llm-based-methods/draft-group-examples
+/senseml-reference/advanced-computed-field-methods/index
+/senseml-reference/computed-field-methods/zip
+/senseml-reference/methods/regex
+/senseml-reference/methods/paragraph
+/senseml-reference/preprocessors/nlp
+/senseml-reference/config-settings/verbosity
+/senseml-reference/methods/text-table
+/senseml-reference/methods/row
+/llm-based extractions/instruct/list-tips
+/senseml-reference/sections/index
+/integrations/email
+/senseml-reference/sections/sections-example-external-range
+/api/batch-api
+/best-practices/metrics
+/senseml-reference/field-query-object/match
+/senseml-reference/concepts/section-nuances
+/senseml-reference/field-query-object/anchor
+/senseml-reference/preprocessors/page-range
+/integrations/sdk-guides
+/senseml-reference/concepts/draft-senseml-order
+/api/api-tutorial/index
+/senseml-reference/computed-field-methods/mapper
+/senseml-reference/config-settings/index
+/senseml-reference/document-type-settings/index
+/welcome/cheat/cheat-1
+/senseml-reference/sections/sections-example-copy-from-sections
+/senseml-reference/sections/sections-example-zip
+/senseml-reference/sections/sections-example-nested-table
+/senseml-reference/sections/sections-example-labeled-rows
+/senseml-reference/sections/sections-example-loss-run
+/senseml-reference/computed-field-methods/suppress-output
+/senseml-reference/computed-field-methods/split
+/senseml-reference/computed-field-methods/pick-values
+/senseml-reference/computed-field-methods/constant
+/senseml-reference/computed-field-methods/concatenate
+/senseml-reference/preprocessors/split-lines
+/senseml-reference/preprocessors/scale
+/senseml-reference/preprocessors/rotate-page
+/senseml-reference/preprocessors/remove-header
+/senseml-reference/preprocessors/remove-footer
+/senseml-reference/preprocessors/merge-lines
+/senseml-reference/preprocessors/deskew
+/senseml-reference/methods/passthrough
+/senseml-reference/methods/nearest-checkbox
+/senseml-reference/methods/label
+/senseml-reference/methods/column
+/senseml-reference/methods/checkbox
+/senseml-reference/methods/box
+/senseml-reference/concepts/senseml
+/senseml-reference/concepts/match-arrays
+/senseml-reference/concepts/ligatures
+/senseml-reference/concepts/coverage
+/senseml-reference/concepts/anchor-nuances
+/layout-based-extractions/app-guide/ui
+/document-type-classification/classify
+/layout-based-extractions/repeat-layouts
+/welcome/cheat/cheat-4
+/senseml-reference/concepts/index
+/senseml-reference/concepts/field-order
+/senseml-reference/concepts/lines
+/layout-based-extractions/app-guide/index
+/best-practices/guides/handwriting
+/best-practices/guides/index
+/api/api-reference
+/api/examples
+/senseml-reference/advanced-computed-field-methods/copy-from-sections
+/senseml-reference/preprocessors/ligature
+/welcome/cheat/index
+/welcome/cheat/cheat-2
+/welcome/cheat/cheat-3
+/welcome/integrate
+/welcome/00 - draft-overview
+```
