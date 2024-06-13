@@ -11,6 +11,101 @@ how to handle it?
 IDEA:
 each gets index-append the parent folder name --> can chat or bulk rename help? it's only 16 pages
 
+like this:
+index-methods
+index-llm-based-methods
+index-field-query-object
+index-document-type-settings
+index-config-settings
+index-concepts
+index-computed-field-methods
+index-advanced-computed-field-methods
+index-prompt-tips
+index-app-guide
+index-zapier-overview
+index-quick-extraction
+index-tutorials
+index-api-tutorial
+index-sections
+index-preprocessors
+
+then I'll need redirects like this:
+
+{
+  "redirects": [
+    {
+      "source": "/methods",
+      "destination": "/senseml-reference/methods/index-methods"
+    },
+    {
+      "source": "/llm-based-methods",
+      "destination": "/senseml-reference/llm-based-methods/index-llm-based-methods"
+    },
+    {
+      "source": "/field-query-object",
+      "destination": "/senseml-reference/field-query-object/index-field-query-object"
+    },
+    {
+      "source": "/document-type-settings",
+      "destination": "/senseml-reference/document-type-settings/index-document-type-settings"
+    },
+    {
+      "source": "/config-settings",
+      "destination": "/senseml-reference/config-settings/index-config-settings"
+    },
+    {
+      "source": "/concepts",
+      "destination": "/senseml-reference/concepts/index-concepts"
+    },
+    {
+      "source": "/computed-field-methods",
+      "destination": "/senseml-reference/computed-field-methods/index-computed-field-methods"
+    },
+    {
+      "source": "/advanced-computed-field-methods",
+      "destination": "/senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods"
+    },
+    {
+      "source": "/prompt-tips",
+      "destination": "/llm-based-extractions/prompt-tips/index-prompt-tips"
+    },
+    {
+      "source": "/app-guide",
+      "destination": "/layout-based-extractions/app-guide/index-app-guide"
+    },
+    {
+      "source": "/zapier-overview",
+      "destination": "/integrations/zapier-overview/index-zapier-overview"
+    },
+    {
+      "source": "/quick-extraction",
+      "destination": "/integrations/quick-extraction/index-quick-extraction"
+    },
+    {
+      "source": "/tutorials",
+      "destination": "/best-practices/tutorials/index-tutorials"
+    },
+    {
+      "source": "/api-tutorial",
+      "destination": "/api/api-tutorial/index-api-tutorial"
+    },
+    {
+      "source": "/sections",
+      "destination": "/senseml-reference/sections/index-sections"
+    },
+    {
+      "source": "/preprocessors",
+      "destination": "/senseml-reference/preprocessors/index-preprocessors"
+    }
+  ]
+}
+
+
+
+
+
+
+
 
 // old redirects
 {
