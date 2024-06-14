@@ -773,7 +773,6 @@
       "source": "/draft-senseml-order",
       "destination": "/senseml-reference/concepts/draft-senseml-order"
     },
-,
     {
       "source": "/mapper",
       "destination": "/senseml-reference/computed-field-methods/mapper"
