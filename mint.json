@@ -656,7 +656,7 @@
     {
       "source": "/method",
       "destination": "/senseml-reference/field-query-object/method"
-      
+
     },
     {
       "source": "/senseml-reference-introduction",
@@ -923,7 +923,7 @@
 
     {
       "source": "/handwriting",
-      "destination": "/best-practices/guides/handwriting"
+      "destination": "/best-practices/tutorials/handwriting"
     },
 
     {
