@@ -17,5 +17,5 @@ jobs:
          node-version: 'node' # or use 'lts/*' for the latest LTS version
       
       - name: check links 🏗
-        run: bash ./scripts/check_links_cli.sh
+        run: bash ./assets/scripts/check_links_cli.sh
 
