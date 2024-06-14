@@ -15,7 +15,7 @@ paths:
     get:
       operationId: list-document-types
       summary: List document types for this account
-      description: List all document types for this account.
+      description: TEST List all document types for this account.
       tags:
       - Document type
       responses:
