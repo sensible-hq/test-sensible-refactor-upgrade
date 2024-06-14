@@ -436,8 +436,8 @@
       "destination": "/senseml-reference/deprecated-features/deprecated-table"
     },
     {
-      "source": "/deprecated-topic",
-      "destination": "/senseml-reference/deprecated-features/deprecated-topic"
+      "source": "/fingerprint",
+      "destination": "/senseml-reference/concepts/fingerprint"
     },
     {
       "source": "/deprecated-invoice",
