@@ -706,6 +706,4 @@ so: todo: restore the original file name.
       "source": "/examples",
       "destination": "/api/examples"
     },
-    {
-      "source": "/copy-from-sections",
-      "destination
+    
