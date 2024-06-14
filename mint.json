@@ -933,6 +933,7 @@
     {
       "source": "/examples",
       "destination": "/api/examples"
-    },
+    }
+  ]
     
   }
