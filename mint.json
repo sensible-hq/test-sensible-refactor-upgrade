@@ -324,7 +324,7 @@
         {
             "group": "Document",
             "pages": [
-                "api-reference/extraction/document/extract-data-from-a-document",
+                "api-reference/extraction/document/extract-data-from-a-document-sync",
                 "api-reference/extraction/document/extract-doc-at-a-sensible-url",
                 "api-reference/extraction/document/extract-doc-at-your-url",
                 "api-reference/extraction/document/extract-data-from-a-document-using-specified-config",
