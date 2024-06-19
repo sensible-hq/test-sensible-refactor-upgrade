@@ -49,11 +49,11 @@
     ],
     "navigation": [
         {
-            "group": "test",
+            "group": "Welcome",
             "pages": [
-                "test/getting-started-ai",
-                "test/integrate",
-                "test/author"
+                "welcome/getting-started-ai",
+                "welcome/integrate",
+                "welcome/author"
             ]
         },
         {
