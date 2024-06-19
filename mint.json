@@ -356,11 +356,11 @@
 
     {
       "source": "/docs/author", 
-      "destination": "/test/author"
+      "destination": "/welcome/author"
     },
     {
       "source": "/docs/integrate", 
-      "destination": "/test/integrate"
+      "destination": "/welcome/integrate"
     },
     {
       "source": "/docs/sections-example-zip",
@@ -368,7 +368,7 @@
     },
         {
       "source": "/docs/getting-started-ai",
-      "destination": "/test/getting-started-ai"
+      "destination": "/welcome/getting-started-ai"
     },
     {
       "source": "/docs/sections-example-table-grid",
