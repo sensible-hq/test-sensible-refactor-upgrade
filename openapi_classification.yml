@@ -97,6 +97,8 @@ paths:
       summary: Classify document by type (sync)
       description: |
 
+        TEST CHANGE
+
         **Note:** Use this Classify endpoint for testing. Use the asynchronous Classify endpoint for production.
 
         Score a document's similarity to each document type you defined in your Sensible account. Get scores for the document's similarity to document types and to their reference documents.
