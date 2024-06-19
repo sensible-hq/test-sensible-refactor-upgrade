@@ -358,7 +358,7 @@
       "destination": "welcome/getting-started-ai"
     },
     {
-      "source": "/author", # not working
+      "source": "/author", 
       "destination": "welcome/author"
     },
     {
