@@ -350,10 +350,8 @@
       {
           "twitter": "https://twitter.com/sensiblehq",
           "linkedin": "https://www.linkedin.com/company/usesensible/"
-      }
-  },
+      },
 
- 
   "redirects": [
     {
       "source": "getting-started-ai",
@@ -668,5 +666,6 @@
     {
       "source": "senseml-reference-introduction",
       "destination": "senseml-reference/senseml-reference-introduction"
-    },
+    }
   ]
+}
