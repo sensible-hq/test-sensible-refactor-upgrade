@@ -359,12 +359,16 @@
       "destination": "/welcome/author"
     },
     {
-      "source": "/docs/getting-started-ai",
-      "destination": "/welcome/getting-started-ai"
+      "source": "/docs/integrate", 
+      "destination": "/welcome/integrate"
     },
     {
       "source": "/docs/sections-example-zip",
       "destination": "/senseml-reference/sections/sections-example-zip"
+    },
+        {
+      "source": "/docs/getting-started-ai",
+      "destination": "/welcome/getting-started-ai"
     },
     {
       "source": "/docs/sections-example-table-grid",
