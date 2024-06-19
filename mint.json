@@ -355,317 +355,317 @@
   "redirects": [
     {
       "source": "/docs/getting-started-ai",
-      "destination": "welcome/getting-started-ai"
+      "destination": "/welcome/getting-started-ai"
     },
     {
       "source": "/docs/author", 
-      "destination": "welcome/author"
+      "destination": "/welcome/author"
     },
     {
       "source": "/docs/sections-example-zip",
-      "destination": "senseml-reference/sections/sections-example-zip"
+      "destination": "/senseml-reference/sections/sections-example-zip"
     },
     {
       "source": "/docs/sections-example-table-grid",
-      "destination": "senseml-reference/sections/sections-example-table-grid"
+      "destination": "/senseml-reference/sections/sections-example-table-grid"
     },
     {
       "source": "/docs/sections-example-nested-table",
-      "destination": "senseml-reference/sections/sections-example-nested-table"
+      "destination": "/senseml-reference/sections/sections-example-nested-table"
     },
     {
       "source": "/docs/sections-example-nested-columns",
-      "destination": "senseml-reference/sections/sections-example-nested-columns"
+      "destination": "/senseml-reference/sections/sections-example-nested-columns"
     },
     {
       "source": "/docs/sections-example-loss-run",
-      "destination": "senseml-reference/sections/sections-example-loss-run"
+      "destination": "/senseml-reference/sections/sections-example-loss-run"
     },
     {
       "source": "/docs/sections-example-labeled-rows",
-      "destination": "senseml-reference/sections/sections-example-labeled-rows"
+      "destination": "/senseml-reference/sections/sections-example-labeled-rows"
     },
     {
       "source": "/docs/sections-example-external-range",
-      "destination": "senseml-reference/sections/sections-example-external-range"
+      "destination": "/senseml-reference/sections/sections-example-external-range"
     },
     {
       "source": "/docs/sections-example-copy-to-section",
-      "destination": "senseml-reference/sections/sections-example-copy-to-section"
+      "destination": "/senseml-reference/sections/sections-example-copy-to-section"
     },
     {
       "source": "/docs/sections-example-copy-from-sections",
-      "destination": "senseml-reference/sections/sections-example-copy-from-sections"
+      "destination": "/senseml-reference/sections/sections-example-copy-from-sections"
     },
 
     {
       "source": "/docs/split-lines",
-      "destination": "senseml-reference/preprocessors/split-lines"
+      "destination": "/senseml-reference/preprocessors/split-lines"
     },
     {
       "source": "/docs/scale",
-      "destination": "senseml-reference/preprocessors/scale"
+      "destination": "/senseml-reference/preprocessors/scale"
     },
     {
       "source": "/docs/rotate-page",
-      "destination": "senseml-reference/preprocessors/rotate-page"
+      "destination": "/senseml-reference/preprocessors/rotate-page"
     },
     {
       "source": "/docs/remove-header",
-      "destination": "senseml-reference/preprocessors/remove-header"
+      "destination": "/senseml-reference/preprocessors/remove-header"
     },
     {
       "source": "/docs/remove-footer",
-      "destination": "senseml-reference/preprocessors/remove-footer"
+      "destination": "/senseml-reference/preprocessors/remove-footer"
     },
     {
       "source": "/docs/page-range",
-      "destination": "senseml-reference/preprocessors/page-range"
+      "destination": "/senseml-reference/preprocessors/page-range"
     },
     {
       "source": "/docs/ocr-preprocessor",
-      "destination": "senseml-reference/preprocessors/ocr-preprocessor"
+      "destination": "/senseml-reference/preprocessors/ocr-preprocessor"
     },
     {
       "source": "/docs/nlp",
-      "destination": "senseml-reference/preprocessors/nlp"
+      "destination": "/senseml-reference/preprocessors/nlp"
     },
     {
       "source": "/docs/merge-lines",
-      "destination": "senseml-reference/preprocessors/merge-lines"
+      "destination": "/senseml-reference/preprocessors/merge-lines"
     },
     {
       "source": "/docs/ligature",
-      "destination": "senseml-reference/preprocessors/ligature"
+      "destination": "/senseml-reference/preprocessors/ligature"
     },
 
     {
       "source": "/docs/deskew",
-      "destination": "senseml-reference/preprocessors/deskew"
+      "destination": "/senseml-reference/preprocessors/deskew"
     },
     {
       "source": "/docs/text-table",
-      "destination": "senseml-reference/methods/text-table"
+      "destination": "/senseml-reference/methods/text-table"
     },
     {
       "source": "/docs/signature",
-      "destination": "senseml-reference/methods/signature"
+      "destination": "/senseml-reference/methods/signature"
     },
     {
       "source": "/docs/row",
-      "destination": "senseml-reference/methods/row"
+      "destination": "/senseml-reference/methods/row"
     },
     {
       "source": "/docs/region",
-      "destination": "senseml-reference/methods/region"
+      "destination": "/senseml-reference/methods/region"
     },
     {
       "source": "/docs/regex",
-      "destination": "senseml-reference/methods/regex"
+      "destination": "/senseml-reference/methods/regex"
     },
     {
       "source": "/docs/passthrough",
-      "destination": "senseml-reference/methods/passthrough"
+      "destination": "/senseml-reference/methods/passthrough"
     },
     {
       "source": "/docs/paragraph",
-      "destination": "senseml-reference/methods/paragraph"
+      "destination": "/senseml-reference/methods/paragraph"
     },
     {
       "source": "/docs/nearest-checkbox",
-      "destination": "senseml-reference/methods/nearest-checkbox"
+      "destination": "/senseml-reference/methods/nearest-checkbox"
     },
     {
       "source": "/docs/label",
-      "destination": "senseml-reference/methods/label"
+      "destination": "/senseml-reference/methods/label"
     },
     {
       "source": "/docs/intersection",
-      "destination": "senseml-reference/methods/intersection"
+      "destination": "/senseml-reference/methods/intersection"
     },
     {
       "source": "/docs/fixed-table",
-      "destination": "senseml-reference/methods/fixed-table"
+      "destination": "/senseml-reference/methods/fixed-table"
     },
     {
       "source": "/docs/document-range",
-      "destination": "senseml-reference/methods/document-range"
+      "destination": "/senseml-reference/methods/document-range"
     },
     {
       "source": "/docs/column",
-      "destination": "senseml-reference/methods/column"
+      "destination": "/senseml-reference/methods/column"
     },
     {
       "source": "/docs/checkbox",
-      "destination": "senseml-reference/methods/checkbox"
+      "destination": "/senseml-reference/methods/checkbox"
     },
     {
       "source": "/docs/box",
-      "destination": "senseml-reference/methods/box"
+      "destination": "/senseml-reference/methods/box"
     },
     {
       "source": "/docs/summarizer",
-      "destination": "senseml-reference/llm-based-methods/summarizer"
+      "destination": "/senseml-reference/llm-based-methods/summarizer"
     },
     {
       "source": "/docs/query-group",
-      "destination": "senseml-reference/llm-based-methods/query-group"
+      "destination": "/senseml-reference/llm-based-methods/query-group"
     },
     {
       "source": "/docs/nlp-table",
-      "destination": "senseml-reference/llm-based-methods/nlp-table"
+      "destination": "/senseml-reference/llm-based-methods/nlp-table"
     },
     {
       "source": "/docs/list",
-      "destination": "senseml-reference/llm-based-methods/list"
+      "destination": "/senseml-reference/llm-based-methods/list"
     },
 
     {
       "source": "/docs/types",
-      "destination": "senseml-reference/field-query-object/types"
+      "destination": "/senseml-reference/field-query-object/types"
     },
     {
       "source": "/docs/method",
-      "destination": "senseml-reference/field-query-object/method"
+      "destination": "/senseml-reference/field-query-object/method"
     },
     {
       "source": "/docs/match",
-      "destination": "senseml-reference/field-query-object/match"
+      "destination": "/senseml-reference/field-query-object/match"
     },
 
     {
       "source": "/docs/anchor",
-      "destination": "senseml-reference/field-query-object/anchor"
+      "destination": "/senseml-reference/field-query-object/anchor"
     },
     {
       "source": "/docs/ocr-level",
-      "destination": "senseml-reference/document-type-settings/ocr-level"
+      "destination": "/senseml-reference/document-type-settings/ocr-level"
     },
     {
       "source": "/docs/ocr-engine",
-      "destination": "senseml-reference/document-type-settings/ocr-engine"
+      "destination": "/senseml-reference/document-type-settings/ocr-engine"
     },
 
     {
       "source": "/docs/fingerprint-mode",
-      "destination": "senseml-reference/document-type-settings/fingerprint-mode"
+      "destination": "/senseml-reference/document-type-settings/fingerprint-mode"
     },
 
     {
       "source": "/docs/verbosity",
-      "destination": "senseml-reference/config-settings/verbosity"
+      "destination": "/senseml-reference/config-settings/verbosity"
     },
 
     {
       "source": "/docs/fingerprint",
-      "destination": "senseml-reference/config-settings/fingerprint"
+      "destination": "/senseml-reference/config-settings/fingerprint"
     },
     {
       "source": "/docs/table-methods",
-      "destination": "senseml-reference/concepts/table-methods"
+      "destination": "/senseml-reference/concepts/table-methods"
     },
     {
       "source": "/docs/senseml",
-      "destination": "senseml-reference/concepts/senseml"
+      "destination": "/senseml-reference/concepts/senseml"
     },
     {
       "source": "/docs/section-nuances",
-      "destination": "senseml-reference/concepts/section-nuances"
+      "destination": "/senseml-reference/concepts/section-nuances"
     },
     {
       "source": "/docs/ocr",
-      "destination": "senseml-reference/concepts/ocr"
+      "destination": "/senseml-reference/concepts/ocr"
     },
     {
       "source": "/docs/match-arrays",
-      "destination": "senseml-reference/concepts/match-arrays"
+      "destination": "/senseml-reference/concepts/match-arrays"
     },
     {
       "source": "/docs/lines",
-      "destination": "senseml-reference/concepts/lines"
+      "destination": "/senseml-reference/concepts/lines"
     },
     {
       "source": "/docs/ligatures",
-      "destination": "senseml-reference/concepts/ligatures"
+      "destination": "/senseml-reference/concepts/ligatures"
     },
 
     {
       "source": "/docs/file-types",
-      "destination": "senseml-reference/concepts/file-types"
+      "destination": "/senseml-reference/concepts/file-types"
     },
     {
       "source": "/docs/field-order",
-      "destination": "senseml-reference/concepts/field-order"
+      "destination": "/senseml-reference/concepts/field-order"
     },
     {
       "source": "/docs/coverage",
-      "destination": "senseml-reference/concepts/coverage"
+      "destination": "/senseml-reference/concepts/coverage"
     },
     {
       "source": "/docs/bag-of-words",
-      "destination": "senseml-reference/concepts/bag-of-words"
+      "destination": "/senseml-reference/concepts/bag-of-words"
     },
     {
       "source": "/docs/anchor-nuances",
-      "destination": "senseml-reference/concepts/anchor-nuances"
+      "destination": "/senseml-reference/concepts/anchor-nuances"
     },
     {
       "source": "/docs/accuracy-measures",
-      "destination": "senseml-reference/concepts/accuracy-measures"
+      "destination": "/senseml-reference/concepts/accuracy-measures"
     },
     {
       "source": "/docs/zip",
-      "destination": "senseml-reference/computed-field-methods/zip"
+      "destination": "/senseml-reference/computed-field-methods/zip"
     },
     {
       "source": "/docs/suppress-output",
-      "destination": "senseml-reference/computed-field-methods/suppress-output"
+      "destination": "/senseml-reference/computed-field-methods/suppress-output"
     },
     {
       "source": "/docs/split",
-      "destination": "senseml-reference/computed-field-methods/split"
+      "destination": "/senseml-reference/computed-field-methods/split"
     },
     {
       "source": "/docs/pick-values",
-      "destination": "senseml-reference/computed-field-methods/pick-values"
+      "destination": "/senseml-reference/computed-field-methods/pick-values"
     },
     {
       "source": "/docs/mapper",
-      "destination": "senseml-reference/computed-field-methods/mapper"
+      "destination": "/senseml-reference/computed-field-methods/mapper"
     },
 
     {
       "source": "/docs/constant",
-      "destination": "senseml-reference/computed-field-methods/constant"
+      "destination": "/senseml-reference/computed-field-methods/constant"
     },
     {
       "source": "/docs/concatenate",
-      "destination": "senseml-reference/computed-field-methods/concatenate"
+      "destination": "/senseml-reference/computed-field-methods/concatenate"
     },
 
     {
       "source": "/docs/get-file-metadata",
-      "destination": "senseml-reference/advanced-computed-field-methods/get-file-metadata"
+      "destination": "/senseml-reference/advanced-computed-field-methods/get-file-metadata"
     },
     {
       "source": "/docs/custom-computation",
-      "destination": "senseml-reference/advanced-computed-field-methods/custom-computation"
+      "destination": "/senseml-reference/advanced-computed-field-methods/custom-computation"
     },
     {
       "source": "/docs/copy-to-section",
-      "destination": "senseml-reference/advanced-computed-field-methods/copy-to-section"
+      "destination": "/senseml-reference/advanced-computed-field-methods/copy-to-section"
     },
     {
       "source": "/docs/copy-from-sections",
-      "destination": "senseml-reference/advanced-computed-field-methods/copy-from-sections"
+      "destination": "/senseml-reference/advanced-computed-field-methods/copy-from-sections"
     },
     {
       "source": "/docs/add-computed-fields",
-      "destination": "senseml-reference/advanced-computed-field-methods/add-computed-fields"
+      "destination": "/senseml-reference/advanced-computed-field-methods/add-computed-fields"
     },
     {
       "source": "/docs/senseml-reference-introduction",
-      "destination": "senseml-reference/senseml-reference-introduction"
+      "destination": "/senseml-reference/senseml-reference-introduction"
     }
   ]
 }
