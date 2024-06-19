@@ -49,11 +49,11 @@
     ],
     "navigation": [
         {
-            "group": "Welcome",
+            "group": "test",
             "pages": [
-                "welcome/getting-started-ai",
-                "welcome/integrate",
-                "welcome/author"
+                "test/getting-started-ai",
+                "test/integrate",
+                "test/author"
             ]
         },
         {
@@ -356,11 +356,11 @@
 
     {
       "source": "/docs/author", 
-      "destination": "/welcome/author"
+      "destination": "/test/author"
     },
     {
       "source": "/docs/integrate", 
-      "destination": "/welcome/integrate"
+      "destination": "/test/integrate"
     },
     {
       "source": "/docs/sections-example-zip",
@@ -368,7 +368,7 @@
     },
         {
       "source": "/docs/getting-started-ai",
-      "destination": "/welcome/getting-started-ai"
+      "destination": "/test/getting-started-ai"
     },
     {
       "source": "/docs/sections-example-table-grid",
