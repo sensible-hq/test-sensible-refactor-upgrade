@@ -353,13 +353,14 @@
       },
 
   "redirects": [
-    {
-      "source": "/docs/getting-started-ai",
-      "destination": "/welcome/getting-started-ai"
-    },
+
     {
       "source": "/docs/author", 
       "destination": "/welcome/author"
+    },
+    {
+      "source": "/docs/getting-started-ai",
+      "destination": "/welcome/getting-started-ai"
     },
     {
       "source": "/docs/sections-example-zip",
