@@ -19,11 +19,6 @@
       "source": "/deprecated-key-value",
       "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
     },
-
-    {
-      "source": "/draft-remove-page",
-      "destination": "/senseml-reference/preprocessors/draft-remove-page"
-    },
     {
       "source": "/query-group",
       "destination": "/senseml-reference/llm-based-methods/query-group"
@@ -36,10 +31,7 @@
       "source": "/prompt",
       "destination": "/llm-based extractions/prompt"
     },
-    {
-      "source": "/draft-getting-started-ai",
-      "destination": "/welcome/draft-getting-started-ai"
-    },
+
     {
       "source": "/getting-started-ai",
       "destination": "/welcome/getting-started-ai"
@@ -117,10 +109,7 @@
       "source": "/table-tips",
       "destination": "/llm-based extractions/instruct/table-tips"
     },
-    {
-      "source": "/draft-text-table",
-      "destination": "/senseml-reference/methods/draft-text-table"
-    },
+
     {
       "source": "/fixed-table",
       "destination": "/senseml-reference/methods/fixed-table"
@@ -264,10 +253,7 @@
       "source": "/zapier-tutorial-2",
       "destination": "/integrations/zapier/zapier-tutorial-2"
     },
-    {
-      "source": "/draft-group-examples",
-      "destination": "/senseml-reference/llm-based-methods/draft-group-examples"
-    },
+
 
     {
       "source": "/zip",
@@ -338,10 +324,7 @@
       "source": "/sdk-guides",
       "destination": "/integrations/sdk-guides"
     },
-    {
-      "source": "/draft-senseml-order",
-      "destination": "/senseml-reference/concepts/draft-senseml-order"
-    },
+
     {
       "source": "/mapper",
       "destination": "/senseml-reference/computed-field-methods/mapper"
