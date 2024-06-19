@@ -7,7 +7,7 @@ for an item `senseml-reference\sections\sections-example-zip` in the list, strip
 "redirects": [
       {
           "source": "/sections-example-zip",
-          "destination": "senseml-reference/sections/sections-example-zip"
+          "destination": "/senseml-reference/sections/sections-example-zip"
       }
 ```
 
