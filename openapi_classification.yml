@@ -96,6 +96,8 @@ paths:
       operationId: classify-document-sync
       summary: Classify document by type (sync)
       description: |
+        
+        TEST CHANGE
 
         **Note:** Use this Classify endpoint for testing. Use the asynchronous Classify endpoint for production.
 
@@ -262,7 +264,7 @@ components:
               description: Similarity score comparing the document to the document type, between 0 and 1.
         reference_documents:
           type: array
-          description: Reference documents uploaded to the Sensible account that this document is most similar to.
+          description: TEST CHANGE Reference documents uploaded to the Sensible account that this document is most similar to.
           items:
             type: object
             properties:
