@@ -317,7 +317,46 @@
     ]
   },
   
-  
+  {
+    "group": "Extraction",
+    "pages": [
+        
+        {
+            "group": "Document",
+            "pages": [
+                "api-reference/extraction/document/extract-data-from-a-document",
+                "api-reference/extraction/document/extract-doc-at-a-sensible-url",
+                "api-reference/extraction/document/extract-doc-at-your-url",
+                "api-reference/extraction/document/extract-data-from-a-document-using-specified-config",
+                "api-reference/extraction/document/extract-doc-at-your-url-using-config",
+                "api-reference/extraction/document/extract-doc-at-a-sensible-url-using-specified-config"
+            ]
+        },
+        {
+            "group": "Portfolio",
+            "pages": [
+                "api-reference/extraction/portfolio/extract-portfolio-at-a-sensible-url",
+                "api-reference/extraction/portfolio/extract-portfolio-at-your-url"
+            ]
+        },
+        {
+            "group": "Retrieve Extractions",
+            "pages": [
+                "api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id",
+                "api-reference/extraction/retrieve-extractions/list-extractions",
+                "api-reference/extraction/retrieve-extractions/get-extraction-statistics"
+            ]
+        },
+        {
+            "group": "Get Excel From Documents",
+            "pages": [
+                "api-reference/extraction/get-excel-from-documents/get-excel-extraction",
+                "api-reference/extraction/get-excel-from-documents/get-csv-extraction"
+            ]
+        }
+    ]
+},
+
 
 
   {
