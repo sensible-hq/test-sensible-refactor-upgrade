@@ -2,9 +2,6 @@
 title: "Add computed fields"
 ---
 
-
-TEST CHANGE
-
 Enables transforming a table by adding an array of computed fields that operate on the extracted table. For example, you can add text to each cell in a row, concatenate columns, add or remove columns, and so forth. This method is similar to adding a [computed fields array to sections](/senseml-reference/sections/sections-example-copy-to-section). In detail, this method:
 
 * Automatically [zips](/senseml-reference/computed-field-methods/zip) the source table. After the zip, each table cell is a field whose ID is the column heading. Note that zipped tables have the same JSON output structure as sections. This enables you to use section-specific computed fields to transform the table, such as the Copy To Section method.
