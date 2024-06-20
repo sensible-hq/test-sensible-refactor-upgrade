@@ -139,15 +139,6 @@ api-reference\classification\document\classify-document-by-type-sync
 api-reference\introduction
 api-reference\authentication
 welcome\integrate
-
-
-
-
-
-
-
-LIST PART 3
-
 senseml-reference\deprecated-features\2100-deprecated-table
 senseml-reference\deprecated-features\2000-deprecated-topic
 senseml-reference\deprecated-features\2000-deprecated-tfidf
@@ -156,6 +147,11 @@ senseml-reference\deprecated-features\1500-deprecated-invoice
 senseml-reference\deprecated-features\1100-deprecated-page-filter
 senseml-reference\deprecated-features\1000-deprecated-key-value
 senseml-reference\deprecated-features\1000-deprecated-bag-of-words
+
+
+
+
+LIST PART 3: added /reference/ instead of /docs  to these
 
 api-reference\extraction\retrieve-extractions\retrieve-extraction-by-id
 api-reference\extraction\retrieve-extractions\list-extractions
