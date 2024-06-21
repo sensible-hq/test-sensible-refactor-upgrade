@@ -89,7 +89,7 @@ then I'll need redirects like this:
     },
     {
       "source": "/api-tutorial",
-      "destination": "/api/api-tutorial/index-api-tutorial"
+      "destination": "/api-guides/api-tutorial/index-api-tutorial"
     },
     {
       "source": "/sections",
@@ -391,7 +391,7 @@ so: todo: restore the original file name.
     },
     {
       "source": "/api-tutorial-webhook",
-      "destination": "/api/api-tutorial/api-tutorial-webhook"
+      "destination": "/api-guides/api-tutorial/api-tutorial-webhook"
     },
     {
       "source": "/quickstart",
@@ -399,15 +399,15 @@ so: todo: restore the original file name.
     },
     {
       "source": "/api-tutorial-async-2",
-      "destination": "/api/api-tutorial/api-tutorial-async-2"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-2"
     },
     {
       "source": "/api-tutorial-async-1",
-      "destination": "/api/api-tutorial/api-tutorial-async-1"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-1"
     },
     {
       "source": "/api-tutorial-sync",
-      "destination": "/api/api-tutorial/api-tutorial-sync"
+      "destination": "/api-guides/api-tutorial/api-tutorial-sync"
     },
     {
       "source": "/getting-started",
@@ -515,7 +515,7 @@ so: todo: restore the original file name.
     },
     {
       "source": "/batch-api",
-      "destination": "/api/batch-api"
+      "destination": "/api-guides/batch-api"
     },
     {
       "source": "/metrics",
@@ -700,10 +700,10 @@ so: todo: restore the original file name.
 
     {
       "source": "/api-reference",
-      "destination": "/api/api-reference"
+      "destination": "/api-guides/api-reference"
     },
     {
       "source": "/examples",
-      "destination": "/api/examples"
+      "destination": "/api-guides/examples"
     },
     

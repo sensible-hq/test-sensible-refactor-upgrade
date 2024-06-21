@@ -299,15 +299,15 @@
       {
         "group": "API Tutorial",
         "pages": [
-            "api/api-tutorial/index",
-            "api/api-tutorial/api-tutorial-sync",
-            "api/api-tutorial/api-tutorial-async-1",
-            "api/api-tutorial/api-tutorial-async-2",
-            "api/api-tutorial/api-tutorial-webhook"
+            "api-guides/api-tutorial/index",
+            "api-guides/api-tutorial/api-tutorial-sync",
+            "api-guides/api-tutorial/api-tutorial-async-1",
+            "api-guides/api-tutorial/api-tutorial-async-2",
+            "api-guides/api-tutorial/api-tutorial-webhook"
         ]
       },
-        "api/examples",
-        "api/api-reference"
+        "api-guides/examples",
+        "api-guides/api-reference"
     ]
 },
   {
@@ -821,23 +821,23 @@
     },
     {
       "source": "/docs/api-tutorial-webhook",
-      "destination": "/api/api-tutorial/api-tutorial-webhook"
+      "destination": "/api-guides/api-tutorial/api-tutorial-webhook"
     },
     {
       "source": "/docs/api-tutorial-sync",
-      "destination": "/api/api-tutorial/api-tutorial-sync"
+      "destination": "/api-guides/api-tutorial/api-tutorial-sync"
     },
     {
       "source": "/docs/api-tutorial-async-2",
-      "destination": "/api/api-tutorial/api-tutorial-async-2"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-2"
     },
     {
       "source": "/docs/api-tutorial-async-1",
-      "destination": "/api/api-tutorial/api-tutorial-async-1"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-1"
     },
     {
       "source": "/docs/examples",
-      "destination": "/api/examples"
+      "destination": "/api-guides/examples"
     },
 
     
@@ -887,7 +887,7 @@
   
       {
       "source": "/api-reference",
-      "destination": "/api/api-reference"
+      "destination": "/api-guides/api-reference"
     },
 
 

@@ -35,7 +35,7 @@ for an item in the list:
 /senseml-reference/sections/index
 /integrations/email
 /senseml-reference/sections/sections-example-external-range
-/api/batch-api
+/api-guides/batch-api
 /best-practices/metrics
 /senseml-reference/field-query-object/match
 /senseml-reference/concepts/section-nuances
@@ -43,7 +43,7 @@ for an item in the list:
 /senseml-reference/preprocessors/page-range
 /integrations/sdk-guides
 /senseml-reference/concepts/draft-senseml-order
-/api/api-tutorial/index
+/api-guides/api-tutorial/index
 /senseml-reference/computed-field-methods/mapper
 /senseml-reference/config-settings/index
 /senseml-reference/document-type-settings/index
@@ -86,8 +86,8 @@ for an item in the list:
 /layout-based-extractions/app-guide/index
 /best-practices/guides/handwriting
 /best-practices/guides/index
-/api/api-reference
-/api/examples
+/api-guides/api-reference
+/api-guides/examples
 /senseml-reference/advanced-computed-field-methods/copy-from-sections
 /senseml-reference/preprocessors/ligature
 /welcome/cheat/index
@@ -315,7 +315,7 @@ for an item in the list:
     },
     {
       "source": "/api-tutorial-webhook",
-      "destination": "/api/api-tutorial/api-tutorial-webhook"
+      "destination": "/api-guides/api-tutorial/api-tutorial-webhook"
     },
     {
       "source": "/quickstart",
@@ -323,15 +323,15 @@ for an item in the list:
     },
     {
       "source": "/api-tutorial-async-2",
-      "destination": "/api/api-tutorial/api-tutorial-async-2"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-2"
     },
     {
       "source": "/api-tutorial-async-1",
-      "destination": "/api/api-tutorial/api-tutorial-async-1"
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-1"
     },
     {
       "source": "/api-tutorial-sync",
-      "destination": "/api/api-tutorial/api-tutorial-sync"
+      "destination": "/api-guides/api-tutorial/api-tutorial-sync"
     },
     {
       "source": "/getting-started",
@@ -409,11 +409,11 @@ for an item in the list:
 /senseml-reference/advanced-computed-field-methods/copy-to-section
 /senseml-reference/field-query-object/index
 /layout-based-extractions/portfolio
-/api/api-tutorial/api-tutorial-webhook
+/api-guides/api-tutorial/api-tutorial-webhook
 /integrations/quickstart
-/api/api-tutorial/api-tutorial-async-2
-/api/api-tutorial/api-tutorial-async-1
-/api/api-tutorial/api-tutorial-sync
+/api-guides/api-tutorial/api-tutorial-async-2
+/api-guides/api-tutorial/api-tutorial-async-1
+/api-guides/api-tutorial/api-tutorial-sync
 /layout-based-extractions/getting-started
 /senseml-reference/concepts/table-methods
 /senseml-reference/concepts/accuracy-measures
@@ -443,7 +443,7 @@ for an item in the list:
 /senseml-reference/sections/index
 /integrations/email
 /senseml-reference/sections/sections-example-external-range
-/api/batch-api
+/api-guides/batch-api
 /best-practices/metrics
 /senseml-reference/field-query-object/match
 /senseml-reference/concepts/section-nuances
@@ -451,7 +451,7 @@ for an item in the list:
 /senseml-reference/preprocessors/page-range
 /integrations/sdk-guides
 /senseml-reference/concepts/draft-senseml-order
-/api/api-tutorial/index
+/api-guides/api-tutorial/index
 /senseml-reference/computed-field-methods/mapper
 /senseml-reference/config-settings/index
 /senseml-reference/document-type-settings/index
@@ -494,8 +494,8 @@ for an item in the list:
 /layout-based-extractions/app-guide/index
 /best-practices/guides/handwriting
 /best-practices/guides/index
-/api/api-reference
-/api/examples
+/api-guides/api-reference
+/api-guides/examples
 /senseml-reference/advanced-computed-field-methods/copy-from-sections
 /senseml-reference/preprocessors/ligature
 /welcome/cheat/index

@@ -9,13 +9,13 @@ Use Sensible's asynchronous endpoints in production scenarios. You have two opti
 
 This topic covers providing your own URLs. This is a good option if you host your documents at either publicly accessible or a pre-signed URLs. The URL must respond to GET requests with document bytes.
 
-For either option, you can get the results as soon as they're ready by specifying a [webhook](/api/api-tutorial/api-tutorial-webhook).
+For either option, you can get the results as soon as they're ready by specifying a [webhook](/api-guides/api-tutorial/api-tutorial-webhook).
 
 ## Extract from a URL you provide
 
 ### Prerequisites
 
-See [prerequisites](/api/api-tutorial/index#prerequisites).
+See [prerequisites](/api-guides/api-tutorial/index#prerequisites).
 
 ### Extract the data
 
@@ -50,7 +50,7 @@ curl --request POST 'https://api.sensible.so/v0/extract_from_url/tax_forms' \
  To retrieve the extraction results for the sample document, you have two options:
 
 * Use the `/documents` endpoint. See the following steps.
-* Use a webhook. See [Try a webhook](/api/api-tutorial/api-tutorial-webhook).
+* Use a webhook. See [Try a webhook](/api-guides/api-tutorial/api-tutorial-webhook).
 
 To retrieve the extraction results with the `/documents` endpoint, take the following steps:
 
