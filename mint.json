@@ -714,7 +714,7 @@
     },
     
    
- {
+    {
       "source": "/docs/table-tips",
       "destination": "/llm-based-extractions/prompt-tips/table-tips"
     },
@@ -842,39 +842,35 @@
 
     
     {
-      "source": "/docs/integrate",
-      "destination": "/welcome/integrate"
-    },
-    {
-      "source": "/docs/2100-deprecated-table",
+      "source": "/docs/deprecated-table",
       "destination": "/senseml-reference/deprecated-features/2100-deprecated-table"
     },
     {
-      "source": "/docs/2000-deprecated-topic",
+      "source": "/docs/deprecated-topic",
       "destination": "/senseml-reference/deprecated-features/2000-deprecated-topic"
     },
     {
-      "source": "/docs/2000-deprecated-tfidf",
+      "source": "/docs/deprecated-tfidf",
       "destination": "/senseml-reference/deprecated-features/2000-deprecated-tfidf"
     },
     {
-      "source": "/docs/1500-deprecated-query",
+      "source": "/docs/deprecated-query",
       "destination": "/senseml-reference/deprecated-features/1500-deprecated-query"
     },
     {
-      "source": "/docs/1500-deprecated-invoice",
+      "source": "/docs/deprecated-invoice",
       "destination": "/senseml-reference/deprecated-features/1500-deprecated-invoice"
     },
     {
-      "source": "/docs/1100-deprecated-page-filter",
+      "source": "/docs/deprecated-page-filter",
       "destination": "/senseml-reference/deprecated-features/1100-deprecated-page-filter"
     },
     {
-      "source": "/docs/1000-deprecated-key-value",
+      "source": "/docs/deprecated-key-value",
       "destination": "/senseml-reference/deprecated-features/1000-deprecated-key-value"
     },
     {
-      "source": "/docs/1000-deprecated-bag-of-words",
+      "source": "/docs/deprecated-bag-of-words",
       "destination": "/senseml-reference/deprecated-features/1000-deprecated-bag-of-words"
     },
 
@@ -883,7 +879,7 @@
 
 
 
-   
+
   
       {
       "source": "/api-reference",
@@ -958,14 +954,6 @@
     {
       "source": "/reference/extract-data-from-a-document-sync",
       "destination": "/api-reference/extraction/document/extract-data-from-a-document-sync"
-    },
-    {
-      "source": "/reference/classify-document-by-type",
-      "destination": "/api-reference/extraction/document/classify-document-by-type"
-    },
-    {
-      "source": "/reference/classify-document-by-type-sync",
-      "destination": "/api-reference/extraction/document/classify-document-by-type-sync"
     },
     {
       "source": "/reference/update-metadata-for-a-reference-document",
