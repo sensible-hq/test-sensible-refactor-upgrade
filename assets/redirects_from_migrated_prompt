@@ -211,6 +211,34 @@ LIST PART 4 - TODO update for grrrr any dir name changes
    30: index-preprocessors
 
 
+   do changelog,OR DO I NEED TO?
+
+   {
+      "source": "/may-2024",
+      "destination": "/changelog/may-2024"
+    },
+    {
+      "source": "/march-2024",
+      "destination": "/changelog/march-2024"
+    },
+    {
+      "source": "/june-2024",
+      "destination": "/changelog/june-2024"
+    },
+    {
+      "source": "/january-2024",
+      "destination": "/changelog/january-2024"
+    },
+    {
+      "source": "/february-2024",
+      "destination": "/changelog/february-2024"
+    },
+    {
+      "source": "/april-2024",
+      "destination": "/changelog/april-2024"
+    },
+
+
    LIST PART 5:
 
    dealing with other hidden topics..

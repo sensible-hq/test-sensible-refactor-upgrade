@@ -713,211 +713,200 @@
       "destination": "/senseml-reference/senseml-reference-introduction"
     },
     
-    {
-      "source": "/table-tips",
+   
+ {
+      "source": "/docs/table-tips",
       "destination": "/llm-based-extractions/prompt-tips/table-tips"
     },
     {
-      "source": "/query-group-tips",
+      "source": "/docs/query-group-tips",
       "destination": "/llm-based-extractions/prompt-tips/query-group-tips"
     },
     {
-      "source": "/list-tips",
+      "source": "/docs/list-tips",
       "destination": "/llm-based-extractions/prompt-tips/list-tips"
     },
     {
-      "source": "/prompt",
+      "source": "/docs/prompt",
       "destination": "/llm-based-extractions/prompt"
     },
     {
-      "source": "/ui",
+      "source": "/docs/ui",
       "destination": "/layout-based-extractions/app-guide/ui"
     },
     {
-      "source": "/color",
+      "source": "/docs/color",
       "destination": "/layout-based-extractions/app-guide/color"
     },
     {
-      "source": "/repeat-layouts",
+      "source": "/docs/repeat-layouts",
       "destination": "/layout-based-extractions/repeat-layouts"
     },
     {
-      "source": "/portfolio",
+      "source": "/docs/portfolio",
       "destination": "/layout-based-extractions/portfolio"
     },
     {
-      "source": "/library-quickstart",
+      "source": "/docs/library-quickstart",
       "destination": "/layout-based-extractions/library-quickstart"
     },
     {
-      "source": "/getting-started",
+      "source": "/docs/getting-started",
       "destination": "/layout-based-extractions/getting-started"
     },
     {
-      "source": "/zapier-tutorial-2",
+      "source": "/docs/zapier-tutorial-2",
       "destination": "/integrations/zapier/zapier-tutorial-2"
     },
     {
-      "source": "/zapier-getting-started",
+      "source": "/docs/zapier-getting-started",
       "destination": "/integrations/zapier/zapier-getting-started"
     },
     {
-      "source": "/excel-reference",
+      "source": "/docs/excel-reference",
       "destination": "/integrations/quick-extraction/excel-reference"
     },
     {
-      "source": "/sdk-guides",
+      "source": "/docs/sdk-guides",
       "destination": "/integrations/sdk-guides"
     },
     {
-      "source": "/quickstart",
+      "source": "/docs/quickstart",
       "destination": "/integrations/quickstart"
     },
     {
-      "source": "/classify",
+      "source": "/docs/classify",
       "destination": "/document-type-classification/classify"
     },
+    
     {
-      "source": "/may-2024",
-      "destination": "/changelog/may-2024"
-    },
-    {
-      "source": "/march-2024",
-      "destination": "/changelog/march-2024"
-    },
-    {
-      "source": "/june-2024",
-      "destination": "/changelog/june-2024"
-    },
-    {
-      "source": "/january-2024",
-      "destination": "/changelog/january-2024"
-    },
-    {
-      "source": "/february-2024",
-      "destination": "/changelog/february-2024"
-    },
-    {
-      "source": "/april-2024",
-      "destination": "/changelog/april-2024"
-    },
-    {
-      "source": "/troubleshoot",
+      "source": "/docs/troubleshoot",
       "destination": "/best-practices/tutorials/troubleshoot"
     },
     {
-      "source": "/test-before-integrating-configs",
+      "source": "/docs/test-before-integrating-configs",
       "destination": "/best-practices/tutorials/test-before-integrating-configs"
     },
     {
-      "source": "/performance",
+      "source": "/docs/performance",
       "destination": "/best-practices/tutorials/performance"
     },
     {
-      "source": "/handwriting",
+      "source": "/docs/handwriting",
       "destination": "/best-practices/tutorials/handwriting"
     },
     {
-      "source": "/go-live",
+      "source": "/docs/go-live",
       "destination": "/best-practices/tutorials/go-live"
     },
     {
-      "source": "/fallbacks",
+      "source": "/docs/fallbacks",
       "destination": "/best-practices/tutorials/fallbacks"
     },
     {
-      "source": "/validate-extractions",
+      "source": "/docs/validate-extractions",
       "destination": "/best-practices/validate-extractions"
     },
     {
-      "source": "/troubleshoot-llms",
+      "source": "/docs/troubleshoot-llms",
       "destination": "/best-practices/troubleshoot-llms"
     },
     {
-      "source": "/metrics",
+      "source": "/docs/metrics",
       "destination": "/best-practices/metrics"
     },
     {
-      "source": "/confidence",
+      "source": "/docs/confidence",
       "destination": "/best-practices/confidence"
     },
     {
-      "source": "/api-tutorial-webhook",
+      "source": "/docs/api-tutorial-webhook",
       "destination": "/api/api-tutorial/api-tutorial-webhook"
     },
     {
-      "source": "/api-tutorial-sync",
+      "source": "/docs/api-tutorial-sync",
       "destination": "/api/api-tutorial/api-tutorial-sync"
     },
     {
-      "source": "/api-tutorial-async-2",
+      "source": "/docs/api-tutorial-async-2",
       "destination": "/api/api-tutorial/api-tutorial-async-2"
     },
     {
-      "source": "/api-tutorial-async-1",
+      "source": "/docs/api-tutorial-async-1",
       "destination": "/api/api-tutorial/api-tutorial-async-1"
     },
     {
-      "source": "/examples",
+      "source": "/docs/examples",
       "destination": "/api/examples"
     },
+
+    
     {
-      "source": "/api-reference",
-      "destination": "/api/api-reference"
-    },
-    {
-      "source": "/classify-document-by-type",
-      "destination": "/api-reference/classification/document/classify-document-by-type"
-    },
-    {
-      "source": "/classify-document-by-type-sync",
-      "destination": "/api-reference/classification/document/classify-document-by-type-sync"
-    },
-    {
-      "source": "/introduction",
-      "destination": "/api-reference/introduction"
-    },
-    {
-      "source": "/authentication",
-      "destination": "/api-reference/authentication"
-    },
-    {
-      "source": "/integrate",
+      "source": "/docs/integrate",
       "destination": "/welcome/integrate"
     },
     {
-      "source": "/2100-deprecated-table",
+      "source": "/docs/2100-deprecated-table",
       "destination": "/senseml-reference/deprecated-features/2100-deprecated-table"
     },
     {
-      "source": "/2000-deprecated-topic",
+      "source": "/docs/2000-deprecated-topic",
       "destination": "/senseml-reference/deprecated-features/2000-deprecated-topic"
     },
     {
-      "source": "/2000-deprecated-tfidf",
+      "source": "/docs/2000-deprecated-tfidf",
       "destination": "/senseml-reference/deprecated-features/2000-deprecated-tfidf"
     },
     {
-      "source": "/1500-deprecated-query",
+      "source": "/docs/1500-deprecated-query",
       "destination": "/senseml-reference/deprecated-features/1500-deprecated-query"
     },
     {
-      "source": "/1500-deprecated-invoice",
+      "source": "/docs/1500-deprecated-invoice",
       "destination": "/senseml-reference/deprecated-features/1500-deprecated-invoice"
     },
     {
-      "source": "/1100-deprecated-page-filter",
+      "source": "/docs/1100-deprecated-page-filter",
       "destination": "/senseml-reference/deprecated-features/1100-deprecated-page-filter"
     },
     {
-      "source": "/1000-deprecated-key-value",
+      "source": "/docs/1000-deprecated-key-value",
       "destination": "/senseml-reference/deprecated-features/1000-deprecated-key-value"
     },
     {
-      "source": "/1000-deprecated-bag-of-words",
+      "source": "/docs/1000-deprecated-bag-of-words",
       "destination": "/senseml-reference/deprecated-features/1000-deprecated-bag-of-words"
     },
+
+
+
+
+
+
+   
   
+      {
+      "source": "/api-reference",
+      "destination": "/api/api-reference"
+    },
+
+
+    {
+      "source": "/reference/classify-document-by-type",
+      "destination": "/api-reference/classification/document/classify-document-by-type"
+    },
+    {
+      "source": "/reference/classify-document-by-type-sync",
+      "destination": "/api-reference/classification/document/classify-document-by-type-sync"
+    },
+    {
+      "source": "/reference/introduction",
+      "destination": "/api-reference/introduction"
+    },
+    {
+      "source": "/reference/authentication",
+      "destination": "/api-reference/authentication"
+    },
   {
       "source": "/reference/retrieve-extraction-by-id",
       "destination": "/api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id"
