@@ -712,8 +712,7 @@
       "source": "/docs/senseml-reference-introduction",
       "destination": "/senseml-reference/senseml-reference-introduction"
     },
-    {
-  "redirects": [
+    
     {
       "source": "/table-tips",
       "destination": "/llm-based-extractions/prompt-tips/table-tips"
@@ -1063,7 +1062,5 @@
       "source": "/reference/create-configuration-in-a-document-type",
       "destination": "/api-reference/configuration/configuration/create-configuration-in-a-document-type"
     }
-  ]
-}
   ]
 }
