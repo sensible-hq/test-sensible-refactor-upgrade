@@ -372,6 +372,47 @@
         }
     ]
 },
+{
+    "group": "Configuration",
+    "pages": [
+        {
+          "group": "Document type",
+          "pages": [
+            "api-reference/configuration/document-type/list-document-types-for-this-account",
+            "api-reference/configuration/document-type/create-document-type",
+            "api-reference/configuration/document-type/get-document-type-metadata",
+            "api-reference/configuration/document-type/update-document-type",
+            "api-reference/configuration/document-type/delete-document-type"
+          ]
+        },
+        {
+          "group": "Configuration",
+          "pages": [
+            "api-reference/configuration/configuration/list-configurations-in-a-document-type",
+            "api-reference/configuration/configuration/create-configuration-in-a-document-type",
+            "api-reference/configuration/configuration/get-configuration",
+            "api-reference/configuration/configuration/update-configuration",
+            "api-reference/configuration/configuration/delete-configuration",
+            "api-reference/configuration/configuration/list-versions-for-a-configuration",
+            "api-reference/configuration/configuration/get-configuration-by-version",
+            "api-reference/configuration/configuration/publish-configuration-to-an-environment",
+            "api-reference/configuration/configuration/delete-draft-or-unpublish-configuration"
+          ]
+        },
+        {
+          "group": "Reference document",
+          "pages": [
+            "api-reference/configuration/reference-document/list-all-reference-documents-in-a-document-type",
+            "api-reference/configuration/reference-document/create-reference-document",
+            "api-reference/configuration/reference-document/get-reference-document-metadata",
+            "api-reference/configuration/reference-document/update-metadata-for-a-reference-document",
+            "api-reference/configuration/reference-document/delete-reference-document",
+            "api-reference/configuration/reference-document/unassociate-reference-document-from-configuration",
+            "api-reference/configuration/reference-document/extract-all-text-from-reference-document"
+          ]
+        }
+      ]
+    },
   
   
     {
