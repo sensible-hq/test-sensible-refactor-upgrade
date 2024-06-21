@@ -5,12 +5,12 @@ servers:
 info:
   title: Extraction
   version: 0.0.0
-  license: # TODO: fill in
+  license: 
     name: Sensible API
     url: https://www.TBD.org/licenses/LICENSE-2.0.html
   description: Extract structured data from documents with the Sensible API.
 
-# Apply the auth globally to all operations
+
 security:
   - bearerAuth: []
 
@@ -93,7 +93,7 @@ paths:
 
           application/json:
             schema:
-              $ref: "#/components/schemas/encodedPdf"
+              $ref: '#/components/schemas/encodedPdf'
 
 
 
@@ -229,7 +229,7 @@ paths:
         '500':
           $ref: '#/components/responses/500'
 
-# same endpoints, but for specific config
+
   /extract/{document_type}/{config_name}:
     post:
       operationId: extract-data-from-a-document-with-config
@@ -241,7 +241,6 @@ paths:
       parameters:
         - $ref: '#/components/parameters/document_type'
         - $ref: '#/components/parameters/config_name'
-        # - $ref: '#/components/parameters/configuration' # todo follow up on https://sensiblehq.slack.com/archives/C0215T9K86P/p1686933600795399
         - $ref: '#/components/parameters/environment'
         - $ref: '#/components/parameters/document_name'
       requestBody:
@@ -279,7 +278,7 @@ paths:
 
           application/json:
             schema:
-              $ref: "#/components/schemas/encodedPdf"
+              $ref: '#/components/schemas/encodedPdf'
 
 
 
@@ -961,7 +960,7 @@ components:
 
 
   securitySchemes:
-    bearerAuth: # arbitrary name for the security scheme
+    bearerAuth: 
       type: http
       scheme: bearer
       description: >-
@@ -1118,8 +1117,8 @@ components:
             $ref: '#/components/schemas/MultiExtractionSummaryDocument'
 
 
-    # deprecated:
-    ExtractionSingleRetrievalResponse: # through /documents/{id} endpoint
+  
+    ExtractionSingleRetrievalResponse: 
       allOf:
         - $ref: '#/components/schemas/ExtractionSingleResponse'
         - type: object
@@ -1127,7 +1126,7 @@ components:
             download_url:
               $ref: '#/components/schemas/DownloadUrlDocument'
 
-    # deprecated:
+   
     ExtractionPortfolioRetrievalResponse:
       allOf:
         - $ref: '#/components/schemas/PortfolioBase'
@@ -1198,7 +1197,7 @@ components:
               description: URL at which to PUT the PDF bytes array for extraction. for example, curl -T ./sample.pdf "YOUR_UPLOAD_URL"
               example: https://sensible-so-utility-bucket-prod-us-west-2.s3.us-west-2.amazonaws.com/EXTRACTION_UPLOAD/sensible/fc3484c5-3f35-4129-bb29-0ad1291ee9f8/EXTRACTION/14d82783-c12b-4e70-b0ae-ca1ce35a9836.pdf?AWSAccessKeyId=REDACTED&Expires=1623861476&Signature=REDACTED&x-amz-security-token=REDACTED
 
-    # used by  /extractions/ endpoints
+    
     ExtractionResponseBase:
       type: object
       properties:
@@ -1224,7 +1223,7 @@ components:
           $ref: '#/components/schemas/Coverage'
 
 
-    # deprecated?
+  
     ExtractionSingleBase:
       type: object
       properties:
@@ -1237,8 +1236,7 @@ components:
         status:
          $ref: '#/components/schemas/ExtractionStatus'
 
-    ExtractionContent: #         created:
-          #$ref: '#/components/schemas/ExtractionCreated'
+    ExtractionContent: 
       type: object
       properties:
         configuration:
@@ -1268,7 +1266,7 @@ components:
 
 
 
-    ExtractionContentPortfolio: # portfolio extraction
+    ExtractionContentPortfolio: 
       allOf:
         - $ref: '#/components/schemas/ExtractionContent'
         - type: object
@@ -1625,7 +1623,6 @@ components:
           type: string
           description: Description of the error
           example: "ConfigurationError: width <=0"
-        # todo: doc more on types?
         type:
           type: string
           description: Error type
@@ -1686,7 +1683,6 @@ components:
         payload:
           type: string
           description: Information additional to the API response, for example a UUID for verification. Can be any of the following types - [string, number, boolean, array, object].
-          # todo, update to 3.1 openapi spec so can specify `type: [string, number, boolean, array, object]` instead of type: string
           example: info extra to the default extraction payload
     DocumentUrl:
       type: string
@@ -1701,7 +1697,6 @@ components:
       type: string
       enum: ["application/pdf", "image/jpeg", "image/png", "image/tiff", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]
 
-      # If you use this parameter with the `/generate_upload_url` endpoint (recommended), you must also use it in the subsequent PUT call to upload the file.
       description: >-
         Content type of the document being presented for extraction.
 
