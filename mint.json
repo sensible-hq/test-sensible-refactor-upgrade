@@ -51,7 +51,7 @@
         {
             "group": "Welcome",
             "pages": [
-
+                "welcome/bad-link",
                 "welcome/getting-started-ai",
                 "welcome/integrate",
                 "welcome/author"
