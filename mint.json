@@ -885,35 +885,35 @@
     
     {
       "source": "/docs/deprecated-table",
-      "destination": "/senseml-reference/deprecated-features/2100-deprecated-table"
+      "destination": "/senseml-reference/deprecated-features/deprecated-table"
     },
     {
       "source": "/docs/deprecated-topic",
-      "destination": "/senseml-reference/deprecated-features/2000-deprecated-topic"
+      "destination": "/senseml-reference/deprecated-features/deprecated-topic"
     },
     {
       "source": "/docs/deprecated-tfidf",
-      "destination": "/senseml-reference/deprecated-features/2000-deprecated-tfidf"
+      "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
     },
     {
       "source": "/docs/deprecated-query",
-      "destination": "/senseml-reference/deprecated-features/1500-deprecated-query"
+      "destination": "/senseml-reference/deprecated-features/deprecated-query"
     },
     {
       "source": "/docs/deprecated-invoice",
-      "destination": "/senseml-reference/deprecated-features/1500-deprecated-invoice"
+      "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
     },
     {
       "source": "/docs/deprecated-page-filter",
-      "destination": "/senseml-reference/deprecated-features/1100-deprecated-page-filter"
+      "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
     },
     {
       "source": "/docs/deprecated-key-value",
-      "destination": "/senseml-reference/deprecated-features/1000-deprecated-key-value"
+      "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
     },
     {
       "source": "/docs/deprecated-bag-of-words",
-      "destination": "/senseml-reference/deprecated-features/1000-deprecated-bag-of-words"
+      "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
     },
 
 
