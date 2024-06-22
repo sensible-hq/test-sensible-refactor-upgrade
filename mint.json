@@ -434,6 +434,10 @@
       },
 
   "redirects": [
+        {
+      "source": "/docs/prompt",
+      "destination": "/llm-based-extractions/prompt"
+    },
 
     {
       "source": "/docs/author", 
@@ -767,10 +771,7 @@
       "source": "/docs/list-tips",
       "destination": "/llm-based-extractions/prompt-tips/list-tips"
     },
-    {
-      "source": "/docs/prompt",
-      "destination": "/llm-based-extractions/prompt"
-    },
+
     {
       "source": "/docs/ui",
       "destination": "/layout-based-extractions/app-guide/ui"
@@ -1079,6 +1080,75 @@
     {
       "source": "/reference/create-configuration-in-a-document-type",
       "destination": "/api-reference/configuration/configuration/create-configuration-in-a-document-type"
+    },
+
+
+
+    {
+      "source": "/methods",
+      "destination": "/senseml-reference/methods/index-methods"
+    },
+    {
+      "source": "/llm-based-methods",
+      "destination": "/senseml-reference/llm-based-methods/index-llm-based-methods"
+    },
+    {
+      "source": "/field-query-object",
+      "destination": "/senseml-reference/field-query-object/index-field-query-object"
+    },
+    {
+      "source": "/document-type-settings",
+      "destination": "/senseml-reference/document-type-settings/index-document-type-settings"
+    },
+    {
+      "source": "/config-settings",
+      "destination": "/senseml-reference/config-settings/index-config-settings"
+    },
+    {
+      "source": "/concepts",
+      "destination": "/senseml-reference/concepts/index-concepts"
+    },
+    {
+      "source": "/computed-field-methods",
+      "destination": "/senseml-reference/computed-field-methods/index-computed-field-methods"
+    },
+    {
+      "source": "/advanced-computed-field-methods",
+      "destination": "/senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods"
+    },
+    {
+      "source": "/prompt-tips",
+      "destination": "/llm-based-extractions/prompt-tips/index-prompt-tips"
+    },
+    {
+      "source": "/app-guide",
+      "destination": "/layout-based-extractions/app-guide/index-app-guide"
+    },
+    {
+     
+      "source": "/zapier",
+      "destination": "/integrations/zapier/index-zapier"
+    },
+    {
+      "source": "/quick-extraction",
+      "destination": "/integrations/quick-extraction/index-quick-extraction"
+    },
+   
+    {
+      "source": "/tutorials",
+      "destination": "/best-practices/tutorials/index-tutorials"
+    },
+    {
+      "source": "/api-tutorial",
+      "destination": "/api-guides/api-tutorial/index-api-tutorial"
+    },
+    {
+      "source": "/sections",
+      "destination": "/senseml-reference/sections/index-sections"
+    },
+    {
+      "source": "/preprocessors",
+      "destination": "/senseml-reference/preprocessors/index-preprocessors"
     }
   ]
 }

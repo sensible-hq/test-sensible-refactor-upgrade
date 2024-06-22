@@ -74,15 +74,15 @@ then I'll need redirects like this:
       "destination": "/layout-based-extractions/app-guide/index-app-guide"
     },
     {
-      // todo: rename back to origional file name 'zapier'
-      "source": "/zapier-overview",
-      "destination": "/integrations/zapier-overview/index-zapier-overview"
+     
+      "source": "/zapier",
+      "destination": "/integrations/zapier/index-zapier"
     },
     {
       "source": "/quick-extraction",
       "destination": "/integrations/quick-extraction/index-quick-extraction"
     },
-    /* todo: was this dir renamed from /best-practices/guides/index?  */
+   
     {
       "source": "/tutorials",
       "destination": "/best-practices/tutorials/index-tutorials"

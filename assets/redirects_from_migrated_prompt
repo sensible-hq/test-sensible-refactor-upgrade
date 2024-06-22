@@ -151,7 +151,7 @@ senseml-reference\deprecated-features\1000-deprecated-bag-of-words
 
 
 
-LIST PART 3: added /reference/ instead of /docs  to these
+LIST PART 3: added /reference/ instead of /docs  to these - done
 
 api-reference\extraction\retrieve-extractions\retrieve-extraction-by-id
 api-reference\extraction\retrieve-extractions\list-extractions
@@ -191,7 +191,7 @@ api-reference\configuration\configuration\delete-configuration
 api-reference\configuration\configuration\create-configuration-in-a-document-type
 
 
-LIST PART 4 - TODO update for grrrr any dir name changes
+LIST PART 4 - TODO update for grrrr any dir name changes DONE but not very carefully :/
 
    15: index-methods
    16: index-llm-based-methods
@@ -203,7 +203,7 @@ LIST PART 4 - TODO update for grrrr any dir name changes
    22: index-advanced-computed-field-methods
    23: index-prompt-tips
    24: index-app-guide
-   25: index-zapier-overview
+   25: index-zapier
    26: index-quick-extraction
    27: index-tutorials
    28: index-api-tutorial
@@ -211,8 +211,7 @@ LIST PART 4 - TODO update for grrrr any dir name changes
    30: index-preprocessors
 
 
-   do changelog,OR DO I NEED TO?
-
+   do changelog,OR DO I NEED TO? NOPE origional format is /changelog/june-2024 
    {
       "source": "/may-2024",
       "destination": "/changelog/may-2024"
@@ -235,11 +234,19 @@ LIST PART 4 - TODO update for grrrr any dir name changes
     },
     {
       "source": "/april-2024",
-      "destination": "/changelog/april-2024"
+      "destination": "/changelog/april-2024" 
     },
 
 
    LIST PART 5:
 
    dealing with other hidden topics..
+
+
+   WHICH ARE:
+
+
+   LIST PART 6:
+   
    dealing with broken link in mint.json: "api-guides/api-reference"
+
