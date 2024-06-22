@@ -165,9 +165,9 @@ Congratulations! You created your first config and extracted your first document
 
 This guide focuses on layout-based document extraction, which works as follows:
 
-* Each "field" is a basic query unit in Sensible. Each field outputs a piece of data from the document that you want to extract. Sensible uses the field `id` as the key in the key/value JSON output. For more information, see [Field](/senseml-reference/field-query-object/index).
+* Each "field" is a basic query unit in Sensible. Each field outputs a piece of data from the document that you want to extract. Sensible uses the field `id` as the key in the key/value JSON output. For more information, see [Field](/senseml-reference/field-query-object/index-field-query-object).
 * Sensible searches first for a text "anchor" because it's a computationally quick way to narrow down the location of the target data to extract. An anchor is text that always occurs close to your target text. Without it, Sensible wouldn't know which page to search in for your target text . For more information about defining complex anchors, see [Anchor](/senseml-reference/field-query-object/anchor).
-* Then, Sensible uses a "method" to expand its search out from the anchor and extract the data you want. For more information about methods, see [Methods](/senseml-reference/methods/index).
+* Then, Sensible uses a "method" to expand its search out from the anchor and extract the data you want. For more information about methods, see [Methods](/senseml-reference/methods/index-methods).
 
 This config uses three types of layout-based methods:
 
@@ -233,7 +233,7 @@ This config returns:
     "confidenceSignal": "confident_answer"
   }
 ```
-Try it out: change one of the questions to `"street address for the Anyco insurance company"` and see what you get. For easy authoring, try out this method in Sensible's [visual authoring tool](/llm-based-extractions/prompt-tips/index).
+Try it out: change one of the questions to `"street address for the Anyco insurance company"` and see what you get. For easy authoring, try out this method in Sensible's [visual authoring tool](/llm-based-extractions/prompt-tips/index-prompt-tips).
 
 LLM-based methods such as the Query Group method can run up against limitations with complex document formatting. In such cases, combine LLM-based methods with layout-based methods in the same document extraction configuration.
 
@@ -319,7 +319,7 @@ The config uses the [Row method](/senseml-reference/methods/row):
 This describes the data to extract:
 
 * The anchor text (`"comprehensive"`) is part of a row of lines (`"id": "row"`).
-* The returned value is a currency (`"type": "currency"`). For other data types you can define, see [Field query object](/senseml-reference/field-query-object/index).
+* The returned value is a currency (`"type": "currency"`). For other data types you can define, see [Field query object](/senseml-reference/field-query-object/index-field-query-object).
 * The text to extract is the second line in the row after the anchor (`"tiebreaker": "second"`). Use tiebreakers to select lines in rows, for example maximum and minimum values (`<` and `>`).
 * By default, the Row method extracts values to the right of the anchor. You can override the default by specifying (`"position":"left"`).
 
@@ -400,7 +400,7 @@ You can get more advanced with this auto insurance config. For example:
 * What if the document listed emails, and you just wanted to capture all those emails? You could use a regular expression (regex) in a `"match":"all"` anchor coupled with a [Passthrough method](/senseml-reference/methods/passthrough), or the [Regex method](/senseml-reference/methods/regex).
 * You can split the policy period into two dates, either by using the [Split computed field method](/senseml-reference/computed-field-methods/split), or by setting the [Date](/senseml-reference/field-query-object/types#date) type on the field and using a tiebreaker.
 
-To check out other methods, see [Methods](/senseml-reference/methods/index).
+To check out other methods, see [Methods](/senseml-reference/methods/index-methods).
 
 ## Test the config
 
@@ -596,5 +596,5 @@ You should receive a response with errors and warnings in the Validations array,
 ```
 ## Next
 
-* Check out the [SenseML method reference docs](/senseml-reference/methods/index) to write your own extractions
+* Check out the [SenseML method reference docs](/senseml-reference/methods/index-methods) to write your own extractions
 * Learn more about [validations](/best-practices/validate-extractions) to test the quality of your extractions in production

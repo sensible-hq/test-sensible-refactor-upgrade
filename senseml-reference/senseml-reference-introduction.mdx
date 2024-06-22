@@ -6,13 +6,13 @@ Use SenseML to write "configs" (collection of queries) to extract structured dat
 
 See the following topics for reference documentation for the SenseML query language:
 
-* [Field query object](/senseml-reference/field-query-object/index)
-* [Preprocessors](/senseml-reference/preprocessors/index)
-* [Methods](/senseml-reference/methods/index)
-* [LLM-based methods](/senseml-reference/llm-based-methods/index), including LLM-based Sensible Instruct methods. For more information about choosing whether to author configs in either SenseML or Sensible Instruct, see [Choosing an extraction approach](/welcome/author).
-* [Configuration settings](/senseml-reference/config-settings/index)
-* [Computed Field methods](/senseml-reference/computed-field-methods/index)
-* [Sections](/senseml-reference/sections/index)
+* [Field query object](/senseml-reference/field-query-object/index-field-query-object)
+* [Preprocessors](/senseml-reference/preprocessors/index-preprocessors)
+* [Methods](/senseml-reference/methods/index-methods)
+* [LLM-based methods](/senseml-reference/llm-based-methods/index-llm-based-methods), including LLM-based Sensible Instruct methods. For more information about choosing whether to author configs in either SenseML or Sensible Instruct, see [Choosing an extraction approach](/welcome/author).
+* [Configuration settings](/senseml-reference/config-settings/index-config-settings)
+* [Computed Field methods](/senseml-reference/computed-field-methods/index-computed-field-methods)
+* [Sections](/senseml-reference/sections/index-sections)
 
 Or, for a getting started tutorial, see:
 
@@ -118,19 +118,19 @@ The output of this example config is as follows:
 ```
 This example config has the following elements:
 
-* The **field** `_driver_name_raw` is a query that extracts a driver's name by searching below some matched text (`"position": "below"`). Its ID is the key for the extracted data. For more information, see [Field query object](/senseml-reference/field-query-object/index).
+* The **field** `_driver_name_raw` is a query that extracts a driver's name by searching below some matched text (`"position": "below"`). Its ID is the key for the extracted data. For more information, see [Field query object](/senseml-reference/field-query-object/index-field-query-object).
 * (not applicable for LLM methods) an **anchor** is matched text that helps narrow down a location in the document from which to extract data. In the `"_driver_name_raw"` field, Sensible matches a string (`"name of driver"`). For information about more complex anchors, see [Anchor object](/senseml-reference/field-query-object/anchor).
 * A **method** defines how to extract data after the anchor narrows down the data's location. In this example field, the Label method tells Sensible to extract data that's below and close to the anchor.  
 There are two broad categories of methods:  
 
-|                                              | [LLM-based methods](/senseml-reference/llm-based-methods/index)                                                                                                |  Layout-based [methods](/senseml-reference/methods/index)                                                                                                                              |  
+|                                              | [LLM-based methods](/senseml-reference/llm-based-methods/index-llm-based-methods)                                                                                                |  Layout-based [methods](/senseml-reference/methods/index-methods)                                                                                                                              |  
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  
 | Notes                                        | Ask questions about info in the document, as you'd ask a human. For example, "what's the policy period"? Uses large language models (LLMs). | Find the information in the document using anchoring text and layout data. For example, write instructions to grab the second cell in a column headed by "premium". |  
 | Deterministic                                | no                                                                                                                                          | yes                                                                                                                                                                 |  
 | Handles complex layouts                      | no                                                                                                                                          | yes                                                                                                                                                                 |
 
-* The **preprocessor**, `pageRange`, cuts out irrelevant pages of the document. For more information about using preprocessors to clean up documents before extracting data, see [Preprocessors](/senseml-reference/preprocessors/index).
-* The **fingerprint** tells Sensible to preferentially run this config if the document contains the terms "anyco" or "quoted coverage changes." For more information about using fingerprints to improve performance, and other configuration settings, see [Configuration Settings](/senseml-reference/config-settings/index).
-* The **computed field** `"driver_name_last"` extracts the last name from the raw output of the `_driver_name_raw` field. For more information about transforming field output, see [Computed field methods](/senseml-reference/computed-field-methods/index). You can also capture the full name as typed output. See [types](/senseml-reference/field-query-object/types).
+* The **preprocessor**, `pageRange`, cuts out irrelevant pages of the document. For more information about using preprocessors to clean up documents before extracting data, see [Preprocessors](/senseml-reference/preprocessors/index-preprocessors).
+* The **fingerprint** tells Sensible to preferentially run this config if the document contains the terms "anyco" or "quoted coverage changes." For more information about using fingerprints to improve performance, and other configuration settings, see [Configuration Settings](/senseml-reference/config-settings/index-config-settings).
+* The **computed field** `"driver_name_last"` extracts the last name from the raw output of the `_driver_name_raw` field. For more information about transforming field output, see [Computed field methods](/senseml-reference/computed-field-methods/index-computed-field-methods). You can also capture the full name as typed output. See [types](/senseml-reference/field-query-object/types).
 
 Using SenseML, you can extract just about any text, as well as image coordinates, from a document. Happy extracting!
