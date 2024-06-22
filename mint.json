@@ -64,7 +64,7 @@
               {
                 "group": "Zapier Overview",
                 "pages": [
-                    "integrations/zapier/index",
+                    "integrations/zapier/index-zapier",
                     "integrations/zapier/zapier-getting-started",
                     "integrations/zapier/zapier-tutorial-2"
                 ]
@@ -73,7 +73,7 @@
               {
                 "group": "Quick Extraction",
                 "pages": [
-                    "integrations/quick-extraction/index",
+                    "integrations/quick-extraction/index-quick-extraction",
                     "integrations/quick-extraction/excel-reference"
                 ]
             }
@@ -85,7 +85,7 @@
           {
             "group": "Prompt Tips",
             "pages": [
-                "llm-based-extractions/prompt-tips/index",
+                "llm-based-extractions/prompt-tips/index-prompt-tips",
                 "llm-based-extractions/prompt-tips/query-group-tips",
                 "llm-based-extractions/prompt-tips/list-tips",
                 "llm-based-extractions/prompt-tips/table-tips"              
@@ -104,7 +104,7 @@
                 {
                   "group": "App Guide",
                   "pages": [
-                      "layout-based-extractions/app-guide/index",
+                      "layout-based-extractions/app-guide/index-app-guide",
                       "layout-based-extractions/app-guide/color",
                       "layout-based-extractions/app-guide/ui"
                   ]
@@ -127,7 +127,7 @@
             {
               "group": "Tutorials",
               "pages": [
-                  "best-practices/tutorials/index",
+                  "best-practices/tutorials/index-tutorials",
                   "best-practices/tutorials/fallbacks",
                   "best-practices/tutorials/performance",
                   "best-practices/tutorials/test-before-integrating-configs",
@@ -147,7 +147,7 @@
           {
               "group": "Field Query Object",
               "pages": [
-                  "senseml-reference/field-query-object/index",
+                  "senseml-reference/field-query-object/index-field-query-object",
                   "senseml-reference/field-query-object/anchor",
                   "senseml-reference/field-query-object/match",
                   "senseml-reference/field-query-object/method",
@@ -158,7 +158,7 @@
           {
               "group": "Methods",
               "pages": [
-                  "senseml-reference/methods/index",
+                  "senseml-reference/methods/index-methods",
                   "senseml-reference/methods/box",
                   "senseml-reference/methods/checkbox",
                   "senseml-reference/methods/column",
@@ -180,7 +180,7 @@
           {
               "group": "LLM based methods",
               "pages": [
-                  "senseml-reference/llm-based-methods/index",
+                  "senseml-reference/llm-based-methods/index-llm-based-methods",
                   "senseml-reference/llm-based-methods/list",
                   "senseml-reference/llm-based-methods/nlp-table",
                   "senseml-reference/llm-based-methods/query-group",
@@ -191,7 +191,7 @@
           {
               "group": "Preprocessors",
               "pages": [
-                  "senseml-reference/preprocessors/index",
+                  "senseml-reference/preprocessors/index-preprocessors",
                   "senseml-reference/preprocessors/deskew",
                   "senseml-reference/preprocessors/ligature",
                   "senseml-reference/preprocessors/merge-lines",
@@ -209,7 +209,7 @@
           {
               "group": "Computed Field Methods",
               "pages": [
-                  "senseml-reference/computed-field-methods/index",
+                  "senseml-reference/computed-field-methods/index-computed-field-methods",
                   "senseml-reference/computed-field-methods/concatenate",
                   "senseml-reference/computed-field-methods/constant",
                   "senseml-reference/computed-field-methods/mapper",
@@ -223,7 +223,7 @@
           {
               "group": "Sections",
               "pages": [
-                  "senseml-reference/sections/index",
+                  "senseml-reference/sections/index-sections",
                   "senseml-reference/sections/sections-example-loss-run",
                   "senseml-reference/sections/sections-example-labeled-rows",
                   "senseml-reference/sections/sections-example-nested-columns",
@@ -239,7 +239,7 @@
           {
               "group": "Config Settings",
               "pages": [
-                  "senseml-reference/config-settings/index",
+                  "senseml-reference/config-settings/index-config-settings",
                   "senseml-reference/config-settings/fingerprint",
                   "senseml-reference/config-settings/verbosity"
               ]
@@ -248,7 +248,7 @@
           {
               "group": "Document type settings",
               "pages": [
-                  "senseml-reference/document-type-settings/index",
+                  "senseml-reference/document-type-settings/index-document-type-settings",
                   "senseml-reference/document-type-settings/fingerprint-mode",
                   "senseml-reference/document-type-settings/ocr-engine",
                   "senseml-reference/document-type-settings/ocr-level"
@@ -259,7 +259,7 @@
           {
               "group": "Advanced computed field methods",
               "pages": [
-                  "senseml-reference/advanced-computed-field-methods/index",
+                  "senseml-reference/advanced-computed-field-methods/index-computed-field-methods",
                   "senseml-reference/advanced-computed-field-methods/add-computed-fields",
                   "senseml-reference/advanced-computed-field-methods/copy-from-sections",
                   "senseml-reference/advanced-computed-field-methods/copy-to-section",
@@ -272,7 +272,7 @@
           {
               "group": "Concepts",
               "pages": [
-                  "senseml-reference/concepts/index",
+                  "senseml-reference/concepts/index-concepts",
                   "senseml-reference/concepts/accuracy-measures",
                   "senseml-reference/concepts/anchor-nuances",
                   "senseml-reference/concepts/bag-of-words",
@@ -299,7 +299,7 @@
       {
         "group": "API Tutorial",
         "pages": [
-            "api-guides/api-tutorial/index",
+            "api-guides/api-tutorial/index-api-tutorial",
             "api-guides/api-tutorial/api-tutorial-sync",
             "api-guides/api-tutorial/api-tutorial-async-1",
             "api-guides/api-tutorial/api-tutorial-async-2",
