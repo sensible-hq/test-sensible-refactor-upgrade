@@ -367,7 +367,7 @@
             "group": "Document",
             "pages": [
                 "api-reference/classification/document/classify-document-by-type",
-                "api-reference/classification/document/classify-document-by-type-sync"
+                "api-reference/classification/document/classify-document-sync"
             ]
         }
     ]
@@ -934,8 +934,8 @@
       "destination": "/api-reference/classification/document/classify-document-by-type"
     },
     {
-      "source": "/reference/classify-document-by-type-sync",
-      "destination": "/api-reference/classification/document/classify-document-by-type-sync"
+      "source": "/reference/classify-document-sync",
+      "destination": "/api-reference/classification/document/classify-document-sync"
     },
     {
       "source": "/reference/introduction",

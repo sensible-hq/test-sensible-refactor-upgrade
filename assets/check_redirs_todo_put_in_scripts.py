@@ -122,7 +122,7 @@ urls = [
     "https://sensible.mintlify.app/docs/api-tutorial-async-1",
     "https://sensible.mintlify.app/docs/examples",
     "https://sensible.mintlify.app/docs/api-reference",
-    "https://sensible.mintlify.app/reference/classify-document-by-type-sync",
+    "https://sensible.mintlify.app/reference/classify-document-sync",
     "https://sensible.mintlify.app/reference/introduction",
     "https://sensible.mintlify.app/reference/extract-data-from-a-document",
     "https://sensible.mintlify.app/reference/authentication",

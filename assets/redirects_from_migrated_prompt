@@ -146,7 +146,7 @@ senseml-reference\deprecated-features\1000-deprecated-bag-of-words
 LIST PART 3: added /reference/ instead of /docs  to these - done
 
 api-reference\classification\document\classify-document-by-type
-api-reference\classification\document\classify-document-by-type-sync
+api-reference\classification\document\classify-document-sync
 api-reference\introduction
 api-reference\authentication
 api-reference\extraction\retrieve-extractions\retrieve-extraction-by-id
@@ -163,7 +163,7 @@ api-reference\extraction\document\extract-doc-at-a-sensible-url-using-specified-
 api-reference\extraction\document\extract-data-from-a-document-using-specified-config
 api-reference\extraction\document\extract-data-from-a-document
 api-reference\extraction\document\classify-document-by-type
-api-reference\extraction\document\classify-document-by-type-sync
+api-reference\extraction\document\classify-document-sync
 api-reference\configuration\reference-document\update-metadata-for-a-reference-document
 api-reference\configuration\reference-document\unassociate-reference-document-from-configuration
 api-reference\configuration\reference-document\list-all-reference-documents-in-a-document-type
