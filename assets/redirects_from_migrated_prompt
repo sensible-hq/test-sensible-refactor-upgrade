@@ -91,11 +91,6 @@ senseml-reference\advanced-computed-field-methods\copy-to-section
 senseml-reference\advanced-computed-field-methods\copy-from-sections
 senseml-reference\advanced-computed-field-methods\add-computed-fields
 senseml-reference\senseml-reference-introduction
-
-
-
-LIST PART 2
-
 llm-based-extractions\prompt-tips\table-tips
 llm-based-extractions\prompt-tips\query-group-tips
 llm-based-extractions\prompt-tips\list-tips
@@ -112,12 +107,7 @@ integrations\quick-extraction\excel-reference
 integrations\sdk-guides
 integrations\quickstart
 document-type-classification\classify
-changelog\may-2024
-changelog\march-2024
-changelog\june-2024
-changelog\january-2024
-changelog\february-2024
-changelog\april-2024
+
 best-practices\tutorials\troubleshoot
 best-practices\tutorials\test-before-integrating-configs
 best-practices\tutorials\performance
@@ -134,10 +124,12 @@ api\api-tutorial\api-tutorial-async-2
 api\api-tutorial\api-tutorial-async-1
 api\examples
 api\api-reference
-api-reference\classification\document\classify-document-by-type
-api-reference\classification\document\classify-document-by-type-sync
-api-reference\introduction
-api-reference\authentication
+
+LIST PART 2
+
+
+
+
 welcome\integrate
 senseml-reference\deprecated-features\2100-deprecated-table
 senseml-reference\deprecated-features\2000-deprecated-topic
@@ -153,6 +145,10 @@ senseml-reference\deprecated-features\1000-deprecated-bag-of-words
 
 LIST PART 3: added /reference/ instead of /docs  to these - done
 
+api-reference\classification\document\classify-document-by-type
+api-reference\classification\document\classify-document-by-type-sync
+api-reference\introduction
+api-reference\authentication
 api-reference\extraction\retrieve-extractions\retrieve-extraction-by-id
 api-reference\extraction\retrieve-extractions\list-extractions
 api-reference\extraction\retrieve-extractions\get-extraction-statistics
