@@ -994,8 +994,8 @@
       "destination": "/api-reference/extraction/document/extract-data-from-a-document-using-specified-config"
     },
     {
-      "source": "/reference/extract-data-from-a-document-sync",
-      "destination": "/api-reference/extraction/document/extract-data-from-a-document-sync"
+      "source": "/reference/extract-data-from-a-document",
+      "destination": "/api-reference/extraction/document/extract-data-from-a-document"
     },
     {
       "source": "/reference/update-metadata-for-a-reference-document",

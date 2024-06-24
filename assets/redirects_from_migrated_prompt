@@ -161,7 +161,7 @@ api-reference\extraction\document\extract-doc-at-your-url-using-config
 api-reference\extraction\document\extract-doc-at-a-sensible-url
 api-reference\extraction\document\extract-doc-at-a-sensible-url-using-specified-config
 api-reference\extraction\document\extract-data-from-a-document-using-specified-config
-api-reference\extraction\document\extract-data-from-a-document-sync
+api-reference\extraction\document\extract-data-from-a-document
 api-reference\extraction\document\classify-document-by-type
 api-reference\extraction\document\classify-document-by-type-sync
 api-reference\configuration\reference-document\update-metadata-for-a-reference-document
