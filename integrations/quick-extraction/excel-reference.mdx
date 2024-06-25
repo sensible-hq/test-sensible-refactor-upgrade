@@ -43,7 +43,7 @@ To combine extractions, Sensible uses the same rules described in the following 
 
 * To avoid manually merging the similarly named columns, Sensible recommends using the same IDs for corresponding fields across different SenseML configs in a document type. For example, if document A outputs fields `car_model` and `car_year`, and document B outputs `car_model` and `manufacture_year`, Sensible creates a spreadsheet like the following:
 
-![](/images/multi-sheet-fields.png)
+![](/assets/v0/images/screenshots/multi-sheet-fields.png)
  In the preceding example, Sensible recommends using either `car_year` or `manufacture_year`, not both.
 
 * To configure multi-document spreadsheet output using different rules than those described here, configure rules with Sensible's [Zapier](/integrations/zapier/index-zapier) integration. You can map single-value field output with this integration, but not multi-value field output.
@@ -73,7 +73,7 @@ Sensible converts the JSON extraction output from the [auto\_insurance\_anyco](h
 
 **Spreadsheet output**
 
-![](/images/spreadsheet-output.png)
+![](/assets/v0/images/screenshots/spreadsheet-output.png)
 **Example document**
 
 The preceding spreadsheet contains data from the following example document:
@@ -126,7 +126,7 @@ Each `<field_id>` sheet lists the output of a single field. Sensible outputs a f
 
 Sensible converts the example JSON output from the [example document](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/pdfs/fixed%5Ftable.pdf) described in the [Fixed Table](/senseml-reference/methods/fixed-table#examples) method to the following spreadsheet:
 
-![](/images/example-table.png)
+![](/assets/v0/images/screenshots/example-table.png)
 The preceding example shows that the `fields` sheet lists the corresponding sheets for fields that have complex output. In this case, you must click on the `agile_risks_table_updates_monthly` sheet to view the table output.
 
 **Example document**
@@ -198,7 +198,7 @@ Each `<field_id>.<index>` sheet lists the output of a single field that contains
 
 Sensible converts the example JSON output from the [example document](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/pdfs/vertical%5Fsection%5Ftable%5Fin%5Ftable.pdf) described in the [Advanced Sections nested table example](/senseml-reference/sections/sections-example-nested-table) topic to the following spreadsheet:
 
-![](/images/example-table2.png)
+![](/assets/v0/images/screenshots/example-table2.png)
 
 The preceding example shows that Sensible outputs nested sections in linked, indexed sheets.
 

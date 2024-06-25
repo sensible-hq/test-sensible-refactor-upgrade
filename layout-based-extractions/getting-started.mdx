@@ -36,21 +36,21 @@ If you can write basic SQL queries, you can write SenseML queries. SenseML shiel
 
 1. In the [**Document Types**](https://app.sensible.so/document-types/) tab, Click **New document type** to create a new document type and name it "auto\_insurance\_quote." Leave the defaults and click **Create**.
 
-![Click to enlarge](/images/quickstart_doc_type.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_doc_type.png)
 
 2. To upload an example document for your document type, take the following steps:  
    1. Download the following document:  
 | Example document | [Download link](https://github.com/sensible-hq/sensible-docs/raw/main/readme-sync/assets/v0/pdfs/auto%5Finsurance%5Fanyco.pdf) |  
 
    1. As the following screenshot shows, click the **auto\_insurance\_quote** document type you created, click the **Reference documents** tab, and click **Upload document**:  
-   ![Click to enlarge](/images/quickstart_upload_doc.png)  
+   ![Click to enlarge](/assets/v0/images/screenshots/quickstart_upload_doc.png)  
    2. In the file upload dialog, choose the generic car insurance quote you downloaded in a previous step.
 3. To create a configuration for your document type, take the following steps:  
    1. In your **auto\_insurance\_quote** document type, click the **Configurations** tab.  
    2. On the tab, click **Create configuration**, name it "anyco" (for the fictional company providing the quote), and click **Create**.
 4. To edit your **anyco** configuration, click it. When the configuration opens, you see an empty config pane on the left, the document in the middle, and an empty output pane on the right:
 
-![Click to enlarge](/images/quickstart_blank_config.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_blank_config.png)
 
 ## Extract data
 
@@ -128,7 +128,7 @@ For this tutorial, you'll extract these fields:
 ```
 The following image shows this example in the Sensible app:
 
-![Click to enlarge](/images/quickstart_after_paste.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_after_paste.png)
 
 You should see the following extracted data in the right pane:
 
@@ -189,7 +189,7 @@ The easiest way to start extracting simple information is to ask a natural-langu
 
 For example, to extract the bodily injury liability:
 
-![Click to enlarge](/images/quickstart_question.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_question.png)
 
 The config uses the [Query Group](/senseml-reference/llm-based-methods/query-group) method to query for the `bodily injury premium`. You can group together other queries if the answers are located within a page or two of each other in the document. For example, in the group, the config also queries for the `insurer's customer service phone number`.
 
@@ -242,7 +242,7 @@ Let's look next at several simple layout-based methods.
 ### How it works: Label method
 
 To extract the policy period from the document:  
-![Click to enlarge](/images/quickstart_label_right.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_label_right.png)
 
 The config uses the [Label method](/senseml-reference/methods/label):
 
@@ -275,7 +275,7 @@ You can extract text to the right, left, above, or below a label. For example, h
 
 See those gray boxes around the text in the following image?
 
-![Click to enlarge](/images/quickstart_concept_1.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_concept_1.png)
 
 Each gray box shows the boundaries for a "line." Sensible recognizes lines using whitespaces and other factors, so "lines" can occupy the same height on the page.
 
@@ -293,7 +293,7 @@ The Label method can operate in a single line, or on consecutive lines. Here's a
 ```
 This returns null, because the Label method works for text in the same line or in proximate lines. In this case, the problem is that the gap between the two lines of text is more than 0.2 inches:
 
-![Click to enlarge](/images/quickstart_concept_2.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_concept_2.png)
 
  Take a look instead at a purpose-built Row method instead to extract text in a table. 
 
@@ -301,7 +301,7 @@ This returns null, because the Label method works for text in the same line or i
 
 To extract the comprehensive premium of $150:
 
-![Click to enlarge](/images/quickstart_row.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_row.png)
 
 The config uses the [Row method](/senseml-reference/methods/row):
 
@@ -347,7 +347,7 @@ In the app, you can visually inspect anchors and methods by looking at their col
 
 To continue the Row method example from the previous section, in the following image the orange box shows that "Comprehensive" is the anchor line:
 
-![Click to enlarge](/images/quickstart_concept_3.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_concept_3.png)
 
 The dotted blue boxes show you that the Row method matches _all_ the lines in the row after the anchor, but then narrows down the actual output to $150 using `"tiebreaker": "second"`. 
 
@@ -355,7 +355,7 @@ The dotted blue boxes show you that the Row method matches _all_ the lines in th
 
 To extract the policy number from this document:
 
-![Click to enlarge](/images/quickstart_box.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_box.png)
 
 The config uses the [Box method](/senseml-reference/methods/box):
 
@@ -418,7 +418,7 @@ Before integrating the config with an application and writing [validation tests]
     "value": "May 20, 2021 - Nov 20,"  
   }  
 ```
-![Click to enlarge](/images/quickstart_error_1.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_error_1.png)
 
 That seems like sloppy document formatting, but let's work with it. There are several options for capturing the policy period reliably, including: 
 
@@ -482,11 +482,11 @@ Replace the existing `policy_period` field with the following field in the Sensi
 ```
 This field defines a region in inches relative to the anchor. Since the region overlaps the anchor, specify a Word Filters parameter to remove the anchor text in the output. See the green box representing the region in the editor? This box dynamically resizes as you adjust the region parameters (such as the Height and Start parameters), so you can visually tweak the region till you're satisfied. 
 
-![Click to enlarge](/images/quickstart_error_3.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_error_3.png)
 
 Let's double check that this region also works with the first document:
 
-![Click to enlarge](/images/quickstart_error_4.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_error_4.png)
 
 Yes, it works too.
 
@@ -498,7 +498,7 @@ In a production scenario, continue testing documents until you have confidence y
 
 When you're ready to integrate with your application, enable using the config with the Sensible SDKs or API by taking the following steps:
 
-1. Click **Publish configuration**. The config is still a work in progress, so click **Development**. Now you can use the query parameter `env=development` to test the integration before you go to production:![Click to enlarge](/images/quickstart_publish_config.png).
+1. Click **Publish configuration**. The config is still a work in progress, so click **Development**. Now you can use the query parameter `env=development` to test the integration before you go to production:![Click to enlarge](/assets/v0/images/screenshots/quickstart_publish_config.png).
 2. Use the Sensible SDKs or API to integrate with your application.
 
 ## Validate extractions in production
@@ -527,7 +527,7 @@ To add these tests:
  ]
 }
 ```
-![Click to enlarge](/images/quickstart_validation.png)
+![Click to enlarge](/assets/v0/images/screenshots/quickstart_validation.png)
 
 3. Click **Create**.
 4. Repeat the previous steps to create another validation with the following settings:  
