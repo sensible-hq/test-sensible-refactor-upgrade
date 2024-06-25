@@ -1,0 +1,730 @@
+authotkey prompt
+
+
+for each redirect entry in the following list, author an autohotkey to replace the source with the destination, as follows for the  first 2 items:
+
+```
+::/prompt::
+SendInput /llm-based-extractions/prompt
+return
+
+::/author::
+SendInput /welcome/author
+return
+```
+
+base the authotkeys strictly on the list and don't skip any redirect entries or add any redirect entries
+
+LIST:
+
+
+
+{
+      "source": "prompt",
+      "destination": "/llm-based-extractions/prompt"
+    },
+
+    {
+      "source": "author", 
+      "destination": "/welcome/author"
+    },
+    {
+      "source": "integrate", 
+      "destination": "/welcome/integrate"
+    },
+    {
+      "source": "sections-example-zip",
+      "destination": "/senseml-reference/sections/sections-example-zip"
+    },
+        {
+      "source": "getting-started-ai",
+      "destination": "/welcome/getting-started-ai"
+    },
+    {
+      "source": "sections-example-table-grid",
+      "destination": "/senseml-reference/sections/sections-example-table-grid"
+    },
+    {
+      "source": "sections-example-nested-table",
+      "destination": "/senseml-reference/sections/sections-example-nested-table"
+    },
+    {
+      "source": "sections-example-nested-columns",
+      "destination": "/senseml-reference/sections/sections-example-nested-columns"
+    },
+    {
+      "source": "sections-example-loss-run",
+      "destination": "/senseml-reference/sections/sections-example-loss-run"
+    },
+    {
+      "source": "sections-example-labeled-rows",
+      "destination": "/senseml-reference/sections/sections-example-labeled-rows"
+    },
+    {
+      "source": "sections-example-external-range",
+      "destination": "/senseml-reference/sections/sections-example-external-range"
+    },
+    {
+      "source": "sections-example-copy-to-section",
+      "destination": "/senseml-reference/sections/sections-example-copy-to-section"
+    },
+    {
+      "source": "sections-example-copy-from-sections",
+      "destination": "/senseml-reference/sections/sections-example-copy-from-sections"
+    },
+
+    {
+      "source": "split-lines",
+      "destination": "/senseml-reference/preprocessors/split-lines"
+    },
+    {
+      "source": "scale",
+      "destination": "/senseml-reference/preprocessors/scale"
+    },
+    {
+      "source": "rotate-page",
+      "destination": "/senseml-reference/preprocessors/rotate-page"
+    },
+    {
+      "source": "remove-header",
+      "destination": "/senseml-reference/preprocessors/remove-header"
+    },
+    {
+      "source": "remove-footer",
+      "destination": "/senseml-reference/preprocessors/remove-footer"
+    },
+    {
+      "source": "page-range",
+      "destination": "/senseml-reference/preprocessors/page-range"
+    },
+    {
+      "source": "ocr-preprocessor",
+      "destination": "/senseml-reference/preprocessors/ocr-preprocessor"
+    },
+    {
+      "source": "nlp",
+      "destination": "/senseml-reference/preprocessors/nlp"
+    },
+    {
+      "source": "merge-lines",
+      "destination": "/senseml-reference/preprocessors/merge-lines"
+    },
+    {
+      "source": "ligature",
+      "destination": "/senseml-reference/preprocessors/ligature"
+    },
+
+    {
+      "source": "deskew",
+      "destination": "/senseml-reference/preprocessors/deskew"
+    },
+    {
+      "source": "text-table",
+      "destination": "/senseml-reference/methods/text-table"
+    },
+    {
+      "source": "signature",
+      "destination": "/senseml-reference/methods/signature"
+    },
+    {
+      "source": "row",
+      "destination": "/senseml-reference/methods/row"
+    },
+    {
+      "source": "region",
+      "destination": "/senseml-reference/methods/region"
+    },
+    {
+      "source": "regex",
+      "destination": "/senseml-reference/methods/regex"
+    },
+    {
+      "source": "passthrough",
+      "destination": "/senseml-reference/methods/passthrough"
+    },
+    {
+      "source": "paragraph",
+      "destination": "/senseml-reference/methods/paragraph"
+    },
+    {
+      "source": "nearest-checkbox",
+      "destination": "/senseml-reference/methods/nearest-checkbox"
+    },
+    {
+      "source": "label",
+      "destination": "/senseml-reference/methods/label"
+    },
+    {
+      "source": "intersection",
+      "destination": "/senseml-reference/methods/intersection"
+    },
+    {
+      "source": "fixed-table",
+      "destination": "/senseml-reference/methods/fixed-table"
+    },
+    {
+      "source": "document-range",
+      "destination": "/senseml-reference/methods/document-range"
+    },
+    {
+      "source": "column",
+      "destination": "/senseml-reference/methods/column"
+    },
+    {
+      "source": "checkbox",
+      "destination": "/senseml-reference/methods/checkbox"
+    },
+    {
+      "source": "box",
+      "destination": "/senseml-reference/methods/box"
+    },
+    {
+      "source": "summarizer",
+      "destination": "/senseml-reference/llm-based-methods/summarizer"
+    },
+    {
+      "source": "query-group",
+      "destination": "/senseml-reference/llm-based-methods/query-group"
+    },
+    {
+      "source": "nlp-table",
+      "destination": "/senseml-reference/llm-based-methods/nlp-table"
+    },
+    {
+      "source": "list",
+      "destination": "/senseml-reference/llm-based-methods/list"
+    },
+
+    {
+      "source": "types",
+      "destination": "/senseml-reference/field-query-object/types"
+    },
+    {
+      "source": "method",
+      "destination": "/senseml-reference/field-query-object/method"
+    },
+    {
+      "source": "match",
+      "destination": "/senseml-reference/field-query-object/match"
+    },
+
+    {
+      "source": "anchor",
+      "destination": "/senseml-reference/field-query-object/anchor"
+    },
+    {
+      "source": "ocr-level",
+      "destination": "/senseml-reference/document-type-settings/ocr-level"
+    },
+    {
+      "source": "ocr-engine",
+      "destination": "/senseml-reference/document-type-settings/ocr-engine"
+    },
+
+    {
+      "source": "fingerprint-mode",
+      "destination": "/senseml-reference/document-type-settings/fingerprint-mode"
+    },
+
+    {
+      "source": "verbosity",
+      "destination": "/senseml-reference/config-settings/verbosity"
+    },
+
+    {
+      "source": "fingerprint",
+      "destination": "/senseml-reference/config-settings/fingerprint"
+    },
+    {
+      "source": "table-methods",
+      "destination": "/senseml-reference/concepts/table-methods"
+    },
+    {
+      "source": "senseml",
+      "destination": "/senseml-reference/concepts/senseml"
+    },
+    {
+      "source": "section-nuances",
+      "destination": "/senseml-reference/concepts/section-nuances"
+    },
+    {
+      "source": "ocr",
+      "destination": "/senseml-reference/concepts/ocr"
+    },
+    {
+      "source": "match-arrays",
+      "destination": "/senseml-reference/concepts/match-arrays"
+    },
+    {
+      "source": "lines",
+      "destination": "/senseml-reference/concepts/lines"
+    },
+    {
+      "source": "ligatures",
+      "destination": "/senseml-reference/concepts/ligatures"
+    },
+
+    {
+      "source": "file-types",
+      "destination": "/senseml-reference/concepts/file-types"
+    },
+    {
+      "source": "field-order",
+      "destination": "/senseml-reference/concepts/field-order"
+    },
+    {
+      "source": "coverage",
+      "destination": "/senseml-reference/concepts/coverage"
+    },
+    {
+      "source": "bag-of-words",
+      "destination": "/senseml-reference/concepts/bag-of-words"
+    },
+    {
+      "source": "anchor-nuances",
+      "destination": "/senseml-reference/concepts/anchor-nuances"
+    },
+    {
+      "source": "accuracy-measures",
+      "destination": "/senseml-reference/concepts/accuracy-measures"
+    },
+    {
+      "source": "zip",
+      "destination": "/senseml-reference/computed-field-methods/zip"
+    },
+    {
+      "source": "suppress-output",
+      "destination": "/senseml-reference/computed-field-methods/suppress-output"
+    },
+    {
+      "source": "split",
+      "destination": "/senseml-reference/computed-field-methods/split"
+    },
+    {
+      "source": "pick-values",
+      "destination": "/senseml-reference/computed-field-methods/pick-values"
+    },
+    {
+      "source": "mapper",
+      "destination": "/senseml-reference/computed-field-methods/mapper"
+    },
+
+    {
+      "source": "constant",
+      "destination": "/senseml-reference/computed-field-methods/constant"
+    },
+    {
+      "source": "concatenate",
+      "destination": "/senseml-reference/computed-field-methods/concatenate"
+    },
+
+    {
+      "source": "get-file-metadata",
+      "destination": "/senseml-reference/advanced-computed-field-methods/get-file-metadata"
+    },
+    {
+      "source": "custom-computation",
+      "destination": "/senseml-reference/advanced-computed-field-methods/custom-computation"
+    },
+    {
+      "source": "copy-to-section",
+      "destination": "/senseml-reference/advanced-computed-field-methods/copy-to-section"
+    },
+    {
+      "source": "copy-from-sections",
+      "destination": "/senseml-reference/advanced-computed-field-methods/copy-from-sections"
+    },
+    {
+      "source": "add-computed-fields",
+      "destination": "/senseml-reference/advanced-computed-field-methods/add-computed-fields"
+    },
+    {
+      "source": "senseml-reference-introduction",
+      "destination": "/senseml-reference/senseml-reference-introduction"
+    },
+    
+   
+    {
+      "source": "table-tips",
+      "destination": "/llm-based-extractions/prompt-tips/table-tips"
+    },
+    {
+      "source": "query-group-tips",
+      "destination": "/llm-based-extractions/prompt-tips/query-group-tips"
+    },
+    {
+      "source": "list-tips",
+      "destination": "/llm-based-extractions/prompt-tips/list-tips"
+    },
+
+    {
+      "source": "ui",
+      "destination": "/layout-based-extractions/app-guide/ui"
+    },
+    {
+      "source": "color",
+      "destination": "/layout-based-extractions/app-guide/color"
+    },
+    {
+      "source": "repeat-layouts",
+      "destination": "/layout-based-extractions/repeat-layouts"
+    },
+    {
+      "source": "portfolio",
+      "destination": "/layout-based-extractions/portfolio"
+    },
+    {
+      "source": "library-quickstart",
+      "destination": "/layout-based-extractions/library-quickstart"
+    },
+    {
+      "source": "getting-started",
+      "destination": "/layout-based-extractions/getting-started"
+    },
+    {
+      "source": "zapier-tutorial-2",
+      "destination": "/integrations/zapier/zapier-tutorial-2"
+    },
+    {
+      "source": "zapier-getting-started",
+      "destination": "/integrations/zapier/zapier-getting-started"
+    },
+    {
+      "source": "excel-reference",
+      "destination": "/integrations/quick-extraction/excel-reference"
+    },
+    {
+      "source": "sdk-guides",
+      "destination": "/integrations/sdk-guides"
+    },
+
+
+       LIST  PART 2:
+    {
+      "source": "quickstart",
+      "destination": "/integrations/quickstart"
+    },
+    {
+      "source": "classify",
+      "destination": "/document-type-classification/classify"
+    },
+    
+
+    {
+      "source": "troubleshoot",
+      "destination": "/best-practices/tutorials/troubleshoot"
+    },
+    {
+      "source": "test-before-integrating-configs",
+      "destination": "/best-practices/tutorials/test-before-integrating-configs"
+    },
+    {
+      "source": "performance",
+      "destination": "/best-practices/tutorials/performance"
+    },
+    {
+      "source": "handwriting",
+      "destination": "/best-practices/tutorials/handwriting"
+    },
+    {
+      "source": "go-live",
+      "destination": "/best-practices/tutorials/go-live"
+    },
+    {
+      "source": "fallbacks",
+      "destination": "/best-practices/tutorials/fallbacks"
+    },
+    {
+      "source": "validate-extractions",
+      "destination": "/best-practices/validate-extractions"
+    },
+    {
+      "source": "troubleshoot-llms",
+      "destination": "/best-practices/troubleshoot-llms"
+    },
+    {
+      "source": "metrics",
+      "destination": "/best-practices/metrics"
+    },
+    {
+      "source": "confidence",
+      "destination": "/best-practices/confidence"
+    },
+    {
+      "source": "api-tutorial-webhook",
+      "destination": "/api-guides/api-tutorial/api-tutorial-webhook"
+    },
+    {
+      "source": "api-tutorial-sync",
+      "destination": "/api-guides/api-tutorial/api-tutorial-sync"
+    },
+    {
+      "source": "api-tutorial-async-2",
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-2"
+    },
+    {
+      "source": "api-tutorial-async-1",
+      "destination": "/api-guides/api-tutorial/api-tutorial-async-1"
+    },
+    {
+      "source": "examples",
+      "destination": "/api-guides/examples"
+    },
+
+    
+    {
+      "source": "deprecated-table",
+      "destination": "/senseml-reference/deprecated-features/deprecated-table"
+    },
+    {
+      "source": "deprecated-topic",
+      "destination": "/senseml-reference/deprecated-features/deprecated-topic"
+    },
+    {
+      "source": "deprecated-tfidf",
+      "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
+    },
+    {
+      "source": "deprecated-query",
+      "destination": "/senseml-reference/deprecated-features/deprecated-query"
+    },
+    {
+      "source": "deprecated-invoice",
+      "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
+    },
+    {
+      "source": "deprecated-page-filter",
+      "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
+    },
+    {
+      "source": "deprecated-key-value",
+      "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+    },
+    {
+      "source": "deprecated-bag-of-words",
+      "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
+    },
+      {
+      "source": "/api-reference",
+      "destination": "/api-guides/api-reference"
+    },
+
+
+    {
+      "source": "classify-document-by-type",
+      "destination": "/api-reference/classification/document/classify-document-by-type"
+    },
+    {
+      "source": "classify-document-sync",
+      "destination": "/api-reference/classification/document/classify-document-sync"
+    },
+    {
+      "source": "introduction",
+      "destination": "/api-reference/introduction"
+    },
+    {
+      "source": "authentication",
+      "destination": "/api-reference/authentication"
+    },
+  {
+      "source": "retrieve-extraction-by-id",
+      "destination": "/api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id"
+    },
+    {
+      "source": "list-extractions",
+      "destination": "/api-reference/extraction/retrieve-extractions/list-extractions"
+    },
+    {
+      "source": "get-extraction-statistics",
+      "destination": "/api-reference/extraction/retrieve-extractions/get-extraction-statistics"
+    },
+    {
+      "source": "extract-portfolio-at-your-url",
+      "destination": "/api-reference/extraction/portfolio/extract-portfolio-at-your-url"
+    },
+    {
+      "source": "extract-portfolio-at-a-sensible-url",
+      "destination": "/api-reference/extraction/portfolio/extract-portfolio-at-a-sensible-url"
+    },
+    {
+      "source": "get-excel-extraction",
+      "destination": "/api-reference/extraction/get-excel-from-documents/get-excel-extraction"
+    },
+    {
+      "source": "get-csv-extraction",
+      "destination": "/api-reference/extraction/get-excel-from-documents/get-csv-extraction"
+    },
+    {
+      "source": "extract-doc-at-your-url",
+      "destination": "/api-reference/extraction/document/extract-doc-at-your-url"
+    },
+    {
+      "source": "extract-doc-at-your-url-using-config",
+      "destination": "/api-reference/extraction/document/extract-doc-at-your-url-using-config"
+    },
+    {
+      "source": "extract-doc-at-a-sensible-url",
+      "destination": "/api-reference/extraction/document/extract-doc-at-a-sensible-url"
+    },
+    {
+      "source": "extract-doc-at-a-sensible-url-using-specified-config",
+      "destination": "/api-reference/extraction/document/extract-doc-at-a-sensible-url-using-specified-config"
+    },
+    {
+      "source": "extract-data-from-a-document-using-specified-config",
+      "destination": "/api-reference/extraction/document/extract-data-from-a-document-using-specified-config"
+    },
+    {
+      "source": "extract-data-from-a-document",
+      "destination": "/api-reference/extraction/document/extract-data-from-a-document"
+    },
+    {
+      "source": "update-metadata-for-a-reference-document",
+      "destination": "/api-reference/configuration/reference-document/update-metadata-for-a-reference-document"
+    },
+    {
+      "source": "unassociate-reference-document-from-configuration",
+      "destination": "/api-reference/configuration/reference-document/unassociate-reference-document-from-configuration"
+    },
+    {
+      "source": "list-all-reference-documents-in-a-document-type",
+      "destination": "/api-reference/configuration/reference-document/list-all-reference-documents-in-a-document-type"
+    },
+    {
+      "source": "get-reference-document-metadata",
+      "destination": "/api-reference/configuration/reference-document/get-reference-document-metadata"
+    },
+    {
+      "source": "extract-all-text-from-reference-document",
+      "destination": "/api-reference/configuration/reference-document/extract-all-text-from-reference-document"
+    },
+    {
+      "source": "delete-reference-document",
+      "destination": "/api-reference/configuration/reference-document/delete-reference-document"
+    },
+    {
+      "source": "create-reference-document",
+      "destination": "/api-reference/configuration/reference-document/create-reference-document"
+    },
+    {
+      "source": "update-document-type",
+      "destination": "/api-reference/configuration/document-type/update-document-type"
+    },
+    {
+      "source": "list-document-types-for-this-account",
+      "destination": "/api-reference/configuration/document-type/list-document-types-for-this-account"
+    },
+    {
+      "source": "get-document-type-metadata",
+      "destination": "/api-reference/configuration/document-type/get-document-type-metadata"
+    },
+    {
+      "source": "delete-document-type",
+      "destination": "/api-reference/configuration/document-type/delete-document-type"
+    },
+    {
+      "source": "create-document-type",
+      "destination": "/api-reference/configuration/document-type/create-document-type"
+    },
+    {
+      "source": "update-configuration",
+      "destination": "/api-reference/configuration/configuration/update-configuration"
+    },
+    {
+      "source": "publish-configuration-to-an-environment",
+      "destination": "/api-reference/configuration/configuration/publish-configuration-to-an-environment"
+    },
+    {
+      "source": "list-versions-for-a-configuration",
+      "destination": "/api-reference/configuration/configuration/list-versions-for-a-configuration"
+    },
+    {
+      "source": "list-configurations-in-a-document-type",
+      "destination": "/api-reference/configuration/configuration/list-configurations-in-a-document-type"
+    },
+    {
+      "source": "get-configuration",
+      "destination": "/api-reference/configuration/configuration/get-configuration"
+    },
+    {
+      "source": "get-configuration-by-version",
+      "destination": "/api-reference/configuration/configuration/get-configuration-by-version"
+    },
+    {
+      "source": "delete-draft-or-unpublish-configuration",
+      "destination": "/api-reference/configuration/configuration/delete-draft-or-unpublish-configuration"
+    },
+    {
+      "source": "delete-configuration",
+      "destination": "/api-reference/configuration/configuration/delete-configuration"
+    },
+    {
+      "source": "create-configuration-in-a-document-type",
+      "destination": "/api-reference/configuration/configuration/create-configuration-in-a-document-type"
+    },
+    {
+      "source": "/methods",
+      "destination": "/senseml-reference/methods/index-methods"
+    },
+    {
+      "source": "/llm-based-methods",
+      "destination": "/senseml-reference/llm-based-methods/index-llm-based-methods"
+    },
+    {
+      "source": "/field-query-object",
+      "destination": "/senseml-reference/field-query-object/index-field-query-object"
+    },
+    {
+      "source": "/document-type-settings",
+      "destination": "/senseml-reference/document-type-settings/index-document-type-settings"
+    },
+    {
+      "source": "/config-settings",
+      "destination": "/senseml-reference/config-settings/index-config-settings"
+    },
+    {
+      "source": "/concepts",
+      "destination": "/senseml-reference/concepts/index-concepts"
+    },
+    {
+      "source": "/computed-field-methods",
+      "destination": "/senseml-reference/computed-field-methods/index-computed-field-methods"
+    },
+    {
+      "source": "/advanced-computed-field-methods",
+      "destination": "/senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods"
+    },
+    {
+      "source": "/prompt-tips",
+      "destination": "/llm-based-extractions/prompt-tips/index-prompt-tips"
+    },
+    {
+      "source": "/app-guide",
+      "destination": "/layout-based-extractions/app-guide/index-app-guide"
+    },
+    {
+     
+      "source": "/zapier",
+      "destination": "/integrations/zapier/index-zapier"
+    },
+    {
+      "source": "/quick-extraction",
+      "destination": "/integrations/quick-extraction/index-quick-extraction"
+    },
+   
+    {
+      "source": "/tutorials",
+      "destination": "/best-practices/tutorials/index-tutorials"
+    },
+    {
+      "source": "/api-tutorial",
+      "destination": "/api-guides/api-tutorial/index-api-tutorial"
+    },
+    {
+      "source": "/sections",
+      "destination": "/senseml-reference/sections/index-sections"
+    },
+    {
+      "source": "/preprocessors",
+      "destination": "/senseml-reference/preprocessors/index-preprocessors"
+    }
