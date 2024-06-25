@@ -22,25 +22,25 @@ See the Notes section for when _not_ to use this preprocessor and for alternativ
 
 The following image shows that without the Deskew preprocessor, extraction from a skewed document fails. The Region method returns null, because the targeted date range is in an unexpected position (to the left of the anchor, `tenure`) rather than in the expected position (`below`):
 
-![Click to enlarge](/images/deskew_1.png)
+![Click to enlarge](/assets/v0/images/screenshots/deskew_1.png)
 
 To solve this problem:
 
 1. Define three widely spaced points in a well-aligned example of this document type: The following image shows using the displayed coordinates of a line to define the X and Y parameters for one of three Fixed Point parameters:
 
-![Click to enlarge](/images/deskew_2.png)
+![Click to enlarge](/assets/v0/images/screenshots/deskew_2.png)
 
 For more information about choosing points, see [Best Practices](/senseml-reference/preprocessors/deskew#best-practices).
 
 1. Check the Deskew preprocessor against the skewed example to reveal a remaining problem:
 
-![Click to enlarge](/images/deskew_3.png)
+![Click to enlarge](/assets/v0/images/screenshots/deskew_3.png)
 
 The remaining problem is that the Deskew Preprocessor doesn't merge lines that were split by the skew. As a result, the region starts at the middle of the word "tenure" instead of the middle of the complete line "White house tenure". Since the new start shifts the region to the right, the region misses the first year of the date range and returns `-1963`.
 
 1. To fix this problem, apply a Merge Lines preprocessor after the Deskew preprocessor:
 
-![Click to enlarge](/images/deskew_4.png)
+![Click to enlarge](/assets/v0/images/screenshots/deskew_4.png)
 
 Now Sensible captures the full date range, because the region starts at the middle of the complete line "White house tenure".
 
@@ -137,7 +137,7 @@ See the following table for preprocessors that correct page transformations:
 
 To view the deskewed document in the Sensible app, click the document, then click the eye (👁) icon:
 
-![Click to enlarge](/images/deskew_5.png)
+![Click to enlarge](/assets/v0/images/screenshots/deskew_5.png)
 
 This visual representation of how the Sensible app deskews documents can be useful for authoring or troubleshooting deskew preprocessors and configs.
 
