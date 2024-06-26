@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - '/assets/images/v0/screenshots/**'
+      - '/assets/v0/images/screenshots/**'
 
 jobs:
   images:
