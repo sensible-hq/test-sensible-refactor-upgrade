@@ -6,7 +6,7 @@ title: "Getting started"
 
 Welcome! Sensible is a developer-first platform for extracting structured data from documents, for example, business forms in PDF format. It's highly configurable: you can get simple data in minutes by leveraging GPT-4 and other large-language models (LLMs), or you can tackle complex and idiosyncratic document formatting with Sensible's powerful layout-based document primitives.
 
-![Click to enlarge](/assets/v0/images/screenshots/platform.png)
+![Click to enlarge](/assets/v0/images/final/platform.png)
 
 See the following list for an overview of going live with Sensible:
 
@@ -37,7 +37,7 @@ Let's get started with extracting document data from an example bank statement. 
 1. To view an example bank statement extraction, navigate to [https://app.sensible.so/editor/instruct/?d=sensible\_instruct\_basics&c=bank\_statement&g=bank\_statement](https://app.sensible.so/editor/instruct/?d=sensible%5Finstruct%5Fbasics&c=bank%5Fstatement&g=bank%5Fstatement).  
 Sensible displays an example document in the left pane, and fields of extracted data in the right pane.
 
-![Click to enlarge](/assets/v0/images/screenshots/auto-extract1.png)
+![Click to enlarge](/assets/v0/images/final/auto-extract1.png)
 
 Take the following steps to create a prompt to extract more data from the document.
 
@@ -46,20 +46,20 @@ To extract document data automatically, take the following steps:
 
 <Steps>
   <Step title="Click Query group:">
-   ![Click to enlarge](/assets/v0/images/screenshots/quickstart_instruct_2.png)
+   ![Click to enlarge](/assets/v0/images/final/quickstart_instruct_2.png)
   </Step>
   <Step title="Edit the query group as shown in the following screenshot by entering checking account number (not savings) in the query field. Click Extract.">
-![Click to enlarge](/assets/v0/images/screenshots/auto-extract2.png)
+![Click to enlarge](/assets/v0/images/final/auto-extract2.png)
 
 
   </Step>
   <Step title="Sensible displays the extracted account number, 8347-32348, in the Extracted data section:">
-![Click to enlarge](/assets/v0/images/screenshots/auto-extract3.png)
+![Click to enlarge](/assets/v0/images/final/auto-extract3.png)
 
   </Step>
 
   <Step title="Click Back to fields.">
-  ![Click to enlarge](/assets/v0/images/screenshots/auto-extract4.png)
+  ![Click to enlarge](/assets/v0/images/final/auto-extract4.png)
 
   </Step>
 </Steps>
@@ -67,13 +67,13 @@ To extract document data automatically, take the following steps:
 
 ### Manually configure extraction
 1. To author your own LLM prompts to extract data points from the document, click Query group.
-![](/assets/v0/images/screenshots/manually-configure1.png)
+![](/assets/v0/images/final/manually-configure1.png)
 
 2. Edit the query group as shown in the following screenshot by entering `checking account number (not savings)` in the query field. **Click Extract**.
 
 3. Sensible displays the extracted account number, `8347-32348`, in the Extracted data section:
 
-![](/assets/v0/images/screenshots/manually-configure2.png)
+![](/assets/v0/images/final/manually-configure2.png)
 
 4. Click **Back to fields**.
 
@@ -85,7 +85,7 @@ To extract checking account numbers from other bank statements, you'll need to p
 
  Click **Publish configuration**, click **Production**, then click **Publish to production**:
 
-![Click to enlarge](/assets/v0/images/screenshots/quickstart_instruct_10.png)
+![Click to enlarge](/assets/v0/images/final/quickstart_instruct_10.png)
 
 ### Test the prompt
 
@@ -93,11 +93,11 @@ Let's see if the config containing your prompt works with other bank statements.
 
 1. Navigate to [https://app.sensible.so/editor/instruct/?d=sensible\_instruct\_basics&c=bank\_statement&g=bank\_statement\_2](https://app.sensible.so/editor/instruct/?d=sensible%5Finstruct%5Fbasics&c=bank%5Fstatement&g=bank%5Fstatement%5F2). Notice that the left pane now displays a statement for a different customer.
 
-![Click to enlarge](/assets/v0/images/screenshots/quickstart_instruct_8.png)
+![Click to enlarge](/assets/v0/images/final/quickstart_instruct_8.png)
 
 2. In the right pane, scroll down to the `account_num_checking` field you authored in previous steps. Verify that the extracted information automatically updated to reflect the second example document. For example, the account number updated from `8347-32348` to `9876-12345`:
 
-![Click to enlarge](/assets/v0/images/screenshots/quickstart_instruct_9.png)
+![Click to enlarge](/assets/v0/images/final/quickstart_instruct_9.png)
 
 It looks like your prompt was successful at extracting the checking account number from another document. Great! 
 
