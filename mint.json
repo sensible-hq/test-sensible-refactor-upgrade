@@ -84,7 +84,7 @@
           {
             "group": "Prompt Tips",
             "pages": [
-                "llm-based-extractions/prompt-tips/index-prompt-tips",
+                "llm-based-extractions/prompt-tips/index-instruct",
                 "llm-based-extractions/prompt-tips/query-group-tips",
                 "llm-based-extractions/prompt-tips/list-tips",
                 "llm-based-extractions/prompt-tips/table-tips"
@@ -433,6 +433,13 @@
       },
 
   "redirects": [
+
+{
+      "source": "/docs/instruct",
+      "destination": "/llm-based-extractions/prompt-tips/index-instruct"
+    },
+
+    
         {
       "source": "/docs/prompt",
       "destination": "/llm-based-extractions/prompt"
