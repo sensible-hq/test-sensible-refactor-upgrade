@@ -937,7 +937,7 @@
       "destination": "/api-reference/classification/document/classify-document-sync"
     },
     {
-      "source": "/reference/introduction",
+      "source": "/reference/choosing-an-endpoint",
       "destination": "/api-reference/introduction"
     },
     {
@@ -977,7 +977,7 @@
       "destination": "/api-reference/extraction/document/extract-from-url"
     },
     {
-      "source": "/reference/extract-from-url-using-config",
+      "source": "/reference/provide-a-download-url-with-config",
       "destination": "/api-reference/extraction/document/extract-from-url-using-config"
     },
     {
@@ -985,7 +985,7 @@
       "destination": "/api-reference/extraction/document/generate-upload-url"
     },
     {
-      "source": "/reference/generate-upload-url-using-specified-config",
+      "source": "/reference/generate-an-upload-url-with-config",
       "destination": "/api-reference/extraction/document/generate-upload-url-using-specified-config"
     },
     {

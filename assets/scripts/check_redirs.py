@@ -1,4 +1,5 @@
 # check redirects from mintlify migration
+# todo: the list of urls needs to be assembled from the mint file redirs!!! 
 
 import requests
 

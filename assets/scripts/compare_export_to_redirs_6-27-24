@@ -1,4 +1,233 @@
 
+PROMPT RESULTS:
+
+accuracy-measures
+add-computed-fields
+advanced-computed-field-methods -> index-advanced-computed-field-methods
+anchor
+anchor-nuances
+api-reference
+api-tutorial -> index-api-tutorial
+api-tutorial-sync
+api-tutorial-webhook
+api-tutorial-async -> api-tutorial-async-1
+api-tutorial-async -> api-tutorial-async-2
+app-guide -> index-app-guide
+authentication
+author
+bag-of-words
+batch-api
+box
+cheat
+checkbox
+choosing-an-endpoint
+classify
+classify-document
+classify-document-sync
+color
+column
+computed-field-methods -> index-computed-field-methods
+concatenate
+concepts -> index-concepts
+confidence
+config-settings -> index-config-settings
+configuration
+constant
+copy-from-sections
+copy-to-section
+coverage
+create-configuration
+create-document-type
+create-reference-document
+custom-computation
+delete-configuration
+delete-configuration-by-version
+delete-document-type
+delete-reference-document
+delete-reference-document-association
+deprecated-features
+deprecated-invoice
+deprecated-key-value
+deprecated-page-filter
+deprecated-query
+deprecated-table
+deprecated-tfidf
+deprecated-topic
+deskew
+document
+document-range
+document-type
+document-type-settings -> index-document-type-settings
+draft-devops-platform-overview
+draft-getting-started-ai
+draft-group-examples
+draft-overview
+draft-senseml-order
+draft-text-table
+email
+examples
+excel-reference
+extract-all-text-from-reference-document
+extract-data-from-a-document
+extract-data-from-a-document-with-config
+extract-from-url
+extract-from-url-portfolio
+extract-from-url-using-config
+fallbacks
+field-order
+field-query-object -> index-field-query-object
+file-types
+fill-doc
+fingerprint
+fingerprint-mode
+fixed-table
+generate-an-upload-url-with-config
+generate-upload-url
+generate-upload-url-portfolio
+generate-upload-url-using-specified-config
+get-configuration
+get-configuration-by-version
+get-configuration-versions
+get-csv-extraction
+get-document-type
+get-excel-extraction
+get-excel-from-documents
+get-file-metadata
+get-reference-document
+getting-started
+getting-started-ai
+go-live
+guides
+handwriting
+instruct
+integrate
+zapier-tutorial-2
+intersection
+label
+library-quickstart
+ligature
+ligatures
+lines
+list
+list-configurations
+list-document-types
+list-extractions
+list-reference-documents
+list-tips
+llm-based-methods -> index-llm-based-methods
+mapper
+match
+match-arrays
+merge-lines
+method
+methods -> index-methods
+metrics
+nearest-checkbox
+nlp
+nlp-table
+ocr
+ocr-engine
+ocr-level
+ocr-preprocessor
+page-range
+paragraph
+passthrough
+performance
+pick-values
+portfolio
+preprocessors -> index-preprocessors
+prompt
+provide-a-download-url-with-config
+publish-configuration-by-version
+query-group
+query-group-tips
+quick-extraction -> index-quick-extraction
+quickstart
+reference-document
+regex
+region
+remove-footer
+remove-header
+remove-page
+repeat-layouts
+retrieve-extractions
+retrieving-results
+rotate-page
+row
+scale
+sdk-guides
+section-nuances
+sections -> index-sections
+sections-example-copy-from-sections
+sections-example-copy-to-section
+sections-example-external-range
+sections-example-labeled-rows
+sections-example-loss-run
+sections-example-nested-columns
+sections-example-nested-table
+sections-example-table-grid
+sections-example-zip
+senseml
+senseml-reference-introduction
+signature
+split
+split-lines
+statistics
+summarizer
+suppress-output
+table-methods
+table-tips
+test-before-integrating-configs
+text-table
+troubleshoot
+troubleshoot-llms
+types
+ui
+update-configuration
+update-document-type
+update-reference-document
+validate-extractions
+verbosity
+cheat-1
+cheat-2
+cheat-3
+cheat-4
+zapier -> index-zapier
+zapier-getting-started
+zip
+
+
+
+The following items from the first list (ie the export of md files from readme) are missing from the second list (the redirects):
+
+
+# do NOW
+
+DONE choosing-an-endpoint
+DONE generate-an-upload-url-with-config
+DONE provide-a-download-url-with-config  
+
+
+# do later
+batch-api 
+fill-doc
+cheat
+cheat
+cheat-1
+cheat-2
+
+# dont do
+deprecated-features
+draft-devops-platform-overview
+draft-getting-started-ai
+draft-group-examples
+draft-overview
+draft-senseml-order
+draft-text-table
+
+
+
+
 
 
 
@@ -6,6 +235,22 @@
 
 
 PROMPT:
+
+
+
+compare these two lists and compare each entry in the old list to the new list, making your best guess if an item has been renamed and using "->" to show the comparison on the same line. For example:
+
+Here are some unsorted examples:
+
+
+classify-document -> classify-document-by-type
+configuration -> not present in new list
+not present in original list -> authentication
+delete-configuration -> delete-configuration
+
+ Keep in mind some items have been renamed by prefixing 'index-' to them.
+
+then make a second list showing items from the new list that you couldn't find a correspondance to in the origional list
 
 
 
@@ -205,152 +450,177 @@ zapier-getting-started
 zip
 
 NEW LIST
-    accuracy-measures
-    add-computed-fields
-    anchor
-    anchor-nuances
-    api-reference
-    api-tutorial-async-1
-    api-tutorial-async-2
-    api-tutorial-sync
-    api-tutorial-webhook
-    authentication
-    authentication
-    author
-    bag-of-words
-    batch-api
-    box
-    checkbox
-    classify
-    classify-document
-    classify-document-sync
-    color
-    column
-    concatenate
-    confidence
-    constant
-    copy-from-sections
-    copy-to-section
-    coverage
-    create-configuration
-    create-document-type
-    create-reference-document
-    custom-computation
-    delete-configuration
-    delete-configuration-by-version
-    delete-document-type
-    delete-reference-document
-    delete-reference-document-association
-    deskew
-    document-range
-    examples
-    excel-reference
-    extract-all-text-from-reference-document
-    extract-data-from-a-document
-    extract-data-from-a-document-with-config
-    extract-from-url
-    extract-from-url-portfolio
-    extract-from-url-using-config
-    fallbacks
-    field-order
-    file-types
-    fingerprint
-    fingerprint-mode
-    fixed-table
-    generate-upload-url
-    generate-upload-url-portfolio
-    generate-upload-url-using-specified-config
-    get-configuration
-    get-configuration-by-version
-    get-configuration-versions
-    get-csv-extraction
-    get-document-type
-    get-excel-extraction
-    get-file-metadata
-    get-reference-document
-    getting-started
-    getting-started-ai
-    go-live
-    handwriting
-    intersection
-    introduction
-    introduction
-    label
-    library-quickstart
-    ligature
-    ligatures
-    lines
-    list
-    list-configurations
-    list-document-types
-    list-extractions
-    list-reference-documents
-    list-tips
-    mapper
-    match
-    match-arrays
-    merge-lines
-    method
-    metrics
-    nearest-checkbox
-    nlp
-    nlp-table
-    ocr
-    ocr-engine
-    ocr-level
-    ocr-preprocessor
-    page-range
-    paragraph
-    passthrough
-    performance
-    pick-values
-    portfolio
-    prompt
-    publish-configuration-by-version
-    query-group
-    query-group-tips
-    quickstart
-    regex
-    region
-    remove-footer
-    remove-header
-    repeat-layouts
-    retrieving-results
-    rotate-page
-    row
-    scale
-    sdk-guides
-    section-nuances
-    sections-example-copy-from-sections
-    sections-example-copy-to-section
-    sections-example-external-range
-    sections-example-labeled-rows
-    sections-example-loss-run
-    sections-example-nested-columns
-    sections-example-nested-table
-    sections-example-table-grid
-    sections-example-zip
-    senseml
-    senseml-reference-introduction
-    signature
-    split
-    split-lines
-    statistics
-    summarizer
-    suppress-output
-    table-methods
-    table-tips
-    test-before-integrating-configs
-    text-table
-    troubleshoot
-    troubleshoot-llms
-    types
-    ui
-    update-configuration
-    update-document-type
-    update-reference-document
-    validate-extractions
-    verbosity
-    zapier-getting-started
-    zapier-tutorial-2
-    zip
+
+
+
+accuracy-measures
+add-computed-fields
+anchor
+anchor-nuances
+api-reference
+api-tutorial-async-1
+api-tutorial-async-2
+api-tutorial-sync
+api-tutorial-webhook
+authentication
+author
+bag-of-words
+box
+checkbox
+classify
+classify-document
+classify-document-sync
+color
+column
+concatenate
+confidence
+constant
+copy-from-sections
+copy-to-section
+coverage
+create-configuration
+create-document-type
+create-reference-document
+custom-computation
+delete-configuration
+delete-configuration-by-version
+delete-document-type
+delete-reference-document
+delete-reference-document-association
+deprecated-bag-of-words
+deprecated-invoice
+deprecated-key-value
+deprecated-page-filter
+deprecated-query
+deprecated-table
+deprecated-tfidf
+deprecated-topic
+deskew
+document-range
+examples
+excel-reference
+extract-all-text-from-reference-document
+extract-data-from-a-document
+extract-data-from-a-document-with-config
+extract-from-url
+extract-from-url-portfolio
+extract-from-url-using-config
+fallbacks
+field-order
+file-types
+fingerprint
+fingerprint-mode
+fixed-table
+generate-upload-url
+generate-upload-url-portfolio
+generate-upload-url-using-specified-config
+get-configuration
+get-configuration-by-version
+get-configuration-versions
+get-csv-extraction
+get-document-type
+get-excel-extraction
+get-file-metadata
+get-reference-document
+getting-started
+getting-started-ai
+go-live
+handwriting
+index-advanced-computed-field-methods
+index-api-tutorial
+index-app-guide
+index-computed-field-methods
+index-concepts
+index-config-settings
+index-document-type-settings
+index-field-query-object
+index-llm-based-methods
+index-methods
+index-preprocessors
+index-prompt-tips
+index-quick-extraction
+index-sections
+index-tutorials
+index-zapier
+integrate
+intersection
+introduction
+label
+library-quickstart
+ligature
+ligatures
+lines
+list
+list-configurations
+list-document-types
+list-extractions
+list-reference-documents
+list-tips
+mapper
+match
+match-arrays
+merge-lines
+method
+metrics
+nearest-checkbox
+nlp
+nlp-table
+ocr
+ocr-engine
+ocr-level
+ocr-preprocessor
+page-range
+paragraph
+passthrough
+performance
+pick-values
+portfolio
+prompt
+publish-configuration-by-version
+query-group
+query-group-tips
+quickstart
+regex
+region
+remove-footer
+remove-header
+repeat-layouts
+retrieving-results
+rotate-page
+row
+scale
+sdk-guides
+section-nuances
+sections-example-copy-from-sections
+sections-example-copy-to-section
+sections-example-external-range
+sections-example-labeled-rows
+sections-example-loss-run
+sections-example-nested-columns
+sections-example-nested-table
+sections-example-table-grid
+sections-example-zip
+senseml
+senseml-reference-introduction
+signature
+split
+split-lines
+statistics
+summarizer
+suppress-output
+table-methods
+table-tips
+test-before-integrating-configs
+text-table
+troubleshoot
+troubleshoot-llms
+types
+ui
+update-configuration
+update-document-type
+update-reference-document
+validate-extractions
+verbosity
+zapier-getting-started
+zapier-tutorial-2
+zip
