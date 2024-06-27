@@ -34,11 +34,11 @@ def check_paths(pages, repo_root):
     return valid_links, invalid_links
 
 def log_results(valid_links, invalid_links):
-    with open('valid_links.log', 'w+', encoding='utf-8') as file:
+    with open('nav_links_valid.log', 'w+', encoding='utf-8') as file:
         for link in valid_links:
             file.write(f"Valid link: {link}.mdx\n")
 
-    with open('invalid_links.log', 'w+', encoding='utf-8') as file:
+    with open('nav_links_invalid.log', 'w+', encoding='utf-8') as file:
         for link in invalid_links:
             file.write(f"Invalid link: {link}.mdx\n")
 
