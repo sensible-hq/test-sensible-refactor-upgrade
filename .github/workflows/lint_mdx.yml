@@ -16,4 +16,6 @@ jobs:
         node-version: '16'
 
     - name: Run MDX linter script
-      run: ./assets/scripts/lint-mdx.sh
+      run: bash ./assets/scripts/lint-mdx.sh
+
+
