@@ -9,17 +9,27 @@ def load_navigation(mint_file):
         data = json.load(file)
     return data.get('navigation', [])
 
-def check_paths(navigation, repo_root):
-    valid_links = []
-    invalid_links = []c
+def extract_pages(navigation):
+    pages = []
+    for item in navigation:
+        if isinstance(item, dict) and 'pages' in item:
+            pages.extend(extract_pages(item['pages']))
+        elif isinstance(item, str):
+            pages.append(item)
+    return pages
 
-    for group in navigation:
-        for page in group.get('pages', []):
-            file_path = os.path.join(repo_root, f"{page}.mdx")
-            if os.path.isfile(file_path):
-                valid_links.append(page)
-            else:
-                invalid_links.append(page)
+def check_paths(pages, repo_root):
+    valid_links = []
+    invalid_links = []
+
+    for page in pages:
+        file_path = os.path.join(repo_root, f"{page}.mdx")
+        if os.path.isfile(file_path):
+            print(f"valid path: {file_path}")
+            valid_links.append(page)
+        else:
+            print(f"invvalid path: {file_path}")
+            invalid_links.append(page)
 
     return valid_links, invalid_links
 
@@ -42,7 +52,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     navigation = load_navigation(args.mint_file)
-    valid_links, invalid_links = check_paths(navigation, args.repo_root)
+    pages = extract_pages(navigation)
+    valid_links, invalid_links = check_paths(pages, args.repo_root)
     log_results(valid_links, invalid_links)
 
     print(f"Valid links logged to valid_links.log")
