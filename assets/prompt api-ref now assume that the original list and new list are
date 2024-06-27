@@ -1,0 +1,66 @@
+now assume that the original list and new list are the same API endpoitns, but some were renamed in the new list. for each item in the original list and going in order, show how the origional item was renamed in the new list. Here are some unsorted examples:
+
+classify-document -> classify-document-by-type
+configuration -> not present in new list
+delete-configuration -> delete-configuration
+
+then make a second list showing items from the new list that you couldn't find a correspondance to in the origional list
+
+not present in original -> authentication
+
+
+
+RESULTS
+
+Renamed Items from the ORIGINAL LIST to the NEW LIST:
+classify-document -> classify-document-by-type
+classify-document-sync -> classify-document-sync
+configuration -> not present in new list
+create-configuration -> create-configuration-in-a-document-type
+create-document-type -> create-document-type
+create-reference-document -> create-reference-document
+delete-configuration -> delete-configuration
+delete-configuration-by-version -> delete-draft-or-unpublish-configuration
+delete-document-type -> delete-document-type
+delete-reference-document -> delete-reference-document
+delete-reference-document-association -> unassociate-reference-document-from-configuration
+document -> not present in new list
+document-type -> not present in new list
+extract-all-text-from-reference-document -> extract-all-text-from-reference-document
+extract-data-from-a-document -> extract-data-from-a-document
+extract-data-from-a-document-with-config -> extract-data-from-a-document-using-specified-config
+extract-from-url -> extract-doc-at-a-sensible-url
+extract-from-url-portfolio -> extract-portfolio-at-a-sensible-url
+fill-doc -> not present in new list
+generate-an-upload-url-with-config -> not present in new list
+generate-upload-url -> not present in new list
+generate-upload-url-portfolio -> not present in new list
+get-configuration -> get-configuration
+get-configuration-by-version -> get-configuration-by-version
+get-configuration-versions -> list-versions-for-a-configuration
+get-csv-extraction -> get-csv-extraction
+get-document-type -> get-document-type-metadata
+get-excel-extraction -> get-excel-extraction
+get-excel-from-documents -> not present in new list
+get-reference-document -> get-reference-document-metadata
+list-configurations -> list-configurations-in-a-document-type
+list-document-types -> list-document-types-for-this-account
+list-extractions -> list-extractions
+list-reference-documents -> list-all-reference-documents-in-a-document-type
+provide-a-download-url-with-config -> not present in new list
+publish-configuration-by-version -> publish-configuration-to-an-environment
+reference-document -> not present in new list
+retrieve-extractions -> retrieve-extraction-by-id
+retrieving-results -> not present in new list
+statistics -> get-extraction-statistics
+update-configuration -> update-configuration
+update-document-type -> update-document-type
+update-reference-document -> update-metadata-for-a-reference-document
+
+Items in the NEW LIST without Correspondence in the ORIGINAL LIST:
+authentication
+extract-doc-at-a-sensible-url-using-specified-config
+extract-doc-at-your-url
+extract-doc-at-your-url-using-config
+extract-portfolio-at-your-url
+introduction
