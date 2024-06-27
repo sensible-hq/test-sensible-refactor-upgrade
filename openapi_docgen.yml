@@ -1,0 +1,105 @@
+# todos: can I create an endpoint in a category that is unpublished?
+# validate this openapi
+
+openapi: 3.0.1
+info:
+  title: Fill Template Document API
+  description: |
+     Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request.
+     For more information, see [Document generation introduction](doc:document-generation-intro).
+  version: '1.0.0'
+paths:
+  /generate/{generator}/{mapping}:
+    post:
+      summary: Fill template document
+      description: Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request.
+      parameters:
+        - name: generator
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The generator name you communicated to Sensible customer support. Create a name that shows the general type of document you want to generate, for example, rate_confirmation, certificate_of_insurance, or home_inspection_report.
+        - name: mapping
+          in: path
+          required: true
+          schema:
+            type: string
+          description: The name of the json mapping you wrote and handed off to Sensible customer support.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                data:
+                  type: object
+                  properties:
+                    customer:
+                      type: object
+                      properties:
+                        first_name:
+                          type: string
+                        last_name:
+                          type: string
+                        birth_date:
+                          type: string
+                          format: date
+                    addresses:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          street_address:
+                            type: string
+                          zip_code:
+                            type: string
+                    contract:
+                      type: object
+                      properties:
+                        start_date:
+                          type: string
+                          format: date
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  download_url:
+                    type: string
+        '400':
+          description: Bad request
+components:
+  schemas:
+    Data:
+      type: object
+      properties:
+        customer:
+          type: object
+          properties:
+            first_name:
+              type: string
+            last_name:
+              type: string
+            birth_date:
+              type: string
+              format: date
+        addresses:
+          type: array
+          items:
+            type: object
+            properties:
+              street_address:
+                type: string
+              zip_code:
+                type: string
+        contract:
+          type: object
+          properties:
+            start_date:
+              type: string
+              format: date

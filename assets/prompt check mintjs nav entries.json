@@ -1,0 +1,36 @@
+write a python script for the following scenario:
+
+1. in a github directory root, there's a json file that lists documentation table of contents
+navigation entires like this:
+
+```
+"navigation": [
+        {
+            "group": "Welcome",
+            "pages": [
+                "welcome/bad-link",
+                "welcome/getting-started-ai",
+```
+
+For each page listed, 
+
+
+"navigation": [
+        {
+            "group": "Welcome",
+            "pages": [
+                "welcome/bad-link",
+                "welcome/getting-started-ai",
+                "welcome/integrate",
+                "welcome/author"
+            ]
+        },
+        {
+          "group": "Integrations",
+          "pages": [
+              "integrations/sdk-guides",
+              {
+                "group": "Zapier Overview",
+                "pages": [
+                    "integrations/zapier/index-zapier",
+                    "integrations/zapier/zapier-getting-started",
