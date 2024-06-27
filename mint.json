@@ -326,26 +326,26 @@
             "group": "Document",
             "pages": [
                 "api-reference/extraction/document/extract-data-from-a-document",
-                "api-reference/extraction/document/extract-doc-at-a-sensible-url",
-                "api-reference/extraction/document/extract-doc-at-your-url",
-                "api-reference/extraction/document/extract-data-from-a-document-using-specified-config",
-                "api-reference/extraction/document/extract-doc-at-your-url-using-config",
-                "api-reference/extraction/document/extract-doc-at-a-sensible-url-using-specified-config"
+                "api-reference/extraction/document/generate-upload-url",
+                "api-reference/extraction/document/extract-from-url",
+                "api-reference/extraction/document/extract-data-from-a-document-with-config",
+                "api-reference/extraction/document/extract-from-url-using-config",
+                "api-reference/extraction/document/generate-upload-url-using-specified-config"
             ]
         },
         {
             "group": "Portfolio",
             "pages": [
-                "api-reference/extraction/portfolio/extract-portfolio-at-a-sensible-url",
-                "api-reference/extraction/portfolio/extract-portfolio-at-your-url"
+                "api-reference/extraction/portfolio/generate-upload-url-portfolio",
+                "api-reference/extraction/portfolio/extract-from-url-portfolio"
             ]
         },
         {
             "group": "Retrieve Extractions",
             "pages": [
-                "api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id",
+                "api-reference/extraction/retrieve-extractions/retrieving-results",
                 "api-reference/extraction/retrieve-extractions/list-extractions",
-                "api-reference/extraction/retrieve-extractions/get-extraction-statistics"
+                "api-reference/extraction/retrieve-extractions/statistics"
             ]
         },
         {
@@ -366,7 +366,7 @@
         {
             "group": "Document",
             "pages": [
-                "api-reference/classification/document/classify-document-by-type",
+                "api-reference/classification/document/classify-document",
                 "api-reference/classification/document/classify-document-sync"
             ]
         }
@@ -378,9 +378,9 @@
         {
           "group": "Document type",
           "pages": [
-            "api-reference/configuration/document-type/list-document-types-for-this-account",
+            "api-reference/configuration/document-type/list-document-types",
             "api-reference/configuration/document-type/create-document-type",
-            "api-reference/configuration/document-type/get-document-type-metadata",
+            "api-reference/configuration/document-type/get-document-type",
             "api-reference/configuration/document-type/update-document-type",
             "api-reference/configuration/document-type/delete-document-type"
           ]
@@ -388,26 +388,26 @@
         {
           "group": "Configuration",
           "pages": [
-            "api-reference/configuration/configuration/list-configurations-in-a-document-type",
-            "api-reference/configuration/configuration/create-configuration-in-a-document-type",
+            "api-reference/configuration/configuration/list-configurations",
+            "api-reference/configuration/configuration/create-configuration",
             "api-reference/configuration/configuration/get-configuration",
             "api-reference/configuration/configuration/update-configuration",
             "api-reference/configuration/configuration/delete-configuration",
-            "api-reference/configuration/configuration/list-versions-for-a-configuration",
+            "api-reference/configuration/configuration/get-configuration-versions",
             "api-reference/configuration/configuration/get-configuration-by-version",
-            "api-reference/configuration/configuration/publish-configuration-to-an-environment",
-            "api-reference/configuration/configuration/delete-draft-or-unpublish-configuration"
+            "api-reference/configuration/configuration/publish-configuration-by-version",
+            "api-reference/configuration/configuration/delete-configuration-by-version"
           ]
         },
         {
           "group": "Reference document",
           "pages": [
-            "api-reference/configuration/reference-document/list-all-reference-documents-in-a-document-type",
+            "api-reference/configuration/reference-document/list-reference-documents",
             "api-reference/configuration/reference-document/create-reference-document",
-            "api-reference/configuration/reference-document/get-reference-document-metadata",
-            "api-reference/configuration/reference-document/update-metadata-for-a-reference-document",
+            "api-reference/configuration/reference-document/get-reference-document",
+            "api-reference/configuration/reference-document/update-reference-document",
             "api-reference/configuration/reference-document/delete-reference-document",
-            "api-reference/configuration/reference-document/unassociate-reference-document-from-configuration",
+            "api-reference/configuration/reference-document/delete-reference-document-association",
             "api-reference/configuration/reference-document/extract-all-text-from-reference-document"
           ]
         }
@@ -930,8 +930,8 @@
 
 
     {
-      "source": "/reference/classify-document-by-type",
-      "destination": "/api-reference/classification/document/classify-document-by-type"
+      "source": "/reference/classify-document",
+      "destination": "/api-reference/classification/document/classify-document"
     },
     {
       "source": "/reference/classify-document-sync",
@@ -946,24 +946,24 @@
       "destination": "/api-reference/authentication"
     },
   {
-      "source": "/reference/retrieve-extraction-by-id",
-      "destination": "/api-reference/extraction/retrieve-extractions/retrieve-extraction-by-id"
+      "source": "/reference/retrieving-results",
+      "destination": "/api-reference/extraction/retrieve-extractions/retrieving-results"
     },
     {
       "source": "/reference/list-extractions",
       "destination": "/api-reference/extraction/retrieve-extractions/list-extractions"
     },
     {
-      "source": "/reference/get-extraction-statistics",
-      "destination": "/api-reference/extraction/retrieve-extractions/get-extraction-statistics"
+      "source": "/reference/statistics",
+      "destination": "/api-reference/extraction/retrieve-extractions/statistics"
     },
     {
-      "source": "/reference/extract-portfolio-at-your-url",
-      "destination": "/api-reference/extraction/portfolio/extract-portfolio-at-your-url"
+      "source": "/reference/extract-from-url-portfolio",
+      "destination": "/api-reference/extraction/portfolio/extract-from-url-portfolio"
     },
     {
-      "source": "/reference/extract-portfolio-at-a-sensible-url",
-      "destination": "/api-reference/extraction/portfolio/extract-portfolio-at-a-sensible-url"
+      "source": "/reference/generate-upload-url-portfolio",
+      "destination": "/api-reference/extraction/portfolio/generate-upload-url-portfolio"
     },
     {
       "source": "/reference/get-excel-extraction",
@@ -974,44 +974,44 @@
       "destination": "/api-reference/extraction/get-excel-from-documents/get-csv-extraction"
     },
     {
-      "source": "/reference/extract-doc-at-your-url",
-      "destination": "/api-reference/extraction/document/extract-doc-at-your-url"
+      "source": "/reference/extract-from-url",
+      "destination": "/api-reference/extraction/document/extract-from-url"
     },
     {
-      "source": "/reference/extract-doc-at-your-url-using-config",
-      "destination": "/api-reference/extraction/document/extract-doc-at-your-url-using-config"
+      "source": "/reference/extract-from-url-using-config",
+      "destination": "/api-reference/extraction/document/extract-from-url-using-config"
     },
     {
-      "source": "/reference/extract-doc-at-a-sensible-url",
-      "destination": "/api-reference/extraction/document/extract-doc-at-a-sensible-url"
+      "source": "/reference/generate-upload-url",
+      "destination": "/api-reference/extraction/document/generate-upload-url"
     },
     {
-      "source": "/reference/extract-doc-at-a-sensible-url-using-specified-config",
-      "destination": "/api-reference/extraction/document/extract-doc-at-a-sensible-url-using-specified-config"
+      "source": "/reference/generate-upload-url-using-specified-config",
+      "destination": "/api-reference/extraction/document/generate-upload-url-using-specified-config"
     },
     {
-      "source": "/reference/extract-data-from-a-document-using-specified-config",
-      "destination": "/api-reference/extraction/document/extract-data-from-a-document-using-specified-config"
+      "source": "/reference/extract-data-from-a-document-with-config",
+      "destination": "/api-reference/extraction/document/extract-data-from-a-document-with-config"
     },
     {
       "source": "/reference/extract-data-from-a-document",
       "destination": "/api-reference/extraction/document/extract-data-from-a-document"
     },
     {
-      "source": "/reference/update-metadata-for-a-reference-document",
-      "destination": "/api-reference/configuration/reference-document/update-metadata-for-a-reference-document"
+      "source": "/reference/update-reference-document",
+      "destination": "/api-reference/configuration/reference-document/update-reference-document"
     },
     {
-      "source": "/reference/unassociate-reference-document-from-configuration",
-      "destination": "/api-reference/configuration/reference-document/unassociate-reference-document-from-configuration"
+      "source": "/reference/delete-reference-document-association",
+      "destination": "/api-reference/configuration/reference-document/delete-reference-document-association"
     },
     {
-      "source": "/reference/list-all-reference-documents-in-a-document-type",
-      "destination": "/api-reference/configuration/reference-document/list-all-reference-documents-in-a-document-type"
+      "source": "/reference/list-reference-documents",
+      "destination": "/api-reference/configuration/reference-document/list-reference-documents"
     },
     {
-      "source": "/reference/get-reference-document-metadata",
-      "destination": "/api-reference/configuration/reference-document/get-reference-document-metadata"
+      "source": "/reference/get-reference-document",
+      "destination": "/api-reference/configuration/reference-document/get-reference-document"
     },
     {
       "source": "/reference/extract-all-text-from-reference-document",
@@ -1030,12 +1030,12 @@
       "destination": "/api-reference/configuration/document-type/update-document-type"
     },
     {
-      "source": "/reference/list-document-types-for-this-account",
-      "destination": "/api-reference/configuration/document-type/list-document-types-for-this-account"
+      "source": "/reference/list-document-types",
+      "destination": "/api-reference/configuration/document-type/list-document-types"
     },
     {
-      "source": "/reference/get-document-type-metadata",
-      "destination": "/api-reference/configuration/document-type/get-document-type-metadata"
+      "source": "/reference/get-document-type",
+      "destination": "/api-reference/configuration/document-type/get-document-type"
     },
     {
       "source": "/reference/delete-document-type",
@@ -1050,16 +1050,16 @@
       "destination": "/api-reference/configuration/configuration/update-configuration"
     },
     {
-      "source": "/reference/publish-configuration-to-an-environment",
-      "destination": "/api-reference/configuration/configuration/publish-configuration-to-an-environment"
+      "source": "/reference/publish-configuration-by-version",
+      "destination": "/api-reference/configuration/configuration/publish-configuration-by-version"
     },
     {
-      "source": "/reference/list-versions-for-a-configuration",
-      "destination": "/api-reference/configuration/configuration/list-versions-for-a-configuration"
+      "source": "/reference/get-configuration-versions",
+      "destination": "/api-reference/configuration/configuration/get-configuration-versions"
     },
     {
-      "source": "/reference/list-configurations-in-a-document-type",
-      "destination": "/api-reference/configuration/configuration/list-configurations-in-a-document-type"
+      "source": "/reference/list-configurations",
+      "destination": "/api-reference/configuration/configuration/list-configurations"
     },
     {
       "source": "/reference/get-configuration",
@@ -1070,16 +1070,16 @@
       "destination": "/api-reference/configuration/configuration/get-configuration-by-version"
     },
     {
-      "source": "/reference/delete-draft-or-unpublish-configuration",
-      "destination": "/api-reference/configuration/configuration/delete-draft-or-unpublish-configuration"
+      "source": "/reference/delete-configuration-by-version",
+      "destination": "/api-reference/configuration/configuration/delete-configuration-by-version"
     },
     {
       "source": "/reference/delete-configuration",
       "destination": "/api-reference/configuration/configuration/delete-configuration"
     },
     {
-      "source": "/reference/create-configuration-in-a-document-type",
-      "destination": "/api-reference/configuration/configuration/create-configuration-in-a-document-type"
+      "source": "/reference/create-configuration",
+      "destination": "/api-reference/configuration/configuration/create-configuration"
     },
 
 
