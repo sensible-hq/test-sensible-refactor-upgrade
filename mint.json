@@ -442,6 +442,10 @@
  {
       "source": "/docs/batch-api",
       "destination": "/private/batch-api"
+    }, 
+     {
+      "source": "/docs/document-generation-intro",
+      "destination": "/private/document-generation-intro"
     },   
         {
       "source": "/docs/prompt",
