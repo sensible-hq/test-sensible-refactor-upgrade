@@ -1,0 +1,41 @@
+prompt cross-checking API slugs:
+
+
+Items in the ORIGINAL LIST but not in the NEW LIST:
+configuration
+delete-configuration-by-version
+delete-reference-document-association
+document
+document-type
+extract-data-from-a-document-with-config
+extract-from-url
+extract-from-url-portfolio
+fill-doc
+generate-an-upload-url-with-config
+generate-upload-url
+generate-upload-url-portfolio
+get-configuration-versions
+get-document-type
+get-excel-from-documents
+get-reference-document
+list-reference-documents
+provide-a-download-url-with-config
+publish-configuration-by-version
+reference-document
+retrieve-extractions
+retrieving-results
+statistics
+
+
+Items in the NEW LIST but not in the ORIGINAL LIST:
+authentication
+classify-document-by-type
+create-configuration-in-a-document-type
+delete-draft-or-unpublish-configuration
+extract-data-from-a-document-using-specified-config
+extract-doc-at-a-sensible-url
+extract-doc-at-a-sensible-url-using-specified-config
+extract-doc-at-your-url
+extract-doc-at-your-url-using-config
+extract-portfolio-at-a-sensible-url
+extract-
