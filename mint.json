@@ -439,7 +439,10 @@
       "destination": "/llm-based-extractions/prompt-tips/index-instruct"
     },
 
-    
+ {
+      "source": "/docs/batch-api",
+      "destination": "/private/batch-api"
+    },   
         {
       "source": "/docs/prompt",
       "destination": "/llm-based-extractions/prompt"
