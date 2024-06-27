@@ -21,7 +21,7 @@ def replace_in_file(file_path, replace_map):
     for search, replace in replace_map.items():
         content = content.replace(search, replace)
 
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w+', encoding='utf-8') as file:
         file.write(content)
 
 def replace_in_files(root_dir, replace_map, exclude_dirs):

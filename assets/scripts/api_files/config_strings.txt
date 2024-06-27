@@ -36,3 +36,5 @@ get-extraction-statistics	statistics
 update-configuration	update-configuration
 update-document-type	update-document-type
 update-metadata-for-a-reference-document	update-reference-document
+extract-from-url-using-config	provide-a-download-url-with-config
+generate-upload-url-using-specified-config	generate-an-upload-url-with-config
