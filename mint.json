@@ -87,7 +87,7 @@
                 "llm-based-extractions/prompt-tips/index-prompt-tips",
                 "llm-based-extractions/prompt-tips/query-group-tips",
                 "llm-based-extractions/prompt-tips/list-tips",
-                "llm-based-extractions/prompt-tips/table-tips"              
+                "llm-based-extractions/prompt-tips/table-tips"
             ]
         },
             "llm-based-extractions/prompt"
@@ -107,7 +107,7 @@
                       "layout-based-extractions/app-guide/color",
                       "layout-based-extractions/app-guide/ui"
                   ]
-              }                
+              }
             ]
         },
         {
@@ -137,7 +137,7 @@
           }
         ]
     },
-    
+
     {
       "group": "SenseML Reference",
       "pages": [
@@ -258,7 +258,7 @@
           {
               "group": "Advanced computed field methods",
               "pages": [
-                  "senseml-reference/advanced-computed-field-methods/index-computed-field-methods",
+                  "senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods",
                   "senseml-reference/advanced-computed-field-methods/add-computed-fields",
                   "senseml-reference/advanced-computed-field-methods/copy-from-sections",
                   "senseml-reference/advanced-computed-field-methods/copy-to-section",
@@ -266,8 +266,8 @@
                   "senseml-reference/advanced-computed-field-methods/get-file-metadata"
               ]
           },
-          
-          
+
+
           {
               "group": "Concepts",
               "pages": [
@@ -287,8 +287,8 @@
                   "senseml-reference/concepts/table-methods"
               ]
           }
-          
-          
+
+
       ]
   },
 
@@ -316,11 +316,11 @@
       "api-reference/authentication"
     ]
   },
-  
+
   {
     "group": "Extraction",
     "pages": [
-        
+
         {
             "group": "Document",
             "pages": [
@@ -328,8 +328,8 @@
                 "api-reference/extraction/document/generate-upload-url",
                 "api-reference/extraction/document/extract-from-url",
                 "api-reference/extraction/document/extract-data-from-a-document-with-config",
-                "api-reference/extraction/document/extract-from-url-using-config",
-                "api-reference/extraction/document/generate-upload-url-using-specified-config"
+                "api-reference/extraction/document/provide-a-download-url-with-config",
+                "api-reference/extraction/document/generate-an-upload-url-with-config"
             ]
         },
         {
@@ -412,8 +412,8 @@
         }
       ]
     },
-  
-  
+
+
     {
       "group": "Changelog",
       "pages": [
@@ -439,11 +439,11 @@
     },
 
     {
-      "source": "/docs/author", 
+      "source": "/docs/author",
       "destination": "/welcome/author"
     },
     {
-      "source": "/docs/integrate", 
+      "source": "/docs/integrate",
       "destination": "/welcome/integrate"
     },
     {
@@ -756,8 +756,8 @@
       "source": "/docs/senseml-reference-introduction",
       "destination": "/senseml-reference/senseml-reference-introduction"
     },
-    
-   
+
+
     {
       "source": "/docs/table-tips",
       "destination": "/llm-based-extractions/prompt-tips/table-tips"
@@ -819,7 +819,7 @@
       "source": "/docs/classify",
       "destination": "/document-type-classification/classify"
     },
-    
+
     {
       "source": "/docs/troubleshoot",
       "destination": "/best-practices/tutorials/troubleshoot"
@@ -881,7 +881,7 @@
       "destination": "/api-guides/examples"
     },
 
-    
+
     {
       "source": "/docs/deprecated-table",
       "destination": "/senseml-reference/deprecated-features/deprecated-table"
@@ -921,7 +921,7 @@
 
 
 
-  
+
       {
       "source": "/docs/api-reference",
       "destination": "/api-guides/api-reference"
@@ -938,7 +938,7 @@
     },
     {
       "source": "/reference/choosing-an-endpoint",
-      "destination": "/api-reference/introduction"
+      "destination": "/api-reference/choosing-an-endpoint"
     },
     {
       "source": "/reference/authentication",
@@ -978,7 +978,7 @@
     },
     {
       "source": "/reference/provide-a-download-url-with-config",
-      "destination": "/api-reference/extraction/document/extract-from-url-using-config"
+      "destination": "/api-reference/extraction/document/provide-a-download-url-with-config"
     },
     {
       "source": "/reference/generate-upload-url",
@@ -986,7 +986,7 @@
     },
     {
       "source": "/reference/generate-an-upload-url-with-config",
-      "destination": "/api-reference/extraction/document/generate-upload-url-using-specified-config"
+      "destination": "/api-reference/extraction/document/generate-an-upload-url-with-config"
     },
     {
       "source": "/reference/extract-data-from-a-document-with-config",
@@ -1082,71 +1082,70 @@
     },
 
 
-
     {
-      "source": "/methods",
+      "source": "/docs/methods",
       "destination": "/senseml-reference/methods/index-methods"
     },
     {
-      "source": "/llm-based-methods",
+      "source": "/docs/llm-based-methods",
       "destination": "/senseml-reference/llm-based-methods/index-llm-based-methods"
     },
     {
-      "source": "/field-query-object",
+      "source": "/docs/field-query-object",
       "destination": "/senseml-reference/field-query-object/index-field-query-object"
     },
     {
-      "source": "/document-type-settings",
+      "source": "/docs/document-type-settings",
       "destination": "/senseml-reference/document-type-settings/index-document-type-settings"
     },
     {
-      "source": "/config-settings",
+      "source": "/docs/config-settings",
       "destination": "/senseml-reference/config-settings/index-config-settings"
     },
     {
-      "source": "/concepts",
+      "source": "/docs/concepts",
       "destination": "/senseml-reference/concepts/index-concepts"
     },
     {
-      "source": "/computed-field-methods",
+      "source": "/docs/computed-field-methods",
       "destination": "/senseml-reference/computed-field-methods/index-computed-field-methods"
     },
     {
-      "source": "/advanced-computed-field-methods",
+      "source": "/docs/advanced-computed-field-methods",
       "destination": "/senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods"
     },
     {
-      "source": "/prompt-tips",
+      "source": "/docs/prompt-tips",
       "destination": "/llm-based-extractions/prompt-tips/index-prompt-tips"
     },
     {
-      "source": "/app-guide",
+      "source": "/docs/app-guide",
       "destination": "/layout-based-extractions/app-guide/index-app-guide"
     },
     {
-     
-      "source": "/zapier",
+
+      "source": "/docs/zapier",
       "destination": "/integrations/zapier/index-zapier"
     },
     {
-      "source": "/quick-extraction",
+      "source": "/docs/quick-extraction",
       "destination": "/integrations/quick-extraction/index-quick-extraction"
     },
-   
+
     {
-      "source": "/tutorials",
+      "source": "/docs/tutorials",
       "destination": "/best-practices/tutorials/index-tutorials"
     },
     {
-      "source": "/api-tutorial",
+      "source": "/docs/api-tutorial",
       "destination": "/api-guides/api-tutorial/index-api-tutorial"
     },
     {
-      "source": "/sections",
+      "source": "/docs/sections",
       "destination": "/senseml-reference/sections/index-sections"
     },
     {
-      "source": "/preprocessors",
+      "source": "/docs/preprocessors",
       "destination": "/senseml-reference/preprocessors/index-preprocessors"
     }
   ]

@@ -4,15 +4,15 @@ title: "API quickstart"
 
 ## Introduction
 
-In this quickstart, use an example SenseML configuration and example document to get a quick "hello world" API response. 
+In this quickstart, use an example SenseML configuration and example document to get a quick "hello world" API response.
 
 * To get started with extracting from your custom documents, see [Getting Started](/welcome/getting-started-ai).
 
 ## Extract example document data
 
-To run an API call and return extracted, structured data from a downloaded example document: 
+To run an API call and return extracted, structured data from a downloaded example document:
 
-1. Get an account at [sensible.so](https://app.sensible.so/register).  
+1. Get an account at [sensible.so](https://app.sensible.so/register).
 **NOTE** In the Sensible app, don't rename the default doc type (**senseml\_basics**) or delete the **1\_extract\_your\_first\_data** config, or this example fails.
 2. Copy your API key from your [account page](https://app.sensible.so/account/).
 3. Copy the following code example into a plain-text application and replace `*YOUR_API_KEY*` with your API key:
@@ -28,7 +28,7 @@ curl --request POST \
   --header "Authorization: Bearer YOUR_API_KEY" \
   --header "Content-Type: application/pdf" \
   --data-binary "@1_extract_your_first_data.pdf"
-```  
+```
 </Tab>
 
   <Tab title="Windows">
@@ -40,7 +40,7 @@ curl --request POST ^
   --header "Authorization: Bearer YOUR_API_KEY" ^
   --header "Content-Type: application/pdf" ^
   --data-binary "@1_extract_your_first_data.pdf"
-```  
+```
 </Tab>
 
 </Tabs>
@@ -69,10 +69,10 @@ To see this example in the Sensible app:
 2. Navigate to the [first tutorial](https://app.sensible.so/editor/?d=senseml%5Fbasics&c=1%5Fextract%5Fyour%5Ffirst%5Fdata&g=1%5Fextract%5Fyour%5Ffirst%5Fdata) config.
 3. Visually examine the example document (middle pane), config (left pane), and extracted data (right pane) to better understand the API call you just ran:
 
-![q](/assets/v0/images/screenshots/quick_1.png) 
+![q](/assets/v0/images/screenshots/quick_1.png)
 
 ## Next
 
-* See the [API reference](/api-reference/introduction) and [example code](https://github.com/sensible-hq/sensible-code-examples)
+* See the [API reference](/api-reference/choosing-an-endpoint) and [example code](https://github.com/sensible-hq/sensible-code-examples)
 * If you're new to APIs, see [API tutorials](/api-guides/api-tutorial/index-api-tutorial)
 * To get started with authoring extraction configurations, or configs, for your custom documents, see [Getting Started](/welcome/getting-started-ai).
