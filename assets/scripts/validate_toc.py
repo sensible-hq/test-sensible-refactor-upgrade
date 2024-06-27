@@ -11,7 +11,7 @@ def load_navigation(mint_file):
 
 def check_paths(navigation, repo_root):
     valid_links = []
-    invalid_links = []
+    invalid_links = []c
 
     for group in navigation:
         for page in group.get('pages', []):

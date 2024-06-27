@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+PROMPT:
+
+
+
+ORIGINAL LIST
+
+accuracy-measures
+add-computed-fields
+advanced-computed-field-methods
+anchor
+anchor-nuances
+api-reference
+api-tutorial
+api-tutorial-sync
+api-tutorial-webhook
+api-tutorial-async
+api-tutorial-async
+app-guide
+authentication
+author
+bag-of-words
+batch-api
+box
+cheat
+checkbox
+choosing-an-endpoint
+classify
+classify-document
+classify-document-sync
+color
+column
+computed-field-methods
+concatenate
+concepts
+confidence
+config-settings
+configuration
+constant
+copy-from-sections
+copy-to-section
+coverage
+create-configuration
+create-document-type
+create-reference-document
+custom-computation
+delete-configuration
+delete-configuration-by-version
+delete-document-type
+delete-reference-document
+delete-reference-document-association
+deprecated-features
+deprecated-invoice
+deprecated-key-value
+deprecated-page-filter
+deprecated-query
+deprecated-table
+deprecated-tfidf
+deprecated-topic
+deskew
+document
+document-range
+document-type
+document-type-settings
+draft-devops-platform-overview
+draft-getting-started-ai
+draft-group-examples
+draft-overview
+draft-senseml-order
+draft-text-table
+email
+examples
+excel-reference
+extract-all-text-from-reference-document
+extract-data-from-a-document
+extract-data-from-a-document-with-config
+extract-from-url
+extract-from-url-portfolio
+fallbacks
+field-order
+field-query-object
+file-types
+fill-doc
+fingerprint
+fingerprint-mode
+fixed-table
+generate-an-upload-url-with-config
+generate-upload-url
+generate-upload-url-portfolio
+get-configuration
+get-configuration-by-version
+get-configuration-versions
+get-csv-extraction
+get-document-type
+get-excel-extraction
+get-excel-from-documents
+get-file-metadata
+get-reference-document
+getting-started
+getting-started-ai
+go-live
+guides
+handwriting
+instruct
+integrate
+zapier-tutorial-2
+intersection
+label
+library-quickstart
+ligature
+ligatures
+lines
+list
+list-configurations
+list-document-types
+list-extractions
+list-reference-documents
+list-tips
+llm-based-methods
+mapper
+match
+match-arrays
+merge-lines
+method
+methods
+metrics
+nearest-checkbox
+nlp
+nlp-table
+ocr
+ocr-engine
+ocr-level
+ocr-preprocessor
+page-range
+paragraph
+passthrough
+performance
+pick-values
+portfolio
+preprocessors
+prompt
+provide-a-download-url-with-config
+publish-configuration-by-version
+query-group
+query-group-tips
+quick-extraction
+quickstart
+reference-document
+regex
+region
+remove-footer
+remove-header
+remove-page
+repeat-layouts
+retrieve-extractions
+retrieving-results
+rotate-page
+row
+scale
+sdk-guides
+section-nuances
+sections
+sections-example-copy-from-sections
+sections-example-copy-to-section
+sections-example-external-range
+sections-example-labeled-rows
+sections-example-loss-run
+sections-example-nested-columns
+sections-example-nested-table
+sections-example-table-grid
+sections-example-zip
+senseml
+senseml-reference-introduction
+signature
+split
+split-lines
+statistics
+summarizer
+suppress-output
+table-methods
+table-tips
+test-before-integrating-configs
+text-table
+troubleshoot
+troubleshoot-llms
+types
+ui
+update-configuration
+update-document-type
+update-reference-document
+validate-extractions
+verbosity
+cheat-1
+cheat-2
+cheat-3
+cheat-4
+zapier
+zapier-getting-started
+zip
+
+NEW LIST
+    accuracy-measures
+    add-computed-fields
+    anchor
+    anchor-nuances
+    api-reference
+    api-tutorial-async-1
+    api-tutorial-async-2
+    api-tutorial-sync
+    api-tutorial-webhook
+    authentication
+    authentication
+    author
+    bag-of-words
+    batch-api
+    box
+    checkbox
+    classify
+    classify-document
+    classify-document-sync
+    color
+    column
+    concatenate
+    confidence
+    constant
+    copy-from-sections
+    copy-to-section
+    coverage
+    create-configuration
+    create-document-type
+    create-reference-document
+    custom-computation
+    delete-configuration
+    delete-configuration-by-version
+    delete-document-type
+    delete-reference-document
+    delete-reference-document-association
+    deskew
+    document-range
+    examples
+    excel-reference
+    extract-all-text-from-reference-document
+    extract-data-from-a-document
+    extract-data-from-a-document-with-config
+    extract-from-url
+    extract-from-url-portfolio
+    extract-from-url-using-config
+    fallbacks
+    field-order
+    file-types
+    fingerprint
+    fingerprint-mode
+    fixed-table
+    generate-upload-url
+    generate-upload-url-portfolio
+    generate-upload-url-using-specified-config
+    get-configuration
+    get-configuration-by-version
+    get-configuration-versions
+    get-csv-extraction
+    get-document-type
+    get-excel-extraction
+    get-file-metadata
+    get-reference-document
+    getting-started
+    getting-started-ai
+    go-live
+    handwriting
+    intersection
+    introduction
+    introduction
+    label
+    library-quickstart
+    ligature
+    ligatures
+    lines
+    list
+    list-configurations
+    list-document-types
+    list-extractions
+    list-reference-documents
+    list-tips
+    mapper
+    match
+    match-arrays
+    merge-lines
+    method
+    metrics
+    nearest-checkbox
+    nlp
+    nlp-table
+    ocr
+    ocr-engine
+    ocr-level
+    ocr-preprocessor
+    page-range
+    paragraph
+    passthrough
+    performance
+    pick-values
+    portfolio
+    prompt
+    publish-configuration-by-version
+    query-group
+    query-group-tips
+    quickstart
+    regex
+    region
+    remove-footer
+    remove-header
+    repeat-layouts
+    retrieving-results
+    rotate-page
+    row
+    scale
+    sdk-guides
+    section-nuances
+    sections-example-copy-from-sections
+    sections-example-copy-to-section
+    sections-example-external-range
+    sections-example-labeled-rows
+    sections-example-loss-run
+    sections-example-nested-columns
+    sections-example-nested-table
+    sections-example-table-grid
+    sections-example-zip
+    senseml
+    senseml-reference-introduction
+    signature
+    split
+    split-lines
+    statistics
+    summarizer
+    suppress-output
+    table-methods
+    table-tips
+    test-before-integrating-configs
+    text-table
+    troubleshoot
+    troubleshoot-llms
+    types
+    ui
+    update-configuration
+    update-document-type
+    update-reference-document
+    validate-extractions
+    verbosity
+    zapier-getting-started
+    zapier-tutorial-2
+    zip
