@@ -433,6 +433,10 @@
       },
 
   "redirects": [
+    {
+      "source": "/reference/fill-doc",
+      "destination": "/api-reference/docgen/fill-doc"
+    },
 
 {
       "source": "/docs/instruct",
