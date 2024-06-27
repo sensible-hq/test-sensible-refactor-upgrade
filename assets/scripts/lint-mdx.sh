@@ -20,7 +20,7 @@ cat <<EOL > .eslintrc.json
 EOL
 
 # Run ESLint on all MDX files and output the result in JSON format
-$TEMP_DIR/node_modules/.bin/eslint '**/*.mdx' --format json -o eslint-report.json
+$TEMP_DIR/lib/node_modules/.bin/eslint '**/*.mdx' --format json -o eslint-report.json
 
 # Check if the report is not empty (indicating there are lint errors)
 if [ -s eslint-report.json ]; then
