@@ -1,4 +1,61 @@
-prompt cross-checking API slugs:
+
+what i got from the api export -- go thru and manually check?:
+NO PARENT PAGE Extraction\get-excel-from-documents.md"
+NO PARENT PA Extraction\retrieve-extractions.md"
+HIDDEN...HOW? 
+DONE Configuration\reference-document\delete-reference-document-association.md"
+DONE Configuration\reference-document\list-reference-documents.md"
+Configuration\reference-document\extract-all-text-from-reference-document.md"
+Configuration\reference-document\create-reference-document.md"
+DONE Configuration\reference-document\get-reference-document.md"
+Configuration\reference-document\delete-reference-document.md"
+DONE Configuration\reference-document\update-reference-document.md"
+
+DONE Configuration\configuration\get-configuration-versions.md"
+DONE Configuration\configuration\list-configurations.md"
+INVEST Configuration\configuration\get-configuration-by-version.md"
+DONE Configuration\configuration\create-configuration.md"
+DONE? Configuration\configuration\publish-configuration-by-version.md"
+Configuration\configuration\get-configuration.md"
+Configuration\configuration\delete-configuration.md"
+INVEST Configuration\configuration\delete-configuration-by-version.md"
+LEFT OFFConfiguration\configuration\update-configuration.md"
+
+ugh. how do i want to handle this.
+
+Configuration\document-type\create-document-type.md"
+Configuration\document-type\get-document-type.md"
+Configuration\document-type\update-document-type.md"
+Configuration\document-type\list-document-types.md"
+Configuration\document-type\delete-document-type.md"
+Configuration\reference-document.md"
+Configuration\configuration.md"
+Configuration\document-type.md"
+Document Generation\fill-doc.md"
+Classification\document\classify-document-sync.md"
+Classification\document\classify-document.md"
+Classification\document.md"
+Extraction\get-excel-from-documents\get-excel-extraction.md"
+Extraction\get-excel-from-documents\get-csv-extraction.md"
+Extraction\retrieve-extractions\list-extractions.md"
+Extraction\retrieve-extractions\statistics.md"
+Extraction\retrieve-extractions\retrieving-results.md"
+Extraction\portfolio-2\generate-upload-url-portfolio.md"
+Extraction\portfolio-2\extract-from-url-portfolio.md"
+Extraction\document-1\generate-an-upload-url-with-config.md"
+Extraction\document-1\generate-upload-url.md"
+Extraction\document-1\extract-from-url.md"
+Extraction\document-1\provide-a-download-url-with-config.md"
+Extraction\document-1\extract-data-from-a-document.md"
+Extraction\document-1\extract-data-from-a-document-with-config.md"
+Extraction\portfolio-2.md"
+
+
+
+
+==============
+
+results prompt cross-checking API slugs:
 
 
 Items in the ORIGINAL LIST but not in the NEW LIST:
