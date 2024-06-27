@@ -1,4 +1,4 @@
-# python validate_toc.py /home/franc/Github/test-mintlify/ /home/franc/Github/test-mintlify/mint.json
+# python3 validate_toc.py /home/franc/Github/test-mintlify/ /home/franc/Github/test-mintlify/mint.json
 
 
 import os

@@ -1,6 +1,6 @@
 write a python script for the following scenario:
 
-1. in a github directory root, there's a json file that lists documentation table of contents
+1. in a github directory root, there's a `mint.json` file that lists documentation table of contents
 navigation entires like this:
 
 ```
@@ -8,11 +8,18 @@ navigation entires like this:
         {
             "group": "Welcome",
             "pages": [
-                "welcome/bad-link",
                 "welcome/getting-started-ai",
+                "welcome/bad-link",
+                
 ```
 
-For each page listed, 
+For each page listed, check the GH repo's dirs recursively
+to verify that the corresponding MDX file actually exists at the specified directory path.
+
+For example in the above entries, 
+
+"welcome/getting-started-ai" is logged as a valid link if the GH repo contains ./welcome/getting-started-ai.mdx
+and "integrations/getting-started-ai" is logged as an invalid link if the GH repo doesn't contain  ./integrations/getting-started-ai.mdx
 
 
 "navigation": [
