@@ -1,16 +1,10 @@
-name: Lint MDX Files
-
-on: [push, pull_request]
+name: Markdownlint Workflow
+on: push
 
 jobs:
-  lint:
+  build:
+    name: Markdownlint
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Lint MDX files
-      uses: tinovyatkin/md-lint-action@v3
-      with:
-        files: '**/*.mdx'
+    - uses: actions/checkout@master
+    - uses: ./github-action-markdownlint
