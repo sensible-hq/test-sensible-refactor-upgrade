@@ -13,9 +13,11 @@ not present in original -> authentication
 RESULTS
 
 Renamed Items from the ORIGINAL LIST to the NEW LIST:
+
+FRANCES: I went endpoint by endpoint and verified all the old ones are present and correctly redirect. so that's cool. but now I'd have to add subpaths to the them ugh, unless I wanted to just rename the files...
+
 classify-document -> classify-document-by-type
 classify-document-sync -> classify-document-sync
-configuration -> not present in new list
 create-configuration -> create-configuration-in-a-document-type
 create-document-type -> create-document-type
 create-reference-document -> create-reference-document
@@ -24,17 +26,14 @@ delete-configuration-by-version -> delete-draft-or-unpublish-configuration
 delete-document-type -> delete-document-type
 delete-reference-document -> delete-reference-document
 delete-reference-document-association -> unassociate-reference-document-from-configuration
-document -> not present in new list
-document-type -> not present in new list
 extract-all-text-from-reference-document -> extract-all-text-from-reference-document
 extract-data-from-a-document -> extract-data-from-a-document
 extract-data-from-a-document-with-config -> extract-data-from-a-document-using-specified-config
-extract-from-url -> extract-doc-at-a-sensible-url
-extract-from-url-portfolio -> extract-portfolio-at-a-sensible-url
-fill-doc -> not present in new list
-generate-an-upload-url-with-config -> not present in new list
-generate-upload-url -> not present in new list
-generate-upload-url-portfolio -> not present in new list
+extract-from-url -> extract-doc-at-your-url 
+extract-from-url-portfolio -> extract-portfolio-at-your-url
+generate-an-upload-url-with-config -> extract-doc-at-your-url-using-config
+generate-upload-url -> extract-doc-at-a-sensible-url
+generate-upload-url-portfolio -> extract-portfolio-at-a-sensible-url
 get-configuration -> get-configuration
 get-configuration-by-version -> get-configuration-by-version
 get-configuration-versions -> list-versions-for-a-configuration
@@ -47,11 +46,11 @@ list-configurations -> list-configurations-in-a-document-type
 list-document-types -> list-document-types-for-this-account
 list-extractions -> list-extractions
 list-reference-documents -> list-all-reference-documents-in-a-document-type
-provide-a-download-url-with-config -> not present in new list
+provide-a-download-url-with-config -> extract-doc-at-a-sensible-url-using-specified-config
+
 publish-configuration-by-version -> publish-configuration-to-an-environment
-reference-document -> not present in new list
 retrieve-extractions -> retrieve-extraction-by-id
-retrieving-results -> not present in new list
+retrieving-results -> retrieve-extraction-by-id
 statistics -> get-extraction-statistics
 update-configuration -> update-configuration
 update-document-type -> update-document-type
@@ -59,8 +58,11 @@ update-reference-document -> update-metadata-for-a-reference-document
 
 Items in the NEW LIST without Correspondence in the ORIGINAL LIST:
 authentication
-extract-doc-at-a-sensible-url-using-specified-config
-extract-doc-at-your-url
 extract-doc-at-your-url-using-config
 extract-portfolio-at-your-url
 introduction
+
+Frances addendum:
+
+hidden endpoint needs redirect too:
+fill-doc -> not present in new list
