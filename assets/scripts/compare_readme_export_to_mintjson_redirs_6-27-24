@@ -1,3 +1,30 @@
+The following items from the first list (ie the export of md files from readme) are missing from the second list (the redirects):
+
+
+# do NOW
+
+DONE choosing-an-endpoint
+DONE generate-an-upload-url-with-config
+DONE provide-a-download-url-with-config
+
+
+# do later
+batch-api
+fill-doc
+cheat
+cheat
+cheat-1
+cheat-2
+
+# dont do
+deprecated-features
+draft-devops-platform-overview
+draft-getting-started-ai
+draft-group-examples
+draft-overview
+draft-senseml-order
+draft-text-table
+
 
 PROMPT RESULTS:
 
@@ -198,32 +225,7 @@ zip
 
 
 
-The following items from the first list (ie the export of md files from readme) are missing from the second list (the redirects):
 
-
-# do NOW
-
-DONE choosing-an-endpoint
-DONE generate-an-upload-url-with-config
-DONE provide-a-download-url-with-config  
-
-
-# do later
-batch-api 
-fill-doc
-cheat
-cheat
-cheat-1
-cheat-2
-
-# dont do
-deprecated-features
-draft-devops-platform-overview
-draft-getting-started-ai
-draft-group-examples
-draft-overview
-draft-senseml-order
-draft-text-table
 
 
 

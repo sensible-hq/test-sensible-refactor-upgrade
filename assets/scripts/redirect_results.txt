@@ -136,7 +136,7 @@ proove overwritten
 ('https://sensible.mintlify.app/docs/api-reference', 'https://sensible.mintlify.app/api-guides/api-reference', 200)
 ('https://sensible.mintlify.app/reference/classify-document', 'https://sensible.mintlify.app/api-reference/classification/document/classify-document', 200)
 ('https://sensible.mintlify.app/reference/classify-document-sync', 'https://sensible.mintlify.app/api-reference/classification/document/classify-document-sync', 200)
-('https://sensible.mintlify.app/reference/choosing-an-endpoint', 'https://sensible.mintlify.app/api-reference/introduction', 200)
+('https://sensible.mintlify.app/reference/choosing-an-endpoint', 'https://sensible.mintlify.app/api-reference/choosing-an-endpoint', 200)
 ('https://sensible.mintlify.app/reference/authentication', 'https://sensible.mintlify.app/api-reference/authentication', 200)
 ('https://sensible.mintlify.app/reference/retrieving-results', 'https://sensible.mintlify.app/api-reference/extraction/retrieve-extractions/retrieving-results', 200)
 ('https://sensible.mintlify.app/reference/list-extractions', 'https://sensible.mintlify.app/api-reference/extraction/retrieve-extractions/list-extractions', 200)

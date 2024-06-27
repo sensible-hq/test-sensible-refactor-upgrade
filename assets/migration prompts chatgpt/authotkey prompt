@@ -25,11 +25,11 @@ LIST:
     },
 
     {
-      "source": "author", 
+      "source": "author",
       "destination": "/welcome/author"
     },
     {
-      "source": "integrate", 
+      "source": "integrate",
       "destination": "/welcome/integrate"
     },
     {
@@ -342,8 +342,8 @@ LIST:
       "source": "senseml-reference-introduction",
       "destination": "/senseml-reference/senseml-reference-introduction"
     },
-    
-   
+
+
     {
       "source": "table-tips",
       "destination": "/llm-based-extractions/prompt-tips/table-tips"
@@ -408,7 +408,7 @@ LIST:
       "source": "classify",
       "destination": "/document-type-classification/classify"
     },
-    
+
 
     {
       "source": "troubleshoot",
@@ -471,7 +471,7 @@ LIST:
       "destination": "/api-guides/examples"
     },
 
-    
+
     {
       "source": "deprecated-table",
       "destination": "/senseml-reference/deprecated-features/deprecated-table"
@@ -520,7 +520,7 @@ LIST:
     },
     {
       "source": "introduction",
-      "destination": "/api-reference/introduction"
+      "destination": "/api-reference/choosing-an-endpoint"
     },
     {
       "source": "authentication",
@@ -703,7 +703,7 @@ LIST:
       "destination": "/layout-based-extractions/app-guide/index-app-guide"
     },
     {
-     
+
       "source": "/zapier",
       "destination": "/integrations/zapier/index-zapier"
     },
@@ -711,7 +711,7 @@ LIST:
       "source": "/quick-extraction",
       "destination": "/integrations/quick-extraction/index-quick-extraction"
     },
-   
+
     {
       "source": "/tutorials",
       "destination": "/best-practices/tutorials/index-tutorials"
