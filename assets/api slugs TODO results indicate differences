@@ -21,7 +21,7 @@ Configuration\configuration\delete-configuration.md"
 INVEST Configuration\configuration\delete-configuration-by-version.md"
 LEFT OFFConfiguration\configuration\update-configuration.md"
 
-ugh. how do i want to handle this.
+ugh. how do i want to handle this. for sure I need a tab-delminated or -> record of OLD vs NEW 
 
 Configuration\document-type\create-document-type.md"
 Configuration\document-type\get-document-type.md"
