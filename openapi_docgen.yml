@@ -46,7 +46,6 @@ paths:
               description: "The json data to fill the mapping you wrote, which is used to populate the new document."
               example:
                 {
-                  "data": {
 
                     "customer": {
                       "first_name": "John",
@@ -64,10 +63,10 @@ paths:
                       }
                     ],
                     "contract": {
-                      "start_date": "01/01/2022",
+                      "start_date": "01/01/2022"
                     }
-                  }
                 }
+
       responses:
         '200':
           description: Successful response
