@@ -848,13 +848,13 @@ components:
             - lazarus
           type: string
           description: |
-            For information about each OCR engine, see [OCR engine](doc:ocr-engine).
+            For information about each OCR engine, see [OCR engine](/senseml-reference/document-type-settings/ocr-engine).
 
         prevent_default_merge_lines:
           type: boolean
           description: |
             Prevents the built-in line merging that occurs before  the
-            [Merge Lines](doc:merge-lines) preprocessor.
+            [Merge Lines](/senseml-reference/preprocessors/merge-lines) preprocessor.
 
         ocr_level:
           enum:
@@ -864,7 +864,7 @@ components:
             - 5
           type: number
           description: |
-            See [OCR level](doc:ocr-level).
+            See [OCR level](/senseml-reference/document-type-settings/ocr-level).
         validations:
           description: Array of validations. See https://docs.sensible.so/docs/validate-extractions
           items:
