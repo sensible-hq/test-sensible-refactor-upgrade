@@ -709,10 +709,6 @@
       "destination": "/senseml-reference/concepts/coverage"
     },
     {
-      "source": "/docs/bag-of-words",
-      "destination": "/senseml-reference/concepts/bag-of-words"
-    },
-    {
       "source": "/docs/anchor-nuances",
       "destination": "/senseml-reference/concepts/anchor-nuances"
     },

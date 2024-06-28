@@ -43,7 +43,7 @@ paths:
           application/json:
             schema:
               type: object
-              description: "The data to fill the json mapping you wrote, which is used to populate the new document."
+              description: "The json data to fill the mapping you wrote, which is used to populate the new document."
               example:
                 {
                   "data": {
@@ -80,33 +80,3 @@ paths:
                     type: string
         '400':
           description: Bad request
-components:
-  schemas:
-    Data:
-      type: object
-      properties:
-        customer:
-          type: object
-          properties:
-            first_name:
-              type: string
-            last_name:
-              type: string
-            birth_date:
-              type: string
-              format: date
-        addresses:
-          type: array
-          items:
-            type: object
-            properties:
-              street_address:
-                type: string
-              zip_code:
-                type: string
-        contract:
-          type: object
-          properties:
-            start_date:
-              type: string
-              format: date
