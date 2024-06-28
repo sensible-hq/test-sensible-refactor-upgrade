@@ -1,5 +1,5 @@
 (reference:fill-doc	(/api-reference/docgen/fill-doc
-(doc:instruct	(/llm-based-extractions/prompt-tips/index-instruct
+(doc:instruct	(/llm-based-extractions/prompt-tips/index-prompt-tips
 (doc:batch-api	(/beta/batch-api
 (doc:document-generation-intro	(/beta/document-generation-intro
 (doc:prompt	(/llm-based-extractions/prompt

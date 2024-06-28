@@ -26,4 +26,4 @@ jobs:
       - name: Run linter
         id: lint
         run: |
-          npx eslint '**/*.mdx' --ignore-pattern 'api-reference/*'
+          npx eslint '**/*.mdx' --quiet --ignore-pattern 'api-reference/*'
