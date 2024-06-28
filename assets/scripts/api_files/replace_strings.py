@@ -1,5 +1,10 @@
 import os
 
+
+
+#python3 replace_strings.py config_internal_links_replacement.txt /home/franc/Github/test-mintlify/ --exclude_dirs /home/franc/Github/test-mintlify/assets
+
+
 # python3 replace_strings.py config_strings.txt /home/franc/Github/test-mintlify/ --exclude_dirs /home/franc/Github/test-mintlify/assets
 
 # python replace_strings.py config.txt /path/to/search/directory --exclude_dirs /path/to/search/directory/exclude1 /path/to/search/directory/exclude2
