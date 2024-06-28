@@ -40,7 +40,7 @@
     "tabs": [
         {
             "name": "API Reference",
-            "url": "/api-reference/authentication"
+            "url": "api-reference"
         },
         {
             "name": "Changelog",
@@ -290,7 +290,7 @@
                     ]
                 },
                 "api-guides/examples",
-                "api-guides/api-reference"
+                
             ]
         },
         {
@@ -854,7 +854,7 @@
         },
         {
             "source": "/docs/api-reference",
-            "destination": "/api-guides/api-reference"
+            "destination": "/api-reference"
         },
         {
             "source": "/reference/classify-document",
