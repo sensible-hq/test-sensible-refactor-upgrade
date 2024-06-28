@@ -896,38 +896,7 @@
     },
 
 
-    {
-      "source": "/docs/deprecated-table",
-      "destination": "/senseml-reference/deprecated-features/deprecated-table"
-    },
-    {
-      "source": "/docs/deprecated-topic",
-      "destination": "/senseml-reference/deprecated-features/deprecated-topic"
-    },
-    {
-      "source": "/docs/deprecated-tfidf",
-      "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
-    },
-    {
-      "source": "/docs/deprecated-query",
-      "destination": "/senseml-reference/deprecated-features/deprecated-query"
-    },
-    {
-      "source": "/docs/deprecated-invoice",
-      "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
-    },
-    {
-      "source": "/docs/deprecated-page-filter",
-      "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
-    },
-    {
-      "source": "/docs/deprecated-key-value",
-      "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
-    },
-    {
-      "source": "/docs/deprecated-bag-of-words",
-      "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
-    },
+
 
 
 
@@ -1168,7 +1137,15 @@
     "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
   },
   {
+    "source": "/docs/deprecated-bag-of-words",
+    "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
+  },
+  {
     "source": "/docs/page-filter",
+    "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
+  },
+  {
+    "source": "/docs/deprecated-page-filter",
     "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
   },
   {
@@ -1176,20 +1153,44 @@
     "destination": "/senseml-reference/deprecated-features/deprecated-topic"
   },
   {
+    "source": "/docs/deprecated-topic",
+    "destination": "/senseml-reference/deprecated-features/deprecated-topic"
+  },
+  {
     "source": "/docs/invoice",
     "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
   },
   {
-    "source": "/docs/key-value",
-    "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+    "source": "/docs/deprecated-invoice",
+    "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
   },
   {
     "source": "/docs/tfidf",
     "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
   },
   {
+    "source": "/docs/deprecated-tfidf",
+    "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
+  },
+
+  {
+    "source": "/docs/key-value",
+    "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+  },
+
+  {
+    "source": "/docs/deprecated-key-value",
+    "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+  },
+
+
+  {
     "source": "/docs/table",
     "destination": "/senseml-reference/llm-based-methods/nlp-table"
+  },
+  {
+    "source": "/docs/deprecated-table",
+    "destination": "/senseml-reference/deprecated-features/deprecated-table"
   },
   {
     "source": "/docs/query-tips",
@@ -1199,6 +1200,11 @@
     "source": "/docs/query",
     "destination": "/senseml-reference/llm-based-methods/query-group"
   },
+  {
+    "source": "/docs/deprecated-query",
+    "destination": "/senseml-reference/deprecated-features/deprecated-query"
+  },
+
   {
     "source": "/docs/overview",
     "destination": "/welcome/getting-started-ai"
