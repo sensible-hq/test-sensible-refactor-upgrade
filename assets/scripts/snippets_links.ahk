@@ -1,771 +1,740 @@
-::/reference/fill-doc/::
+::/reference/fill-doc::
 SendInput /api-reference/docgen/fill-doc
 return
 
-::/docs/instruct/::
+::/docs/instruct::
 SendInput /llm-based-extractions/prompt-tips/index-instruct
 return
 
-::/docs/batch-api/::
+::/docs/batch-api::
 SendInput /beta/batch-api
 return
 
-::/docs/document-generation-intro/::
+::/docs/document-generation-intro::
 SendInput /beta/document-generation-intro
 return
 
-::/docs/prompt/::
+::/docs/prompt::
 SendInput /llm-based-extractions/prompt
 return
 
-::/docs/author/::
+::/docs/author::
 SendInput /welcome/author
 return
 
-::/docs/integrate/::
+::/docs/integrate::
 SendInput /welcome/integrate
 return
 
-::/docs/sections-example-zip/::
+::/docs/sections-example-zip::
 SendInput /senseml-reference/sections/sections-example-zip
 return
 
-::/docs/getting-started-ai/::
+::/docs/getting-started-ai::
 SendInput /welcome/getting-started-ai
 return
 
-::/docs/sections-example-table-grid/::
+::/docs/sections-example-table-grid::
 SendInput /senseml-reference/sections/sections-example-table-grid
 return
 
-::/docs/sections-example-nested-table/::
+::/docs/sections-example-nested-table::
 SendInput /senseml-reference/sections/sections-example-nested-table
 return
 
-::/docs/sections-example-nested-columns/::
+::/docs/sections-example-nested-columns::
 SendInput /senseml-reference/sections/sections-example-nested-columns
 return
 
-::/docs/sections-example-loss-run/::
+::/docs/sections-example-loss-run::
 SendInput /senseml-reference/sections/sections-example-loss-run
 return
 
-::/docs/sections-example-labeled-rows/::
+::/docs/sections-example-labeled-rows::
 SendInput /senseml-reference/sections/sections-example-labeled-rows
 return
 
-::/docs/sections-example-external-range/::
+::/docs/sections-example-external-range::
 SendInput /senseml-reference/sections/sections-example-external-range
 return
 
-::/docs/sections-example-copy-to-section/::
+::/docs/sections-example-copy-to-section::
 SendInput /senseml-reference/sections/sections-example-copy-to-section
 return
 
-::/docs/sections-example-copy-from-sections/::
-SendInput /senseml-reference/sections/sections-example-copy-from-sections
-return
-
-::/docs/split-lines/::
+::/docs/split-lines::
 SendInput /senseml-reference/preprocessors/split-lines
 return
 
-::/docs/scale/::
+::/docs/scale::
 SendInput /senseml-reference/preprocessors/scale
 return
 
-::/docs/rotate-page/::
+::/docs/rotate-page::
 SendInput /senseml-reference/preprocessors/rotate-page
 return
 
-::/docs/remove-header/::
+::/docs/remove-header::
 SendInput /senseml-reference/preprocessors/remove-header
 return
 
-::/docs/remove-footer/::
+::/docs/remove-footer::
 SendInput /senseml-reference/preprocessors/remove-footer
 return
 
-::/docs/page-range/::
+::/docs/page-range::
 SendInput /senseml-reference/preprocessors/page-range
 return
 
-::/docs/ocr-preprocessor/::
+::/docs/ocr-preprocessor::
 SendInput /senseml-reference/preprocessors/ocr-preprocessor
 return
 
-::/docs/nlp/::
+::/docs/nlp::
 SendInput /senseml-reference/preprocessors/nlp
 return
 
-::/docs/merge-lines/::
+::/docs/merge-lines::
 SendInput /senseml-reference/preprocessors/merge-lines
 return
 
-::/docs/ligature/::
+::/docs/ligature::
 SendInput /senseml-reference/preprocessors/ligature
 return
 
-::/docs/deskew/::
+::/docs/deskew::
 SendInput /senseml-reference/preprocessors/deskew
 return
 
-::/docs/text-table/::
+::/docs/text-table::
 SendInput /senseml-reference/methods/text-table
 return
 
-::/docs/signature/::
+::/docs/signature::
 SendInput /senseml-reference/methods/signature
 return
 
-::/docs/row/::
+::/docs/row::
 SendInput /senseml-reference/methods/row
 return
 
-::/docs/region/::
+::/docs/region::
 SendInput /senseml-reference/methods/region
 return
 
-::/docs/regex/::
+::/docs/regex::
 SendInput /senseml-reference/methods/regex
 return
 
-::/docs/passthrough/::
+::/docs/passthrough::
 SendInput /senseml-reference/methods/passthrough
 return
 
-::/docs/paragraph/::
+::/docs/paragraph::
 SendInput /senseml-reference/methods/paragraph
 return
 
-::/docs/nearest-checkbox/::
+::/docs/nearest-checkbox::
 SendInput /senseml-reference/methods/nearest-checkbox
 return
 
-::/docs/label/::
+::/docs/label::
 SendInput /senseml-reference/methods/label
 return
 
-::/docs/intersection/::
+::/docs/intersection::
 SendInput /senseml-reference/methods/intersection
 return
 
-::/docs/fixed-table/::
+::/docs/fixed-table::
 SendInput /senseml-reference/methods/fixed-table
 return
 
-::/docs/document-range/::
+::/docs/document-range::
 SendInput /senseml-reference/methods/document-range
 return
 
-::/docs/column/::
+::/docs/column::
 SendInput /senseml-reference/methods/column
 return
 
-::/docs/checkbox/::
+::/docs/checkbox::
 SendInput /senseml-reference/methods/checkbox
 return
 
-::/docs/box/::
+::/docs/box::
 SendInput /senseml-reference/methods/box
 return
 
-::/docs/summarizer/::
+::/docs/summarizer::
 SendInput /senseml-reference/llm-based-methods/summarizer
 return
 
-::/docs/query-group/::
+::/docs/query-group::
 SendInput /senseml-reference/llm-based-methods/query-group
 return
 
-::/docs/nlp-table/::
+::/docs/nlp-table::
 SendInput /senseml-reference/llm-based-methods/nlp-table
 return
 
-::/docs/list/::
+::/docs/list::
 SendInput /senseml-reference/llm-based-methods/list
 return
 
-::/docs/types/::
+::/docs/types::
 SendInput /senseml-reference/field-query-object/types
 return
 
-::/docs/method/::
+::/docs/method::
 SendInput /senseml-reference/field-query-object/method
 return
 
-::/docs/match/::
+::/docs/match::
 SendInput /senseml-reference/field-query-object/match
 return
 
-::/docs/anchor/::
+::/docs/anchor::
 SendInput /senseml-reference/field-query-object/anchor
 return
 
-::/docs/ocr-level/::
+::/docs/ocr-level::
 SendInput /senseml-reference/document-type-settings/ocr-level
 return
 
-::/docs/ocr-engine/::
+::/docs/ocr-engine::
 SendInput /senseml-reference/document-type-settings/ocr-engine
 return
 
-::/docs/fingerprint-mode/::
+::/docs/fingerprint-mode::
 SendInput /senseml-reference/document-type-settings/fingerprint-mode
 return
 
-::/docs/verbosity/::
+::/docs/verbosity::
 SendInput /senseml-reference/config-settings/verbosity
 return
 
-::/docs/fingerprint/::
+::/docs/fingerprint::
 SendInput /senseml-reference/config-settings/fingerprint
 return
 
-::/docs/table-methods/::
+::/docs/table-methods::
 SendInput /senseml-reference/concepts/table-methods
 return
 
-::/docs/senseml/::
+::/docs/senseml::
 SendInput /senseml-reference/concepts/senseml
 return
 
-::/docs/section-nuances/::
+::/docs/section-nuances::
 SendInput /senseml-reference/concepts/section-nuances
 return
 
-::/docs/ocr/::
+::/docs/ocr::
 SendInput /senseml-reference/concepts/ocr
 return
 
-::/docs/match-arrays/::
+::/docs/match-arrays::
 SendInput /senseml-reference/concepts/match-arrays
 return
 
-::/docs/lines/::
+::/docs/lines::
 SendInput /senseml-reference/concepts/lines
 return
 
-::/docs/ligatures/::
+::/docs/ligatures::
 SendInput /senseml-reference/concepts/ligatures
 return
 
-::/docs/file-types/::
+::/docs/file-types::
 SendInput /senseml-reference/concepts/file-types
 return
 
-::/docs/field-order/::
+::/docs/field-order::
 SendInput /senseml-reference/concepts/field-order
 return
 
-::/docs/coverage/::
+::/docs/coverage::
 SendInput /senseml-reference/concepts/coverage
 return
 
-::/docs/bag-of-words/::
+::/docs/bag-of-words::
 SendInput /senseml-reference/concepts/bag-of-words
 return
 
-::/docs/anchor-nuances/::
+::/docs/anchor-nuances::
 SendInput /senseml-reference/concepts/anchor-nuances
 return
 
-::/docs/accuracy-measures/::
+::/docs/accuracy-measures::
 SendInput /senseml-reference/concepts/accuracy-measures
 return
 
-::/docs/zip/::
+::/docs/zip::
 SendInput /senseml-reference/computed-field-methods/zip
 return
 
-::/docs/suppress-output/::
+::/docs/suppress-output::
 SendInput /senseml-reference/computed-field-methods/suppress-output
 return
 
-::/docs/split/::
+::/docs/split::
 SendInput /senseml-reference/computed-field-methods/split
 return
 
-::/docs/pick-values/::
+::/docs/pick-values::
 SendInput /senseml-reference/computed-field-methods/pick-values
 return
 
-::/docs/mapper/::
+::/docs/mapper::
 SendInput /senseml-reference/computed-field-methods/mapper
 return
 
-::/docs/constant/::
+::/docs/constant::
 SendInput /senseml-reference/computed-field-methods/constant
 return
 
-::/docs/concatenate/::
+::/docs/concatenate::
 SendInput /senseml-reference/computed-field-methods/concatenate
 return
 
-::/docs/get-file-metadata/::
+::/docs/get-file-metadata::
 SendInput /senseml-reference/advanced-computed-field-methods/get-file-metadata
 return
 
-::/docs/custom-computation/::
+::/docs/custom-computation::
 SendInput /senseml-reference/advanced-computed-field-methods/custom-computation
 return
 
-::/docs/copy-to-section/::
+::/docs/copy-to-section::
 SendInput /senseml-reference/advanced-computed-field-methods/copy-to-section
 return
 
-::/docs/copy-from-sections/::
+::/docs/copy-from-sections::
 SendInput /senseml-reference/advanced-computed-field-methods/copy-from-sections
 return
 
-::/docs/add-computed-fields/::
+::/docs/add-computed-fields::
 SendInput /senseml-reference/advanced-computed-field-methods/add-computed-fields
 return
 
-::/docs/senseml-reference-introduction/::
+::/docs/senseml-reference-introduction::
 SendInput /senseml-reference/senseml-reference-introduction
 return
 
-::/docs/table-tips/::
+::/docs/table-tips::
 SendInput /llm-based-extractions/prompt-tips/table-tips
 return
 
-::/docs/query-group-tips/::
+::/docs/query-group-tips::
 SendInput /llm-based-extractions/prompt-tips/query-group-tips
 return
 
-::/docs/list-tips/::
+::/docs/list-tips::
 SendInput /llm-based-extractions/prompt-tips/list-tips
 return
 
-::/docs/ui/::
+::/docs/ui::
 SendInput /layout-based-extractions/app-guide/ui
 return
 
-::/docs/color/::
+::/docs/color::
 SendInput /layout-based-extractions/app-guide/color
 return
 
-::/docs/repeat-layouts/::
+::/docs/repeat-layouts::
 SendInput /layout-based-extractions/repeat-layouts
 return
 
-::/docs/portfolio/::
+::/docs/portfolio::
 SendInput /layout-based-extractions/portfolio
 return
 
-::/docs/library-quickstart/::
+::/docs/library-quickstart::
 SendInput /layout-based-extractions/library-quickstart
 return
 
-::/docs/getting-started/::
+::/docs/getting-started::
 SendInput /layout-based-extractions/getting-started
 return
 
-::/docs/zapier-tutorial-2/::
+::/docs/zapier-tutorial-2::
 SendInput /integrations/zapier/zapier-tutorial-2
 return
 
-::/docs/zapier-getting-started/::
+::/docs/zapier-getting-started::
 SendInput /integrations/zapier/zapier-getting-started
 return
 
-::/docs/excel-reference/::
+::/docs/excel-reference::
 SendInput /integrations/quick-extraction/excel-reference
 return
 
-::/docs/sdk-guides/::
+::/docs/sdk-guides::
 SendInput /integrations/sdk-guides
 return
 
-::/docs/quickstart/::
+::/docs/quickstart::
 SendInput /integrations/quickstart
 return
 
-::/docs/classify/::
+::/docs/classify::
 SendInput /document-type-classification/classify
 return
 
-::/docs/troubleshoot/::
+::/docs/troubleshoot::
 SendInput /best-practices/tutorials/troubleshoot
 return
 
-::/docs/test-before-integrating-configs/::
+::/docs/test-before-integrating-configs::
 SendInput /best-practices/tutorials/test-before-integrating-configs
 return
 
-::/docs/performance/::
+::/docs/performance::
 SendInput /best-practices/tutorials/performance
 return
 
-::/docs/handwriting/::
+::/docs/handwriting::
 SendInput /best-practices/tutorials/handwriting
 return
 
-::/docs/go-live/::
+::/docs/go-live::
 SendInput /best-practices/tutorials/go-live
 return
 
-::/docs/fallbacks/::
+::/docs/fallbacks::
 SendInput /best-practices/tutorials/fallbacks
 return
 
-::/docs/validate-extractions/::
+::/docs/validate-extractions::
 SendInput /best-practices/validate-extractions
 return
 
-::/docs/troubleshoot-llms/::
+::/docs/troubleshoot-llms::
 SendInput /best-practices/troubleshoot-llms
 return
 
-::/docs/metrics/::
+::/docs/metrics::
 SendInput /best-practices/metrics
 return
 
-::/docs/confidence/::
+::/docs/confidence::
 SendInput /best-practices/confidence
 return
 
-::/docs/api-tutorial-webhook/::
+::/docs/api-tutorial-webhook::
 SendInput /api-guides/api-tutorial/api-tutorial-webhook
 return
 
-::/docs/api-tutorial-sync/::
+::/docs/api-tutorial-sync::
 SendInput /api-guides/api-tutorial/api-tutorial-sync
 return
 
-::/docs/api-tutorial-async-2/::
+::/docs/api-tutorial-async-2::
 SendInput /api-guides/api-tutorial/api-tutorial-async-2
 return
 
-::/docs/api-tutorial-async-1/::
+::/docs/api-tutorial-async-1::
 SendInput /api-guides/api-tutorial/api-tutorial-async-1
 return
 
-::/docs/examples/::
+::/docs/examples::
 SendInput /api-guides/examples
 return
 
-::/docs/deprecated-table/::
+::/docs/deprecated-table::
 SendInput /senseml-reference/deprecated-features/deprecated-table
 return
 
-::/docs/deprecated-topic/::
+::/docs/deprecated-topic::
 SendInput /senseml-reference/deprecated-features/deprecated-topic
 return
 
-::/docs/deprecated-tfidf/::
+::/docs/deprecated-tfidf::
 SendInput /senseml-reference/deprecated-features/deprecated-tfidf
 return
 
-::/docs/deprecated-query/::
+::/docs/deprecated-query::
 SendInput /senseml-reference/deprecated-features/deprecated-query
 return
 
-::/docs/deprecated-invoice/::
+::/docs/deprecated-invoice::
 SendInput /senseml-reference/deprecated-features/deprecated-invoice
 return
 
-::/docs/deprecated-page-filter/::
+::/docs/deprecated-page-filter::
 SendInput /senseml-reference/deprecated-features/deprecated-page-filter
 return
 
-::/docs/deprecated-key-value/::
+::/docs/deprecated-key-value::
 SendInput /senseml-reference/deprecated-features/deprecated-key-value
 return
 
-::/docs/deprecated-bag-of-words/::
+::/docs/deprecated-bag-of-words::
 SendInput /senseml-reference/deprecated-features/deprecated-bag-of-words
 return
 
-::/docs/api-reference/::
+::/docs/api-reference::
 SendInput /api-guides/api-reference
 return
 
-::/reference/classify-document/::
+::/reference/classify-document::
 SendInput /api-reference/classification/document/classify-document
 return
 
-::/reference/classify-document-sync/::
+::/reference/classify-document-sync::
 SendInput /api-reference/classification/document/classify-document-sync
 return
 
-::/reference/choosing-an-endpoint/::
+::/reference/choosing-an-endpoint::
 SendInput /api-reference/choosing-an-endpoint
 return
 
-::/reference/authentication/::
+::/reference/authentication::
 SendInput /api-reference/authentication
 return
 
-::/reference/retrieving-results/::
+::/reference/retrieving-results::
 SendInput /api-reference/extraction/retrieve-extractions/retrieving-results
 return
 
-::/reference/list-extractions/::
+::/reference/list-extractions::
 SendInput /api-reference/extraction/retrieve-extractions/list-extractions
 return
 
-::/reference/statistics/::
+::/reference/statistics::
 SendInput /api-reference/extraction/retrieve-extractions/statistics
 return
 
-::/reference/extract-from-url-portfolio/::
+::/reference/extract-from-url-portfolio::
 SendInput /api-reference/extraction/portfolio/extract-from-url-portfolio
 return
 
-::/reference/generate-upload-url-portfolio/::
+::/reference/generate-upload-url-portfolio::
 SendInput /api-reference/extraction/portfolio/generate-upload-url-portfolio
 return
 
-::/reference/get-excel-extraction/::
+::/reference/get-excel-extraction::
 SendInput /api-reference/extraction/get-excel-from-documents/get-excel-extraction
 return
 
-::/reference/get-csv-extraction/::
+::/reference/get-csv-extraction::
 SendInput /api-reference/extraction/get-excel-from-documents/get-csv-extraction
 return
 
-::/reference/extract-from-url/::
+::/reference/extract-from-url::
 SendInput /api-reference/extraction/document/extract-from-url
 return
 
-::/reference/provide-a-download-url-with-config/::
-SendInput /api-reference/extraction/document/provide-a-download-url-with-config
-return
-
-::/reference/generate-upload-url/::
+::/reference/generate-upload-url::
 SendInput /api-reference/extraction/document/generate-upload-url
 return
 
-::/reference/generate-an-upload-url-with-config/::
-SendInput /api-reference/extraction/document/generate-an-upload-url-with-config
-return
-
-::/reference/extract-data-from-a-document-with-config/::
-SendInput /api-reference/extraction/document/extract-data-from-a-document-with-config
-return
-
-::/reference/extract-data-from-a-document/::
+::/reference/extract-data-from-a-document::
 SendInput /api-reference/extraction/document/extract-data-from-a-document
 return
 
-::/reference/update-reference-document/::
+::/reference/update-reference-document::
 SendInput /api-reference/configuration/reference-document/update-reference-document
 return
 
-::/reference/delete-reference-document-association/::
-SendInput /api-reference/configuration/reference-document/delete-reference-document-association
-return
-
-::/reference/list-reference-documents/::
+::/reference/list-reference-documents::
 SendInput /api-reference/configuration/reference-document/list-reference-documents
 return
 
-::/reference/get-reference-document/::
+::/reference/get-reference-document::
 SendInput /api-reference/configuration/reference-document/get-reference-document
 return
 
-::/reference/extract-all-text-from-reference-document/::
-SendInput /api-reference/configuration/reference-document/extract-all-text-from-reference-document
-return
-
-::/reference/delete-reference-document/::
+::/reference/delete-reference-document::
 SendInput /api-reference/configuration/reference-document/delete-reference-document
 return
 
-::/reference/create-reference-document/::
+::/reference/create-reference-document::
 SendInput /api-reference/configuration/reference-document/create-reference-document
 return
 
-::/reference/update-document-type/::
+::/reference/update-document-type::
 SendInput /api-reference/configuration/document-type/update-document-type
 return
 
-::/reference/list-document-types/::
+::/reference/list-document-types::
 SendInput /api-reference/configuration/document-type/list-document-types
 return
 
-::/reference/get-document-type/::
+::/reference/get-document-type::
 SendInput /api-reference/configuration/document-type/get-document-type
 return
 
-::/reference/delete-document-type/::
+::/reference/delete-document-type::
 SendInput /api-reference/configuration/document-type/delete-document-type
 return
 
-::/reference/create-document-type/::
+::/reference/create-document-type::
 SendInput /api-reference/configuration/document-type/create-document-type
 return
 
-::/reference/update-configuration/::
+::/reference/update-configuration::
 SendInput /api-reference/configuration/configuration/update-configuration
 return
 
-::/reference/publish-configuration-by-version/::
-SendInput /api-reference/configuration/configuration/publish-configuration-by-version
-return
-
-::/reference/get-configuration-versions/::
+::/reference/get-configuration-versions::
 SendInput /api-reference/configuration/configuration/get-configuration-versions
 return
 
-::/reference/list-configurations/::
+::/reference/list-configurations::
 SendInput /api-reference/configuration/configuration/list-configurations
 return
 
-::/reference/get-configuration/::
+::/reference/get-configuration::
 SendInput /api-reference/configuration/configuration/get-configuration
 return
 
-::/reference/get-configuration-by-version/::
+::/reference/get-configuration-by-version::
 SendInput /api-reference/configuration/configuration/get-configuration-by-version
 return
 
-::/reference/delete-configuration-by-version/::
-SendInput /api-reference/configuration/configuration/delete-configuration-by-version
-return
-
-::/reference/delete-configuration/::
+::/reference/delete-configuration::
 SendInput /api-reference/configuration/configuration/delete-configuration
 return
 
-::/reference/create-configuration/::
+::/reference/create-configuration::
 SendInput /api-reference/configuration/configuration/create-configuration
 return
 
-::/docs/methods/::
+::/docs/methods::
 SendInput /senseml-reference/methods/index-methods
 return
 
-::/docs/llm-based-methods/::
+::/docs/llm-based-methods::
 SendInput /senseml-reference/llm-based-methods/index-llm-based-methods
 return
 
-::/docs/field-query-object/::
+::/docs/field-query-object::
 SendInput /senseml-reference/field-query-object/index-field-query-object
 return
 
-::/docs/document-type-settings/::
+::/docs/document-type-settings::
 SendInput /senseml-reference/document-type-settings/index-document-type-settings
 return
 
-::/docs/config-settings/::
+::/docs/config-settings::
 SendInput /senseml-reference/config-settings/index-config-settings
 return
 
-::/docs/concepts/::
+::/docs/concepts::
 SendInput /senseml-reference/concepts/index-concepts
 return
 
-::/docs/computed-field-methods/::
+::/docs/computed-field-methods::
 SendInput /senseml-reference/computed-field-methods/index-computed-field-methods
 return
 
-::/docs/advanced-computed-field-methods/::
+::/docs/advanced-computed-field-methods::
 SendInput /senseml-reference/advanced-computed-field-methods/index-advanced-computed-field-methods
 return
 
-::/docs/prompt-tips/::
+::/docs/prompt-tips::
 SendInput /llm-based-extractions/prompt-tips/index-prompt-tips
 return
 
-::/docs/app-guide/::
+::/docs/app-guide::
 SendInput /layout-based-extractions/app-guide/index-app-guide
 return
 
-::/docs/zapier/::
+::/docs/zapier::
 SendInput /integrations/zapier/index-zapier
 return
 
-::/docs/quick-extraction/::
+::/docs/quick-extraction::
 SendInput /integrations/quick-extraction/index-quick-extraction
 return
 
-::/docs/tutorials/::
+::/docs/tutorials::
 SendInput /best-practices/tutorials/index-tutorials
 return
 
-::/docs/api-tutorial/::
+::/docs/api-tutorial::
 SendInput /api-guides/api-tutorial/index-api-tutorial
 return
 
-::/docs/sections/::
+::/docs/sections::
 SendInput /senseml-reference/sections/index-sections
 return
 
-::/docs/preprocessors/::
+::/docs/preprocessors::
 SendInput /senseml-reference/preprocessors/index-preprocessors
 return
 
-::/docs/bag-of-words/::
+::/docs/bag-of-words::
 SendInput /senseml-reference/deprecated-features/deprecated-bag-of-words
 return
 
-::/docs/page-filter/::
+::/docs/page-filter::
 SendInput /senseml-reference/deprecated-features/deprecated-page-filter
 return
 
-::/docs/topic/::
+::/docs/topic::
 SendInput /senseml-reference/deprecated-features/deprecated-topic
 return
 
-::/docs/invoice/::
+::/docs/invoice::
 SendInput /senseml-reference/deprecated-features/deprecated-invoice
 return
 
-::/docs/key-value/::
+::/docs/key-value::
 SendInput /senseml-reference/deprecated-features/deprecated-key-value
 return
 
-::/docs/tfidf/::
+::/docs/tfidf::
 SendInput /senseml-reference/deprecated-features/deprecated-tfidf
 return
 
-::/docs/table/::
+::/docs/table::
 SendInput /senseml-reference/llm-based-methods/nlp-table
 return
 
-::/docs/query-tips/::
+::/docs/query-tips::
 SendInput /llm-based-extractions/prompt-tips/query-group-tips
 return
 
-::/docs/query/::
+::/docs/query::
 SendInput /senseml-reference/llm-based-methods/query-group
 return
 
-::/docs/overview/::
+::/docs/overview::
 SendInput /welcome/getting-started-ai
 return
 
-::/docs/no-code/::
+::/docs/no-code::
 SendInput /welcome/getting-started-ai
 return
 
-::/docs/developer/::
+::/docs/developer::
 SendInput /welcome/integrate
 return
 
-::/docs/excel-quickstart/::
+::/docs/excel-quickstart::
 SendInput /layout-based-extractions/library-quickstart
 return
 
-::/docs/excel/::
+::/docs/excel::
 SendInput /integrations/quick-extraction/index-quick-extraction
 return
 
-::/docs/sdk-quickstarts/::
+::/docs/sdk-quickstarts::
 SendInput /integrations/sdk-guides
 return
 
-::/docs/advanced-methods/::
+::/docs/advanced-methods::
 SendInput /senseml-reference/methods/index-methods
 return
 
-::/docs/natural-language-methods/::
+::/docs/natural-language-methods::
 SendInput /senseml-reference/llm-based-methods/index-llm-based-methods
 return
 
-::/docs/guides/::
+::/docs/guides::
 SendInput /best-practices/tutorials/index-tutorials
 return
+
