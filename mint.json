@@ -446,11 +446,11 @@
  {
       "source": "/docs/batch-api",
       "destination": "/beta/batch-api"
-    }, 
+    },
      {
       "source": "/docs/document-generation-intro",
       "destination": "/beta/document-generation-intro"
-    },   
+    },
         {
       "source": "/docs/prompt",
       "destination": "/llm-based-extractions/prompt"
@@ -1166,7 +1166,7 @@
       "source": "/docs/preprocessors",
       "destination": "/senseml-reference/preprocessors/index-preprocessors"
     },
-    [
+
   {
     "source": "/docs/bag-of-words",
     "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
@@ -1241,5 +1241,5 @@
   }
 ]
 
-  ]
+
 }
