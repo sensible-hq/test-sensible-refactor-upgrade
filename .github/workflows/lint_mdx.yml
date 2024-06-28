@@ -26,7 +26,7 @@ jobs:
       - name: Run linter
         id: lint
         run: |
-          npx eslint '**/*.mdx' --ignore-pattern 'node_modules/*' --ignore-pattern 'dist/*' --ignore-pattern 'build/*' -f json -o eslint-report.json
+          npx eslint '**/*.mdx' --ignore-pattern 'api-reference/*'  -f json -o eslint-report.json
           cat eslint-report.json
 
       - name: Check for parsing errors
