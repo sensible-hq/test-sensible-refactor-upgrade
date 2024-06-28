@@ -1,21 +1,17 @@
-name: validate TOC
+
+name: Validate TOC
+
 on:
   push:
     branches:
-      - main
+      - main  
+
 jobs:
-  check-links:
+  validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2
-      - name: update linux packages
-        run: sudo apt update
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-         node-version: 'node' # or use 'lts/*' for the latest LTS version
-      
-      - name: validate TOC 🏗
-        run: bash ./assets/scripts/validate_toc.py # python3 validate_toc.py . ./mint.json
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
+      - name: Run validation script
+        run: python3 validate_toc.py $GITHUB_WORKSPACE /$GITHUB_WORKSPACE/mint.json
