@@ -24,4 +24,16 @@ jobs:
         run: npm install
 
       - name: Run linter
-        run: npx eslint '**/*.mdx' --ignore-pattern 'api-reference/*'
+        id: lint
+        run: |
+          npx eslint '**/*.mdx' --ignore-pattern 'node_modules/*' --ignore-pattern 'dist/*' --ignore-pattern 'build/*' -f json -o eslint-report.json
+          cat eslint-report.json
+
+      - name: Check for parsing errors
+        run: |
+          if grep -q '"severity": 2' eslint-report.json; then
+            echo "Parsing errors found"
+            exit 1
+          else
+            echo "No parsing errors found"
+          fi

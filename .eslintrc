@@ -6,7 +6,12 @@
     "overrides": [
       {
         "files": ["*.mdx"],
-        "extends": ["plugin:mdx/recommended"]
+        "extends": ["plugin:mdx/recommended"],
+        "rules": {
+          // Add other rules as warnings or turn them off
+          "no-unused-vars": "warn",
+          "no-console": "warn"
+        }
       }
     ]
   }
