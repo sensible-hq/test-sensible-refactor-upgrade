@@ -1,18 +1,29 @@
-# todos: can I create an endpoint in a category that is unpublished?
-# validate this openapi
+openapi: 3.0.3
+servers:
+  - url: https://api.sensible.so/v0
+    description: Production server (uses live data)
 
-openapi: 3.0.1
+
 info:
   title: Fill Template Document API
-  description: |
-     Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request.
-     For more information, see [Document generation introduction](doc:document-generation-intro).
+  description: Generate a PDF filled with the specified data.
+
   version: '1.0.0'
+
+tags:
+  - name: Docgen
+    description: "Generate documents filled with data"
+  - name: Portfolio
+
 paths:
   /generate/{generator}/{mapping}:
     post:
       summary: Fill template document
-      description: Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request.
+      operationId: fill-document
+      tags:
+        - Docgen
+      description: |
+        Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request. For more information, see [Document generation introduction](/beta/document-generation-intro).
       parameters:
         - name: generator
           in: path
@@ -32,35 +43,31 @@ paths:
           application/json:
             schema:
               type: object
-              properties:
-                data:
-                  type: object
-                  properties:
-                    customer:
-                      type: object
-                      properties:
-                        first_name:
-                          type: string
-                        last_name:
-                          type: string
-                        birth_date:
-                          type: string
-                          format: date
-                    addresses:
-                      type: array
-                      items:
-                        type: object
-                        properties:
-                          street_address:
-                            type: string
-                          zip_code:
-                            type: string
-                    contract:
-                      type: object
-                      properties:
-                        start_date:
-                          type: string
-                          format: date
+              description: "The data to fill the json mapping you wrote, which is used to populate the new document."
+              example:
+                {
+                  "data": {
+
+                    "customer": {
+                      "first_name": "John",
+                      "last_name": "Doe",
+                      "birth_date": "06/24/1979"
+                    },
+
+                    "addresses": [{
+                        "street_address": "111 Center Street",
+                        "zip_code": "78123"
+                      },
+                      {
+                        "street_address": "123 Main Street",
+                        "zip_code": "78125"
+                      }
+                    ],
+                    "contract": {
+                      "start_date": "01/01/2022",
+                    }
+                  }
+                }
       responses:
         '200':
           description: Successful response
