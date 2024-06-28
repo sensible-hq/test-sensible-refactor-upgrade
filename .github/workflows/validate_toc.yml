@@ -1,4 +1,4 @@
-name: Link checking CLI
+name: validate TOC
 on:
   push:
     branches:
@@ -17,5 +17,5 @@ jobs:
          node-version: 'node' # or use 'lts/*' for the latest LTS version
       
       - name: validate TOC 🏗
-        run: bash ./assets/scripts/validate_toc.py
+        run: bash ./assets/scripts/validate_toc.py # python3 validate_toc.py . ./mint.json
 
