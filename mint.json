@@ -445,11 +445,11 @@
 
  {
       "source": "/docs/batch-api",
-      "destination": "/private/batch-api"
+      "destination": "/beta/batch-api"
     }, 
      {
       "source": "/docs/document-generation-intro",
-      "destination": "/private/document-generation-intro"
+      "destination": "/beta/document-generation-intro"
     },   
         {
       "source": "/docs/prompt",
@@ -1165,6 +1165,81 @@
     {
       "source": "/docs/preprocessors",
       "destination": "/senseml-reference/preprocessors/index-preprocessors"
-    }
+    },
+    [
+  {
+    "source": "/docs/bag-of-words",
+    "destination": "/senseml-reference/deprecated-features/deprecated-bag-of-words"
+  },
+  {
+    "source": "/docs/page-filter",
+    "destination": "/senseml-reference/deprecated-features/deprecated-page-filter"
+  },
+  {
+    "source": "/docs/topic",
+    "destination": "/senseml-reference/deprecated-features/deprecated-topic"
+  },
+  {
+    "source": "/docs/invoice",
+    "destination": "/senseml-reference/deprecated-features/deprecated-invoice"
+  },
+  {
+    "source": "/docs/key-value",
+    "destination": "/senseml-reference/deprecated-features/deprecated-key-value"
+  },
+  {
+    "source": "/docs/tfidf",
+    "destination": "/senseml-reference/deprecated-features/deprecated-tfidf"
+  },
+  {
+    "source": "/docs/table",
+    "destination": "/senseml-reference/llm-based-methods/nlp-table"
+  },
+  {
+    "source": "/docs/query-tips",
+    "destination": "/llm-based-extractions/prompt-tips/query-group-tips"
+  },
+  {
+    "source": "/docs/query",
+    "destination": "/senseml-reference/llm-based-methods/query-group"
+  },
+  {
+    "source": "/docs/overview",
+    "destination": "/welcome/getting-started-ai"
+  },
+  {
+    "source": "/docs/no-code",
+    "destination": "/welcome/getting-started-ai"
+  },
+  {
+    "source": "/docs/developer",
+    "destination": "/welcome/integrate"
+  },
+  {
+    "source": "/docs/excel-quickstart",
+    "destination": "/layout-based-extractions/library-quickstart"
+  },
+  {
+    "source": "/docs/excel",
+    "destination": "/integrations/quick-extraction/index-quick-extraction"
+  },
+  {
+    "source": "/docs/sdk-quickstarts",
+    "destination": "/integrations/sdk-guides"
+  },
+  {
+    "source": "/docs/advanced-methods",
+    "destination": "/senseml-reference/methods/index-methods"
+  },
+  {
+    "source": "/docs/natural-language-methods",
+    "destination": "/senseml-reference/llm-based-methods/index-llm-based-methods"
+  },
+  {
+    "source": "/docs/guides",
+    "destination": "/best-practices/tutorials/index-tutorials"
+  }
+]
+
   ]
 }
