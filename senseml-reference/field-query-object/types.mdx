@@ -2,11 +2,11 @@
 title: "Types"
 ---
 
-Filter and format extracted data using the Type parameter in a [Field object](/senseml-reference/field-query-object/index-field-query-object).
+Filter and format extracted data using the Type parameter in a [Field object](/senseml-reference/field-query-object/index-field-query-object). 
 
-For example, the following field returns null unless it finds data that Sensible recognizes as a number:
+For example, the following field returns null unless it finds data that Sensible recognizes as a number: 
 
-```JSON JSON
+```JSON JSON 
 {
   "fields": [
     {
@@ -23,22 +23,22 @@ For example, the following field returns null unless it finds data that Sensible
 ```
 The following types are available:
 
-[Address](/senseml-reference/field-query-object/types#address)
-[Boolean](/senseml-reference/field-query-object/types#boolean)
-[Compose](/senseml-reference/field-query-object/types#compose)
-[Currency](/senseml-reference/field-query-object/types#currency)
-[Custom](/senseml-reference/field-query-object/types#custom)
-[Date](/senseml-reference/field-query-object/types#date)
-[Distance](/senseml-reference/field-query-object/types#distance)
-[Images](/senseml-reference/field-query-object/types#images)
-[Name](/senseml-reference/field-query-object/types#name)
-[Number](/senseml-reference/field-query-object/types#number)
-[Paragraph](/senseml-reference/field-query-object/types#paragraph)
-[Percentage](/senseml-reference/field-query-object/types#percentage)
-[Phone Number](/senseml-reference/field-query-object/types#phone-number)
-[String](/senseml-reference/field-query-object/types#string)
-[Table](/senseml-reference/field-query-object/types#table)
-[Weight](/senseml-reference/field-query-object/types#weight)
+[Address](/senseml-reference/field-query-object/types#address)  
+[Boolean](/senseml-reference/field-query-object/types#boolean)  
+[Compose](/senseml-reference/field-query-object/types#compose)  
+[Currency](/senseml-reference/field-query-object/types#currency)  
+[Custom](/senseml-reference/field-query-object/types#custom)  
+[Date](/senseml-reference/field-query-object/types#date)  
+[Distance](/senseml-reference/field-query-object/types#distance)  
+[Images](/senseml-reference/field-query-object/types#images)  
+[Name](/senseml-reference/field-query-object/types#name)  
+[Number](/senseml-reference/field-query-object/types#number)  
+[Paragraph](/senseml-reference/field-query-object/types#paragraph)  
+[Percentage](/senseml-reference/field-query-object/types#percentage)  
+[Phone Number](/senseml-reference/field-query-object/types#phone-number)  
+[String](/senseml-reference/field-query-object/types#string)  
+[Table](/senseml-reference/field-query-object/types#table)  
+[Weight](/senseml-reference/field-query-object/types#weight)  
 [Deprecated types](/senseml-reference/field-query-object/types#deprecated-types)
 
 ## Address
@@ -53,7 +53,7 @@ Use the Block Format parameter to recognize addresses embedded in non-address li
   "type": {
     "id": "address",
     "block_format": false
-  }
+  } 
 ```
 to find addresses in paragraphs:
 
@@ -61,15 +61,15 @@ to find addresses in paragraphs:
 
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
     "value": "11 Center Street\nAmherst, MA 01002",
     "type": "address"
   }
 ```
-**Formats recognized**
+**Formats recognized** 
 
-With either block or in-line address, Sensible recognizes these formats:
+With either block or in-line address, Sensible recognizes these formats: 
 
 * City, State, Zip, and variant representations of these elements such as abbreviations
 * Digits, Street, City, State, Zip, and variant representations of these elements such as abbreviations
@@ -104,7 +104,7 @@ San Francisco, CA
 # inline format
 
 the shipping address is 123 Waverly Pl
-San Francisco, CA, 94110. The billing address is the same.
+San Francisco, CA, 94110. The billing address is the same. 
 
 ```
 This type **doesn't** match text that lacks a zip code, such as `11 Center Street, Amherst, MA`.
@@ -131,7 +131,7 @@ n
 ```
 Example output:
 
-```JSON JSON
+```JSON JSON 
 {
   source: "YES",
   type: "boolean",
@@ -156,7 +156,7 @@ Returns a transformed type you define using an array of types. In the array, eac
 
 **Config**
 
-```JSON JSON
+```JSON JSON 
 {
   "fields": [
     {
@@ -200,7 +200,7 @@ Returns a transformed type you define using an array of types. In the array, eac
   ]
 }
 ```
-**Example document**
+**Example document**  
 The following image shows the example document used with this example config:
 
 ![Click to enlarge](/assets/v0/images/screenshots/compose_type.png)
@@ -210,7 +210,7 @@ The following image shows the example document used with this example config:
 
 **Output**
 
-```JSON JSON
+```JSON JSON 
 {
   "maintenance_records": {
     "columns": [
@@ -271,11 +271,11 @@ You can define this type using concise syntax, or you can configure options with
 **Syntax example**
 
 `"type": "currency"```
-**Output example**
+**Output example** 
 
 Returns USA dollars as absolute value. For example,
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "3 bil",
     "value": 3000000000,
@@ -283,7 +283,7 @@ Returns USA dollars as absolute value. For example,
     "type": "currency"
   }
 ```
-**Formats recognized**
+**Formats recognized** 
 
 Sensible by default recognizes USA decimal notation (for example, 1,500.06). Recognizes abbreviated quantities, such as k for thousand.
 
@@ -302,7 +302,7 @@ Recognizes abbreviated and written-out quantities as follows:
 * billion, bil, b
 * trillion, t
 
-For example:
+For example: 
 
 ```
 $1k
@@ -319,7 +319,7 @@ This type **doesn't** match text such as `one million` or `123456789`.
 
 Use configurable syntax to change the default recognized formats.
 
-**Example syntax**
+**Example syntax** 
 
 
 
@@ -328,16 +328,16 @@ Use configurable syntax to change the default recognized formats.
   {
     "id": "currency",
     "currencySymbol": "€",
-    "requireCurrencySymbol": true,
+    "requireCurrencySymbol": true,  
     "thousandsSeparator": ".",
-    "decimalSeparator": ",",
+    "decimalSeparator": ",", 
     "maxValue": 10000,
     "roundTo": 2
   }
 ```
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "€3.567,01",
     "value": 3567.01,
@@ -358,7 +358,7 @@ Use configurable syntax to change the default recognized formats.
 | maxDecimalDigits          | number. Default: 4                                                         | The maximum number of decimal digits to recognize.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | maxValue                  | number. Default: infinity                                                  | The maximum currency amount to recognize. Use this to extract an amount with a known range. For example, use it as an alternative to the Tiebreaker parameter, or to extract one currency amount among several returned by a method like the Document Range or Box method.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | minValue                  | number. Default: infinity                                                  | The minimum currency amount to recognize. Use this to extract an amount with a known range.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| relaxedWithCents          | Boolean. default: false                                                    | Use this parameter when poor-quality scans or photographed documents result in erroneous OCR output for the decimal separator or thousands separator.  If true, Sensible overrides all other Currency type parameters, outputs USD currency, and recognizes the following number format as a currency:<br/>\- any number of digits mixed with \<fuzzySeparator> characters, followed by<br/>\- one \<fuzzySeparator> character, followed by<br/>\- two digits (for the cents) where a \<fuzzySeparator> character is any of the following common erroneous OCR outputs for a period or comma: .,;: \_  (period, comma, semicolon, colon, space, underscore)For example, if you set this parameter to true, then for the erroneous OCR output "7.859:36", Sensible returns: \{"source": "7.859:36","type": "currency","unit": "$","value": 7859.36}                |
+| relaxedWithCents          | Boolean. default: false                                                    | Use this parameter when poor-quality scans or photographed documents result in erroneous OCR output for the decimal separator or thousands separator.  If true, Sensible overrides all other Currency type parameters, outputs USD currency, and recognizes the following number format as a currency:<br/>\- any number of digits mixed with \<fuzzySeparator> characters, followed by<br/>\- one \<fuzzySeparator> character, followed by<br/>\- two digits (for the cents)where a \<fuzzySeparator> character is any of the following common erroneous OCR outputs for a period or comma: .,;: \_  (period, comma, semicolon, colon, space, underscore)For example, if you set this parameter to true, then for the erroneous OCR output "7.859:36", Sensible returns: \{"source": "7.859:36","type": "currency","unit": "$","value": 7859.36}                |
 | accountingNegative        | default, anyParentheses, bothParentheses, suffixNegativeSign Default: null | Replaces the deprecated Accounting Currency type. Specifies to recognize accounting sign conventions for negative numbers.null Sensible recognizes negative numbers as described in the preceding **formats recognized** section.bothParentheses <br/>\- Sensible assigns a negative value to a number prefixed and suffixed by parentheses.anyParentheses <br/>\- Sensible assigns a negative value to a number that includes any parentheses as a suffix or prefix. Use this option to handle OCR errors, where an opening or closing parenthesis can be incorrectly recognized as other characters.suffixNegativeSign <br/>\- Sensible assigns a negative value to number suffixed by a negative sign.default Replaces the behavior of the Accounting Currency type for backward compatibility. The equivalent of bothParentheses and suffixNegativeSign. |
 | alwaysNegative            | boolean                                                                    | If true, Sensible assigns a negative value to a number and ignores sign symbols in the document. For example, use this to capture values in the debit column of an accounting document, where negative signs are omitted.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | removeSpaces              | boolean                                                                    | Removes whitespace in a line for better currency recognition. For example, changes the line $ 12.45 to $12.45.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -383,7 +383,7 @@ Returns a custom type you define using regular expressions. For example, define 
 
 This type outputs strings. For example:
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "Time: 14:01",
     "value": "14:01",
@@ -407,7 +407,7 @@ Sensible matches dates that span multiple lines. To enable this behavior, Sensib
 
 ### Simple syntax
 
-**Syntax example**
+**Syntax example** 
 
 ```
 "type":"date"
@@ -416,7 +416,7 @@ Sensible matches dates that span multiple lines. To enable this behavior, Sensib
 
 Returns an ISO 8601-formatted date-time. For example:
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "Feb 1, 21",
     "value": "2021-02-01T00:00:00.000Z",
@@ -437,7 +437,7 @@ Sensible recognizes the following date formats by default:
 "%b %d,? %y",
 "%b %dst,? %Y",
 "%b %dst,? %y",
-"%b %dnd,? %Y",
+"%b %dnd,? %Y", 
 "%b %dnd,? %y",
 "%b %dth,? %Y",
 "%b %dth,? %y",
@@ -466,11 +466,11 @@ Jan. 9th, 09
 The following example:
 
 
-```json JSON
+```json JSON 
 "type":
   {
     "id": "date",
-    "format": ["%b-%d[a-z]{2}-%y$", "%y%M%D", "%b\\\\%d\\\\%Y", "%b\\s*?%Y"]
+    "format": ["%b-%d[a-z]{2}-%y$", "%y%M%D", "%b\\\\%d\\\\%Y", "%b\\s*?%Y"]   
   }
 ```
 Recognizes the following date formats and ignores all default formats:
@@ -503,7 +503,7 @@ The following table lists the field descriptors you can use to define a custom f
 
 ## Distance
 
-Returns miles and kilometers. Recognizes digits followed optionally by kilometers, miles, or their abbreviations. For example:
+Returns miles and kilometers. Recognizes digits followed optionally by kilometers, miles, or their abbreviations. For example: 
 
 ```
 3,001.5 kilometers
@@ -536,11 +536,11 @@ Use this solely with the [Document Range](/senseml-reference/methods/document-ra
 **Syntax example**
 
 `"type": "name"```
-**Output example**
+**Output example** 
 
 Returns one or more names. For example:
 
-```JSON JSON
+```JSON JSON 
 {
   "source": "Richard & Ann Spangenberg",
   "type": "name",
@@ -550,10 +550,10 @@ Returns one or more names. For example:
   ]
 }
 ```
-**Formats recognized**
+**Formats recognized** 
 
 Doesn't recognize a list of names more than 6 words long. **Doesn't** recognize lists of three or more names such as `last1, last2, & last3```
-Recognizes names of the formats below, and variant representations of these elements such as abbreviations.
+Recognizes names of the formats below, and variant representations of these elements such as abbreviations. 
 
 * first last
 * first1 last1 and first2 last2
@@ -566,12 +566,12 @@ For example:
 ```
 John R. Smith Sr
 Richard & Ann Spangenberg
-DuBois, Renee and Lois
+DuBois, Renee and Lois 
 Argos Fullington, Jax Odenson, Ollie Longstreet
 ```
 ### Configurable syntax
 
-**Example syntax**
+**Example syntax** 
 
 
 
@@ -584,7 +584,7 @@ Argos Fullington, Jax Odenson, Ollie Longstreet
 ```
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
   "source": "Richard & Ann Spangenberg",
   "type": "name",
@@ -608,18 +608,18 @@ Argos Fullington, Jax Odenson, Ollie Longstreet
 **Syntax example**
 
 `"type": "number"```
-**Output example**
+**Output example** 
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "123456789",
     "value": 123456789,
     "type": "number"
 }
 ```
-**Formats recognized**
+**Formats recognized** 
 
-Recognizes digits in USA decimal notation. Recognizes one or more digits, optionally followed either by:
+Recognizes digits in USA decimal notation. Recognizes one or more digits, optionally followed either by: 
 
 * commas preceding every three digits, optional digits after period, or by
 * digits after period
@@ -631,11 +631,11 @@ For example:
 3,500,053.78
 1234567890
 ```
-This type does **not** recognize text such as `3.061.534,45`. Configure the Currency type instead.
+This type does **not** recognize text such as `3.061.534,45`. Configure the Currency type instead. 
 
 ### Configurable syntax
 
-**Example syntax**
+**Example syntax** 
 
 
 
@@ -648,7 +648,7 @@ This type does **not** recognize text such as `3.061.534,45`. Configure the Curr
 ```
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "1234.56989",
     "value": 1234.57,
@@ -673,14 +673,14 @@ Use with methods that return paragraphs, for example [Document Range](/senseml-r
 ```
 "type": "paragraph"
 ```
-**Output example**
+**Output example** 
 
 
 
 ```JSON JSON
 For any move in date that is after the 15th of the month, Tenant must pay a full month of rent in order to gain possession of the home. The prorated rent amount will be due the second month of lease.\n Every month thereafter, Lessee must pay rent on or before the 1st day of each month with 5 days of grace period. Excludes utility costs.\n
 ```
-**Formats recognized**
+**Formats recognized** 
 
 Sensible recognizes paragraphs separated by configurable vertical gaps, or "paragraph breaks." Sensible doesn't use paragraph margins, for indentations, to detect paragraphs.
 
@@ -688,7 +688,7 @@ Sensible recognizes paragraphs separated by configurable vertical gaps, or "para
 
 Use configurable syntax to change the formatting of the extracted text.
 
-**Example syntax**
+**Example syntax** 
 
 
 
@@ -703,11 +703,11 @@ Use configurable syntax to change the formatting of the extracted text.
 
 For the following document:
 
-![Click to enlarge](/assets/v0/images/screenshots/annotate_superscript_and_subscript.png)
+![Click to enlarge](/assets/v0/images/screenshots/annotate_superscript_and_subscript.png) 
 
 When you set`"annotateSuperscriptAndSubscript": true` , Sensible formats the footnote symbols to indicate they're superscripted, for example, `[^1]`:
 
-```JSON JSON
+```JSON JSON 
 {
   "lease_duration": {
     "type": "string",
@@ -726,7 +726,7 @@ When you set`"annotateSuperscriptAndSubscript": true` , Sensible formats the foo
 
 ## Percentage
 
-Returns percent as an absolute value. Recognizes a percent formatted as digits in USA decimal notation (for example, 1,500.06), followed optionally by a whitespace, followed by a percent sign (%) .
+Returns percent as an absolute value. Recognizes a percent formatted as digits in USA decimal notation (for example, 1,500.06), followed optionally by a whitespace, followed by a percent sign (%) . 
 
 For example:
 
@@ -754,7 +754,7 @@ Returns phone numbers:
 * Recognizes USA 10-digit phone numbers either with or without a country calling code. May be optionally formatted with parentheses, dashes, spaces, plus sign (+), or periods.
 * Recognizes international phone numbers if prefixed by a country calling code (for example, +91 for India).
 
-Examples:
+Examples: 
 
 ```
 1-888-353-9578
@@ -769,14 +769,14 @@ Examples:
 ```
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
     "type": "phoneNumber",
     "source": "(855) 786-3246",
     "value": "+18557863246"
 }
 ```
-This type does _not_ recognize country calling codes formatted with 00, for example, 0091 or 001\.
+This type does _not_ recognize country calling codes formatted with 00, for example, 0091 or 001\. 
 
 ## String
 
@@ -801,7 +801,7 @@ Returns pounds and kilograms. Recognizes digits in USA decimal notation (for exa
 * digits are in the format recognized by the [Number](/senseml-reference/field-query-object/types#number) type
 * "pounds", "kilograms", or their abbreviations follow the digits
 
-For example:
+For example: 
 
 
 
@@ -815,7 +815,7 @@ For example:
 ```
 **Example output**
 
-```JSON JSON
+```JSON JSON 
 {
     "source": "6,000.01 lbs",
     "value": 6000.01,
@@ -837,7 +837,7 @@ Recognizes digits in USA decimal notation (for example, 1,500.06):
 * digits are optionally preceded or succeeded by a negative sign (-)
 * digits are optionally preceded by a USA dollar sign ($)
 
-Examples:
+Examples: 
 
 ```JSON JSON
 56,999
