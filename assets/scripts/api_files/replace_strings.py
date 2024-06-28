@@ -25,11 +25,15 @@ def replace_in_file(file_path, replace_map):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    for search, replace in replace_map.items():
-        content = content.replace(search, replace)
+    original_content = content
 
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(content)
+    for search, replace in replace_map.items():
+        new_content = content.replace(search, replace)
+
+    if new_content != original_content:
+        with open(file_path, 'w+', encoding='utf-8') as file:
+            file.write(new_content)
+        print(f'Replaced strings in: {file_path}')
 
 def replace_in_files(root_dir, replace_map, exclude_dirs, extensions):
     for dirpath, dirnames, filenames in os.walk(root_dir):
