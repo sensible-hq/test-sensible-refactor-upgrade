@@ -1,16 +1,27 @@
 name: Lint MDX Files
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - '**/*.mdx'
+  pull_request:
+    paths:
+      - '**/*.mdx'
 
 jobs:
   lint:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Lint MDX files
-      uses: tinovyatkin/action-eslint@v1
-      with:
-        files: '**/*.mdx'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run linter
+        run: npx eslint '**/*.mdx'
