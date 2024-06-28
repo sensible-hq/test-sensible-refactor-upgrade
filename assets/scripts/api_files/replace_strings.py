@@ -1,7 +1,7 @@
 
 
 
-#python3 replace_strings.py config_internal_links_replacement.txt /home/franc/Github/test-mintlify/ --exclude_dirs /home/franc/Github/test-mintlify/assets /home/franc/Github/node_modules
+#python3 replace_strings.py config_internal_links_replacements.txt /home/franc/Github/test-mintlify/ --exclude_dirs /home/franc/Github/test-mintlify/assets /home/franc/Github/node_modules
 
 
 # python3 replace_strings.py config_strings.txt /home/franc/Github/test-mintlify/ --exclude_dirs /home/franc/Github/test-mintlify/assets
@@ -19,6 +19,7 @@ def load_config(config_file):
         for line in f:
             search, replace = line.strip().split('\t')
             replace_map[search] = replace
+        #print(replace_map)
     return replace_map
 
 def replace_in_file(file_path, replace_map):
@@ -28,12 +29,14 @@ def replace_in_file(file_path, replace_map):
     original_content = content
 
     for search, replace in replace_map.items():
-        new_content = content.replace(search, replace)
+        content = content.replace(search, replace)
 
-    if new_content != original_content:
-        with open(file_path, 'w+', encoding='utf-8') as file:
-            file.write(new_content)
+    if content != original_content:
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(content)
         print(f'Replaced strings in: {file_path}')
+    #else:
+        #print(f'No changes made to: {file_path}')
 
 def replace_in_files(root_dir, replace_map, exclude_dirs, extensions):
     for dirpath, dirnames, filenames in os.walk(root_dir):
@@ -44,7 +47,6 @@ def replace_in_files(root_dir, replace_map, exclude_dirs, extensions):
             if any(filename.endswith(ext) for ext in extensions):
                 file_path = os.path.join(dirpath, filename)
                 replace_in_file(file_path, replace_map)
-                print(f'Replaced strings in: {file_path}')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Recursively search and replace strings in specified file extensions based on a tab-delimited config file.")

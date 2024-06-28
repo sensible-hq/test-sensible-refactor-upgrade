@@ -12,9 +12,9 @@ with open('config_internal_links_replacements.txt', 'w') as output_file:
         destination = redirect.get('destination', '')
 
         # Modify the source as specified
-        modified_source = source.replace('/', '(', 1).replace('/', ':') + ' '
+        modified_source = source.replace('/docs/', '(doc:').replace('/reference/', '(reference:')
 
         # Write to the output file
         output_file.write(f"{modified_source}\t({destination}\n")
 
-print("Redirects have been processed and written to redirects_output.txt")
+print("Redirects have been processed and written to config_internal_links_replacements.txt")
