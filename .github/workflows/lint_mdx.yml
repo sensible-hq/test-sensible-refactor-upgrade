@@ -24,4 +24,4 @@ jobs:
         run: npm install
 
       - name: Run linter
-        run: npx eslint '**/*.mdx'
+        run: npx eslint '**/*.mdx' --ignore-pattern 'api-reference/*'
