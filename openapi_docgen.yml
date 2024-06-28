@@ -23,7 +23,7 @@ paths:
       tags:
         - Docgen
       description: |
-        Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request. For more information, see [Document generation introduction](/beta/document-generation-intro).
+        Generates a completed PDF document from a fillable PDF template using the JSON data you provide in the request. For more information, see [Document generation introduction](https://sensible.mintlify.app/.app/beta/document-generation-intro).
       parameters:
         - name: generator
           in: path
