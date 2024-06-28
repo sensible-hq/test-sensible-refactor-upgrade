@@ -23,7 +23,7 @@ To try out the [extract\_from\_url](https://sensiblehq.readme.io/reference#extra
 
 1. Copy the following code sample and replace `*YOUR_API_KEY*` with your [API key](https://app.sensible.so/account/):  
   
-```json JSON
+```curl
 curl --request POST 'https://api.sensible.so/v0/extract_from_url/tax_forms' \  
 --header 'Authorization: Bearer YOUR_API_KEY' \  
 --header 'Content-Type: application/json' \  
@@ -66,7 +66,7 @@ Copy the document extraction `id` from that response. You'll use it to download 
 
 
 
-```json JSON 
+```curl
 curl --request GET 'https://api.sensible.so/v0/documents/YOUR_EXTRACTION_ID' \
 --header 'Authorization: Bearer YOUR_API_KEY'
 ```

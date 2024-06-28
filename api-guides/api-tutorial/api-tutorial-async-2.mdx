@@ -24,7 +24,7 @@ Generate a temporary, one-time Sensible URL for a document:
 1. Copy the following code sample and replace `*YOUR_API_KEY*` with your [API key](https://app.sensible.so/account/):
 
 
-```json json
+```curl
 curl --request POST 'https://api.sensible.so/v0/generate_upload_url/tax_forms' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer YOUR_API_KEY' \
@@ -55,7 +55,7 @@ Use the one-time URL you generated in the previous step to extract data from the
 
 
 
-```json json
+```curl
 curl --request PUT 'YOUR_UPLOAD_URL' \
 --data-binary '@/PATH_TO_DOWNLOADED_DOCUMENT.pdf' \
 --header 'Content-Type: application/pdf' \
@@ -108,7 +108,7 @@ To retrieve the extraction results with the `/documents` endpoint, take the foll
 
 
 
-```json JSON
+```curl
 curl --request GET 'https://api.sensible.so/v0/documents/YOUR_EXTRACTION_ID' \
 --header 'Authorization: Bearer YOUR_API_KEY'
 ```
