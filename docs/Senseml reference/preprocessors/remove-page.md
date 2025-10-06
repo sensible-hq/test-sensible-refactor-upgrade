@@ -20,7 +20,7 @@ Parameters
 | type (**required**)  | `removePage`       |                                                              |
 | match (**required**) | Match object       | Sensible removes the page that contain this text.            |
 | matchAll             | boolean            | If true, removes all pages containing the text specified by the Match parameter. |
-| pageOffset           | number. default: 0 | The zero-indexed number of the page to remove, counting from the page number of the text matched by the Match parameter. <br/>To remove a single page offset from the first page of the document, rather than offset from matched text, specify `"match": { "type": "first" }`. |
+| pageOffset           | number. default: 0 | The zero-indexed number of the page to remove, counting from the page number of the text matched by the Match parameter. <br/>To remove a single page offset from the first page of the document, rather than offset from matched text, specify `"match": `{` "type": "first" `}`. |
 
 Examples
 ====
@@ -53,7 +53,7 @@ The following example shows removing all pages with an Appendix A header in orde
       "type": "currency",
       "method": {
         "id": "label",
-        "position": "right",
+        "position": "right"
       }
     }
   ]
