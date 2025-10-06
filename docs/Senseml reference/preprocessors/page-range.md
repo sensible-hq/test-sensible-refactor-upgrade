@@ -17,9 +17,29 @@ Ignores pages outside the start page and end page.
 Parameters
 ----
 
-
-| key         | value   | description                                                      |
-| ----------- | ------ | ------------------------------------------------------------ |
-| type      | `pageRange` |                                                   |
-| startPage | number. default: 0 | Zero-based index of the first page (inclusive). |
-| endPage   | number. default: last page | Zero-based index of the last page (exclusive). |
+<table>
+  <thead>
+    <tr>
+      <th>key</th>
+      <th>value</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>type</td>
+      <td><code>pageRange</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>startPage</td>
+      <td>number. default: 0</td>
+      <td>Zero-based index of the first page (inclusive).</td>
+    </tr>
+    <tr>
+      <td>endPage</td>
+      <td>number. default: last page</td>
+      <td>Zero-based index of the last page (exclusive).</td>
+    </tr>
+  </tbody>
+</table>
