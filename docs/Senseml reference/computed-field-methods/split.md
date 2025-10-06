@@ -62,11 +62,9 @@ The following example shows splitting a field's output to extract a first and la
         "index": 0
       }
     }
-  ],
+  ]
 }
 ```
-
-
 
 **Example document**
 
