@@ -12,8 +12,8 @@ next:
 ---
 Configures the full prompt for all [LLM-based](doc:llm-based-methods) methods in a config. For information about configuring the full prompt, see [Advanced LLM prompt configuration](doc:prompt#full-prompt).
 
-[**Parameters**](doc:nlp#parameters)
-[**Examples**](doc:nlp#examples)
+[**Parameters**](doc:nlp#parameters)  
+[**Examples**](doc:nlp#examples)  
 [**Notes**](doc:nlp#notes)
 
 Parameters
@@ -24,7 +24,7 @@ The following parameters are available both on the config level and for each ind
 | key                                     | value  | description                                                  |
 | --------------------------------------- | ------ | ------------------------------------------------------------ |
 | type (**required**)                     | `nlp`  |                                                              |
-| nlpTable                                | object | Parameters:<br/>- `rewriteTable`<br/>- `pageSpanThreshold`<br/>- `detectTableStructureOnly`<br/>-`annotateSuperscriptAndSubscript`<br/>- (**Deprecated**) `promptIntroduction`<br/>For information about these parameters, see [NLP Table](doc:nlp-table#parameters). |
+| nlpTable                                | object | Parameters:<br/>- `rewriteTable`<br/>- `pageSpanThreshold`<br/>- `detectTableStructureOnly`<br/>- `annotateSuperscriptAndSubscript`<br/>- (**Deprecated**) `promptIntroduction`<br/>For information about these parameters, see [NLP Table](doc:nlp-table#parameters). |
 | list                                    | object | Parameters:<br/>- `llmEngine`<br/>For information about these parameters, see [List](doc:list#parameters). |
 | pageRange                               |        | For information about this parameter, see the reference topic for each LLM-based method. |
 | (**Deprecated**) query                  |        |                                                              |
