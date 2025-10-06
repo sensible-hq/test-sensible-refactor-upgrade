@@ -18,12 +18,11 @@ Extracts all lines below or above the anchor line on the current page if:
 
 - The anchor line and target lines overlap by at least 50% of the narrower line's x extent.
 
-[**Parameters**](doc:column#parameters)
+[**Parameters**](doc:column#parameters)  
 [**Examples**](doc:column#examples)
 
 Parameters
 ====
-
 
 | key               | values                             | description                                                  |
 | :---------------- | :--------------------------------- | :----------------------------------------------------------- |
@@ -66,7 +65,7 @@ The following example shows that:
 }
 ```
 
-**Example document**
+**Example document**  
 The following image shows the example document used with this example config:
 
 ![Click to enlarge](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/images/final/column.png)
