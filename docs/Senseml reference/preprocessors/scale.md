@@ -12,11 +12,10 @@ next:
 ---
 Corrects the size of text in documents whose size varies, for example as a result of being photographed at different distances. ID cards and receipts are common examples of such documents. This preprocessor enables coordinates-based methods, such as the Region or Text Table methods, to work with such unpredictably scaled documents. For alternatives to this preprocessor, see [Page transformation preprocessors](doc:deskew#notes).
 
-[**Parameters**]( doc:scale#parameters)
-[**Examples**]( doc:scale#examples)
+[**Parameters**]( doc:scale#parameters)  
+[**Examples**]( doc:scale#examples)  
 
 [**Notes**]( doc:scale#notes)
-
 
 Parameters
 ====
@@ -53,7 +52,6 @@ The following example shows using the Per Page parameter to scale an ID card tha
     }
   ],
   "fields": [
-    
     {
       "id": "white_house_tenure",
       "anchor": "tenure",
