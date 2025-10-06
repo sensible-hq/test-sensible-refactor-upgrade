@@ -15,8 +15,7 @@ Gets metadata about the document file.
 Parameters
 ====
 
-The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter: 
-
+The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter:
 
 | key               | value                         | description                                                  |
 | :---------------- | :---------------------------- | :----------------------------------------------------------- |
@@ -44,8 +43,7 @@ The following example shows extracting the filename from the example document.
 }
 ```
 
-**Example document**
-The following image shows the example document used with this example config:
+**Example document** The following image shows the example document used with this example config:
 
 ![Click to enlarge](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/images/final/ui_get_file_metadata.png)
 
