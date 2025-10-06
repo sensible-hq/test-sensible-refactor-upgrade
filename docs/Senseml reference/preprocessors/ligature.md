@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Intelligently replaces Unicode [ligatures](doc:ligatures) in a PDF text extraction. 
+Intelligently replaces Unicode [ligatures](doc:ligatures) in a PDF text extraction.
 
 Parameters
 ----
@@ -24,7 +24,7 @@ Parameters
 Examples
 ----
 
-This config shows using a Ligature preprocessor and outputting the whole document to check the ligature replacement accuracy: 
+This config shows using a Ligature preprocessor and outputting the whole document to check the ligature replacement accuracy:
 
 ```json
 {
