@@ -10,9 +10,9 @@ metadata:
 next:
   description: ''
 ---
-When you [extract document data with Sensible](doc:getting-started-ai), Sensible automatically OCRs the document for you, except in advanced cases. This topic covers advanced cases. 
+When you [extract document data with Sensible](doc:getting-started-ai), Sensible automatically OCRs the document for you, except in advanced cases. This topic covers advanced cases.
 
- For information about additional OCR options, see [OCR](doc:ocr).
+For information about additional OCR options, see [OCR](doc:ocr).
 
 Use the OCR preprocessor to selectively OCR pages in a document. This preprocessor is useful when a document contains both embedded text and text images. Selectively OCRing the pages containing text images, rather than the entire document, improves extraction performance. Examples of text images include handwriting and scanned text.
 
@@ -33,7 +33,7 @@ Parameters
 Examples
 ====
 
-The following config specifies to apply OCR processing to specific pages. The config then outputs all lines of the document (`"id": "all_lines_in_doc"`), to double check that OCR extracted the text on those pages. 
+The following config specifies to apply OCR processing to specific pages. The config then outputs all lines of the document (`"id": "all_lines_in_doc"`), to double check that OCR extracted the text on those pages.
 
 ```json
 {
@@ -41,7 +41,7 @@ The following config specifies to apply OCR processing to specific pages. The co
     {
       /* OCR first page of document */
       "type": "ocr",
-      "match": { "type": "first" },
+      "match": { "type": "first" }
     },
     {
       /* OCR fourth page of document */
@@ -53,12 +53,10 @@ The following config specifies to apply OCR processing to specific pages. The co
       /* OCR all pages containing text 'additional riders'  */
       "type": "ocr",
       "match": "additional riders",
-      "matchAll": true,
-    },  
-      
+      "matchAll": true
+    }
   ],
   "fields": [
-     
     {
       /* check OCR output */
       "id": "all_lines_in_doc",
@@ -68,10 +66,10 @@ The following config specifies to apply OCR processing to specific pages. The co
       },
       "anchor": {
         "match": {
-          "type":"first"
+          "type": "first"
         }
       }
     }
-  ],
+  ]
 }
 ```
