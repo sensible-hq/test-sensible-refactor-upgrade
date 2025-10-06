@@ -15,8 +15,7 @@ Returns an array of the values for a field in a source section group. This is us
 Parameters
 ====
 
-The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter: 
-
+The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter:
 
 | key                            | value                                            | description |
 | :----------------------------- | :----------------------------------------------- | :---------- |
