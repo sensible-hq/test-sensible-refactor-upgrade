@@ -16,18 +16,15 @@ Concatenates the output of two or more fields:
 - If any field output is an array, the output is an array if the array lengths match. The output is a string if the array lengths are unequal (using the first element of each array).
 - If a string output is present among arrays, Sensible repeats its value for every element of the output.
 
-
-
 Parameters
 ====
 
 The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter: 
 
-
 | key                       | value                                    | description                                                  |
 | :------------------------ | :--------------------------------------- | :----------------------------------------------------------- |
 | id (**required**)         | `concat`                                 |                                                              |
-| source_ids (**required**) | array of field IDs in the current config | The id of the fields to concatenate.<br/>You can use a JavaScript-flavored regular expression to specify all field IDs that contain a pattern.  For example,  to specify all the field IDs containing the text `wage` extracted from a W-2 form, you can write  `"source_ids": { "pattern": ".*wage.*" }`. For more information and an example, see [Example: Chain prompts with regex](doc:query-group#example-chain-prompts-with-regex). |
+| source_ids (**required**) | array of field IDs in the current config | The id of the fields to concatenate.<br/>You can use a JavaScript-flavored regular expression to specify all field IDs that contain a pattern. For example, to specify all the field IDs containing the text `wage` extracted from a W-2 form, you can write `"source_ids": { "pattern": ".*wage.*" }`. For more information and an example, see [Example: Chain prompts with regex](doc:query-group#example-chain-prompts-with-regex). |
 | delimiter                 | string. default: " "                     | The delimiter with which to join the output of the source fields |
 
 Examples
@@ -98,7 +95,8 @@ The following image shows the example document used with this example config:
 
 **Output**
 
-```"computed_fields": [
+```json
+"computed_fields": [
 {
   "_recipient_street_address": {
     "type": "string",
