@@ -1,3 +1,0 @@
-SenseML editor
-dashboard
-parse
