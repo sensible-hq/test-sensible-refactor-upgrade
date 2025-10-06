@@ -31,7 +31,6 @@ The following example shows using a mapper to standardize a time duration.
 
 **Config**
 
-
 ```json
 {
   "fields": [
@@ -56,7 +55,7 @@ The following example shows using a mapper to standardize a time duration.
           "Six months": "6",
           "six months": "6",
           "Twelve months": "12",
-          "twelve months": "12",
+          "twelve months": "12"
         },
         "default": "mapping doesn't exist"
       }
