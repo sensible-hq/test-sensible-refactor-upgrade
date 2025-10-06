@@ -12,8 +12,6 @@ next:
 ---
 Use the following preprocessors to clean up your documents before extracting structured data. Preprocessors execute in the order you define them in an array.
 
-
-
 | Preprocessor                           | Image                                                        | Notes                                                        |
 | -------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Deskew](doc:deskew)**               | ![Click to enlarge](https://raw.githubusercontent.com/sensible-hq/sensible-docs/main/readme-sync/assets/v0/images/final/thumbnail_deskew.png) | Corrects the alignment of documents that are skewed, for example as a result of being photographed at an angle instead of straight on. |
