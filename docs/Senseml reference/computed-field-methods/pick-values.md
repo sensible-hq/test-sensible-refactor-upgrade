@@ -15,7 +15,7 @@ Extracts specified values from a group of fields. For example, extracts the sele
 Parameters
 ====
 
-The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter: 
+The following parameters are in the computed field's [global Method](doc:computed-field-methods#parameters) parameter:
 
 | key                       | value                                                   | description                                                  |
 | :------------------------ | :------------------------------------------------------ | :----------------------------------------------------------- |
@@ -120,8 +120,6 @@ The following example shows returning a single value from a radio button group, 
   ]
 }
 ```
-
-
 
 **Example document**
 
